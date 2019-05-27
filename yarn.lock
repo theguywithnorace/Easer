@@ -5798,9 +5798,10 @@ rimraf@~2.2.6:
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.2.8.tgz#e439be2aaee327321952730f99a8929e4fc50582"
   integrity sha1-5Dm+Kq7jJzIZUnMPmaiSnk/FBYI=
 
-"rn-viewpager@https://github.com/theguywithnorace/React-Native-ViewPager":
+rn-viewpager@^1.2.9:
   version "1.2.9"
-  resolved "https://github.com/theguywithnorace/React-Native-ViewPager#4ba9e7f9be9b531c51e6b0ba081042e7fed23cad"
+  resolved "https://registry.yarnpkg.com/rn-viewpager/-/rn-viewpager-1.2.9.tgz#7f06f898e23b296f3b5be7c98bd9101d94427779"
+  integrity sha512-wN4HlNhjTkrg25qBeEHTJ6TzRGtLu8SpKSZ9/mWcgWHMNr3RT06Zzrky3Tg14PPgaPp//6h02FCcAaQ83VGdgQ==
 
 rsvp@^3.3.3:
   version "3.6.2"

@@ -17,7 +17,7 @@
     "react-native-gesture-handler": "^1.2.1",
     "react-native-location": "^2.2.0",
     "react-navigation": "^3.11.0",
-    "rn-viewpager": "https://github.com/theguywithnorace/React-Native-ViewPager"
+    "rn-viewpager": "^1.2.9"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",

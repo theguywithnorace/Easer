@@ -20,12 +20,58 @@
 	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb594719077710798</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>FacebookAppID</key>
+	<string>594719077710798</string>
+	<key>FacebookDisplayName</key>
+	<string>EaserRN</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This is the plist item for NSLocationAlwaysAndWhenInUseUsageDescription</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This is the plist item for NSLocationAlwaysUsageDescription</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string/>
+	<string>This is the plist item for NSLocationWhenInUseUsageDescription</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Orator Std Medium.ttf</string>
+		<string>OratorStd.ttf</string>
+		<string>WeblySleek UI Light.ttf</string>
+		<string>WeblySleek UI Semibold.ttf</string>
+		<string>WeblySleek UI.ttf</string>
+		<string>weblysleekuil.ttf</string>
+		<string>weblysleekuisb.ttf</string>
+		<string>WeblySleekUISemibold.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+		<string>remote-notification</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -40,42 +86,5 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
-		<key>NSExceptionDomains</key>
-		<dict>
-			<key>localhost</key>
-			<dict>
-				<key>NSExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
-			</dict>
-		</dict>
-	</dict>
-	<key>CFBundleURLTypes</key>
-	<array>
-		<dict>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>fb594719077710798</string>
-			</array>
-		</dict>
-	</array>
-	<key>FacebookAppID</key>
-	<string>594719077710798</string>
-	<key>FacebookDisplayName</key>
-	<string>EaserRN</string>
-	<key>UIAppFonts</key>
-	<array>
-		<string>Orator Std Medium.ttf</string>
-		<string>OratorStd.ttf</string>
-		<string>WeblySleek UI Light.ttf</string>
-		<string>WeblySleek UI Semibold.ttf</string>
-		<string>WeblySleek UI.ttf</string>
-		<string>weblysleekuil.ttf</string>
-		<string>weblysleekuisb.ttf</string>
-		<string>WeblySleekUISemibold.ttf</string>
-	</array>
 </dict>
 </plist>
