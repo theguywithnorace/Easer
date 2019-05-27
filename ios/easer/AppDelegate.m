@@ -6,7 +6,7 @@
  */
 
 #import "AppDelegate.h"
-
+@import GoogleMaps;
 #import <React/RCTBridge.h>
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+ [GMSServices provideAPIKey:@"AIzaSyDO9w095i11I91EuoAIy8Wf3miwLbOZ3so"];
+  
   [[FBSDKApplicationDelegate sharedInstance] application:application
                            didFinishLaunchingWithOptions:launchOptions];
   

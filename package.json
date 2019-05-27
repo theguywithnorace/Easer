@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package && ./node_modules/react-native-maps/enable-google-maps 'ios/**'"
+
   },
   "dependencies": {
     "patch-package": "^6.1.2",
@@ -16,6 +17,7 @@
     "react-native-fbsdk": "^0.8.0",
     "react-native-gesture-handler": "^1.2.1",
     "react-native-location": "^2.2.0",
+    "react-native-maps": "^0.24.2",
     "react-navigation": "^3.11.0",
     "rn-viewpager": "^1.2.9"
   },
@@ -35,4 +37,5 @@
       "src/fonts"
     ]
   }
+
 }
