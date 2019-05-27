@@ -1,9 +1,12 @@
-import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View, Button} from 'react-native';
+import React from 'react'
+import {Text, View, Image, TouchableOpacity, StyleSheet} from 'react-native'
 import {AccessToken,LoginButton, LoginManager} from 'react-native-fbsdk'
 
-type Props = {};
-export default class App extends Component<Props> {
+class Login extends React.Component{
+
+    constructor(props) {
+        super(props);
+    }
 
     fbconnect =() => {
         LoginManager.logInWithReadPermissions(["public_profile","user_events","user_photos"]).then(
@@ -23,52 +26,88 @@ export default class App extends Component<Props> {
         );
     }
 
+    render(){
+        return(
+            <View style={styles.main_container}>
+                <View style={styles.logo_container}>
+                    <Image source={require('../Images/Login/logo_bouteilles_noBackground.png')}
+                           style={styles.logo}
+                    />
+                    <Text style={styles.logo_text}>EASER</Text>
+                </View>
+                <View style={{alignItems:'flex-end'}}>
+                    <TouchableOpacity style={styles.FBButton}
+                                      onPress={this.fbconnect}
+                    >
+                        <Image
+                            source={require('../Images/Login/facebook_letter.png')}
+                            style={styles.fBLogo}
+                        />
+                        <Text style={styles.text_connexion}>Connexion</Text>
+                    </TouchableOpacity>
+                </View>
 
-    render() {
-        return (
-            <View style={styles.container}>
-                <Text style={styles.welcome}>Welcome to React Native!</Text>
-                <Text style={styles.instructions}>To get started, edit App.js</Text>
-                <Text style={styles.instructions}>hey</Text>
+                    <Text style={styles.text_pq_fb}>Pourquoi uniquement par Facebook ?</Text>
 
-                <Button title={"fb"} onPress={this.fbconnect}/>
-                <LoginButton
-                    onLoginFinished={
-                        (error, result) => {
-                            if (error) {
-                                console.log("login has error: " + result.error);
-                            } else if (result.isCancelled) {
-                                console.log("login is cancelled.");
-                            } else {
-                                AccessToken.getCurrentAccessToken().then(
-                                    (data) => {
-                                        console.log(data.accessToken.toString())
-                                    }
-                                )
-                            }
-                        }
-                    }
-                    onLogoutFinished={() => console.log("logout.")}/>
             </View>
-        );
+        )
     }
 }
-
 const styles = StyleSheet.create({
-    container: {
+    main_container: {
         flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: '#F5FCFF',
+        backgroundColor: '#0e0d4b',
+        justifyContent: 'flex-end',
+        alignItems: 'center'
     },
-    welcome: {
-        fontSize: 20,
-        textAlign: 'center',
-        margin: 10,
+    logo_container:{
+        width:340,
+        height:340,
+        alignItems: 'center'
+
     },
-    instructions: {
-        textAlign: 'center',
-        color: '#333333',
-        marginBottom: 5,
+    logo:{
+        width:240,
+        height:240,
+        resizeMode: 'contain'
     },
-});
+    logo_text:{
+        fontSize:40,
+        margin:22,
+        color: 'white',
+        fontFamily:'OratorStd',
+        fontWeight: 'bold'
+    },
+    FBButton:{
+        flexDirection:'row',
+        alignItems:'center',
+        justifyContent:'center',
+        backgroundColor:'#294b9d',
+        marginHorizontal:75,
+        marginTop:80,
+        height:38,
+        width:270,
+        borderRadius:4
+    },
+    fBLogo:{
+        width: 24,
+        height: 29,
+        marginRight:15,
+    },
+    text_connexion:{
+        color:'white',
+        fontSize: 21,
+        fontFamily: 'WeblySleekUILight',
+        //  fontWeight: 'bold'
+
+        // justifyContent:'center',
+    },
+    text_pq_fb:{
+        //  textDecorationLine:'underline',
+        color:'grey',
+        margin:10,
+        fontSize: 9,
+        marginBottom:80
+    }
+})
+export default Login;
