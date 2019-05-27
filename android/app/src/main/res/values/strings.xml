@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">easer</string>
+    <string name="facebook_app_id">594719077710798</string>
+    <string name="fb_login_protocol_scheme">fb594719077710798</string>
+
+
 </resources>
