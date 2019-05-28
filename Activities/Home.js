@@ -1,6 +1,7 @@
 import React from 'react'
 import { StyleSheet, View, SafeAreaView, Text,  } from 'react-native'
 import {IndicatorViewPager,PagerTabIndicator, PagerTitleIndicator, PagerDotIndicator } from 'rn-viewpager'
+import Map from './Map'
 
 
 class Home extends React.Component {
@@ -31,7 +32,7 @@ class Home extends React.Component {
                         indicator={this._renderTabIndicator()}
                     >
                         <View style={{backgroundColor:'cadetblue'}}>
-                            <Text>page three</Text>
+                            <Map/>
                         </View>
                         <View style={{backgroundColor:'cornflowerblue'}}>
                             <Text>page three</Text>

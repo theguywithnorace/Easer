@@ -51,9 +51,13 @@ fbconnect = () => {
                         <Text style={styles.text_connexion}>Connexion</Text>
                     </TouchableOpacity>
                 </View>
-
+                <TouchableOpacity
+                    onPress={() => {
+                        this.props.navigation.navigate("Home")
+                    }}
+                >
                     <Text style={styles.text_pq_fb}>Pourquoi uniquement par Facebook ?</Text>
-
+                </TouchableOpacity>
             </View>
         )
     }
