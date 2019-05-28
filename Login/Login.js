@@ -8,8 +8,11 @@ class Login extends React.Component{
         super(props);
     }
 
-    fbconnect =() => {
-        LoginManager.logInWithReadPermissions(["public_profile","user_events","user_photos"]).then(
+
+fbconnect = () => {
+    const { navigate } = this.props.navigation;
+
+    LoginManager.logInWithReadPermissions(["public_profile","user_events","user_photos"]).then(
             function (result) {
                 if (result.isCancelled) {
                     console.log("Login cancelled");
@@ -18,6 +21,8 @@ class Login extends React.Component{
                         "Login success with permissions: " +
                         result.grantedPermissions.toString()
                     );
+                    navigate("Home");
+
                 }
             },
             function (error) {
@@ -37,7 +42,7 @@ class Login extends React.Component{
                 </View>
                 <View style={{alignItems:'flex-end'}}>
                     <TouchableOpacity style={styles.FBButton}
-                                      onPress={this.fbconnect}
+                                      onPress={()=>{this.fbconnect()}}
                     >
                         <Image
                             source={require('../Images/Login/facebook_letter.png')}

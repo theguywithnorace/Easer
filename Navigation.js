@@ -1,6 +1,7 @@
 import React from 'react'
 import { createStackNavigator, createAppContainer,createBottomTabNavigator } from 'react-navigation'
 import Login from'./Login/Login'
+import Home from './Activities/Home'
 
 const TestStackNavigator = createStackNavigator({
 
@@ -10,6 +11,13 @@ const TestStackNavigator = createStackNavigator({
             header:null
         },
     },
+    Home:{
+        screen: Home,
+        navigationOptions: {
+        headerLeft: null,
+            title:'Easer'
+    },
+},
 
 });
 

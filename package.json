@@ -5,14 +5,12 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "postinstall": "patch-package && ./node_modules/react-native-maps/enable-google-maps 'ios/**'"
-
+    "postinstall": "./node_modules/react-native-maps/enable-google-maps 'ios/**'"
   },
   "dependencies": {
-    "patch-package": "^6.1.2",
-    "postinstall-postinstall": "^2.0.0",
     "react": "16.8.3",
     "react-native": "0.59.8",
+    "react-native-card-stack-swiper": "^1.1.0",
     "react-native-cli": "^2.0.1",
     "react-native-fbsdk": "^0.8.0",
     "react-native-gesture-handler": "^1.2.1",
@@ -37,5 +35,4 @@
       "src/fonts"
     ]
   }
-
 }
