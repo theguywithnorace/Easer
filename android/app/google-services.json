@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "904319538368",
+    "firebase_url": "https://easer-1558989676547.firebaseio.com",
+    "project_id": "easer-1558989676547",
+    "storage_bucket": "easer-1558989676547.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904319538368:android:a61a14351d5e8cb3",
+        "android_client_info": {
+          "package_name": "com.easer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904319538368-af8tniogpqmoeqd7fsmplaoahnnk5u46.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.easer",
+            "certificate_hash": "eccc1d189b659b0b8438a18d37c2013da9e22161"
+          }
+        },
+        {
+          "client_id": "904319538368-bojd15duarf2vhajg45qsgk0h597ib6i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpKeG0TGe1zse163LLK0--i_giAXAbDbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904319538368-bojd15duarf2vhajg45qsgk0h597ib6i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

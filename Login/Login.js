@@ -1,7 +1,6 @@
 import React from 'react'
 import {Text, View, Image, TouchableOpacity, StyleSheet} from 'react-native'
 import {AccessToken,LoginButton, GraphRequest, LoginManager} from 'react-native-fbsdk'
-import * as firebase from 'firebase'
 
 class Login extends React.Component{
 
@@ -24,12 +23,9 @@ fbconnect = () => {
                         result.grantedPermissions.toString()
                     );
                     console.log(AccessToken.getCurrentAccessToken());
-                    console.log(AccessToken);
+                    console.log(AccessToken.getCurrentAccessToken());
 
-                    const credential = firebase.auth.FacebookAuthProvider.credential('594719077710798');
-                    firebase.auth().signInWithCredential(credential).catch((error) =>{
-                        console.log(error)
-                    })
+
                     navigate("Home");
                     AccessToken.getCurrentAccessToken().then((data)=>{
                         const infoRequest = new GraphRequest(

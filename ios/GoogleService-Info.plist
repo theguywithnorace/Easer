@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>904319538368-21r6btn6dar6bb2pv98022v64dnoasmm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.904319538368-21r6btn6dar6bb2pv98022v64dnoasmm</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>904319538368-af8tniogpqmoeqd7fsmplaoahnnk5u46.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB0A55uJMBckUANP9vlcW5K14ha_5vNNWw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>904319538368</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.easer</string>
+	<key>PROJECT_ID</key>
+	<string>easer-1558989676547</string>
+	<key>STORAGE_BUCKET</key>
+	<string>easer-1558989676547.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:904319538368:ios:abe1093e3c95895f</string>
+	<key>DATABASE_URL</key>
+	<string>https://easer-1558989676547.firebaseio.com</string>
+</dict>
+</plist>

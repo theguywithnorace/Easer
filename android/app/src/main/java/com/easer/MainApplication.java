@@ -4,6 +4,9 @@ import android.app.Application;
 
 import com.facebook.CallbackManager;
 import com.facebook.react.ReactApplication;
+import io.invertase.firebase.RNFirebasePackage;
+import io.invertase.firebase.auth.RNFirebaseAuthPackage;
+
 import com.airbnb.android.react.maps.MapsPackage;
 import com.github.reactnativecommunity.location.RNLocationPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
@@ -37,7 +40,9 @@ public class MainApplication extends Application implements ReactApplication {
             new MapsPackage(),
             new RNLocationPackage(),
             new RNGestureHandlerPackage(),
-            new FBSDKPackage(mCallbackManager)
+            new FBSDKPackage(mCallbackManager),
+              new RNFirebasePackage(),
+              new RNFirebaseAuthPackage()
       );
     }
 

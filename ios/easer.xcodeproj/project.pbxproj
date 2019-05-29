@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -65,6 +66,7 @@
 		92CAC52A229C8792004DA016 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92CAC529229C8792004DA016 /* QuartzCore.framework */; };
 		92CAC52C229C879A004DA016 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92CAC52B229C8799004DA016 /* SystemConfiguration.framework */; };
 		92CAC52E229C87A1004DA016 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92CAC52D229C87A1004DA016 /* UIKit.framework */; };
+		92D1D986229E95CD001430CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92D1D985229E95CD001430CB /* GoogleService-Info.plist */; };
 		9FD236ADB6F340DBBA4D97D0 /* libAirMaps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 127F3B85F6B34BB39B8FA774 /* libAirMaps.a */; };
 		A790520B72B94B63995E55FB /* RNViewPagerDemo.app in Frameworks */ = {isa = PBXBuildFile; fileRef = A37104D15DED409D83037C9D /* RNViewPagerDemo.app */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
@@ -78,6 +80,7 @@
 		E28F7A6A2C5044ECB932FCB9 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB435743DFEE4CB6A2EC7542 /* libRNGestureHandler.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
+		F0F1C4F3F8194D6F844967FF /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5DADF304AA4E81A7EE9FE8 /* libRNFirebase.a */; };
 		FA30F2DD44654273B2103A76 /* Orator Std Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7168B7F7668A40BEAFD0B5C3 /* Orator Std Medium.ttf */; };
 /* End PBXBuildFile section */
 
@@ -411,6 +414,13 @@
 			remoteGlobalIDString = 11FA5C511C4A1296003AC2EE;
 			remoteInfo = AirMaps;
 		};
+		92D1D983229E9591001430CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AE97D47EF4F415D9E1E5D7F /* RNFirebase.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNFirebase;
+		};
 		ADBDB9261DFEBF0700ED6528 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */;
@@ -483,7 +493,10 @@
 		92CAC529229C8792004DA016 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		92CAC52B229C8799004DA016 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		92CAC52D229C87A1004DA016 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		92D1D985229E95CD001430CB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9AE97D47EF4F415D9E1E5D7F /* RNFirebase.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFirebase.xcodeproj; path = "../node_modules/react-native-firebase/ios/RNFirebase.xcodeproj"; sourceTree = "<group>"; };
 		9D33CA3C22614F0FBB883C34 /* WeblySleekUISemibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = WeblySleekUISemibold.ttf; path = ../src/fonts/WeblySleekUISemibold.ttf; sourceTree = "<group>"; };
+		9D5DADF304AA4E81A7EE9FE8 /* libRNFirebase.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFirebase.a; sourceTree = "<group>"; };
 		A37104D15DED409D83037C9D /* RNViewPagerDemo.app */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.application; path = RNViewPagerDemo.app; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		AFEDF664878F4561A53DFFCE /* RNViewPagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = RNViewPagerDemoTests.xctest; sourceTree = "<group>"; };
@@ -550,6 +563,7 @@
 				D0382986A083476786FDFC4F /* RNViewPagerDemoTests.xctest in Frameworks */,
 				7EABC10F46A547E2A50F7320 /* libRNLocation.a in Frameworks */,
 				9FD236ADB6F340DBBA4D97D0 /* libAirMaps.a in Frameworks */,
+				F0F1C4F3F8194D6F844967FF /* libRNFirebase.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -671,6 +685,7 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				92D1D985229E95CD001430CB /* GoogleService-Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = easer;
@@ -770,6 +785,7 @@
 				C8C5B7DC04454AEFBA270634 /* RNViewPagerDemo.xcodeproj */,
 				C9E4256A895B4703AB105E6D /* RNLocation.xcodeproj */,
 				59D16425A44E42AA9432E21A /* AirMaps.xcodeproj */,
+				9AE97D47EF4F415D9E1E5D7F /* RNFirebase.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -822,6 +838,7 @@
 				4520E545FC284880AE1AC05D /* RNViewPagerDemo-tvOS.app */,
 				DBA106D707CD4DD2B4F41D67 /* RNViewPagerDemo-tvOSTests.xctest */,
 				127F3B85F6B34BB39B8FA774 /* libAirMaps.a */,
+				9D5DADF304AA4E81A7EE9FE8 /* libRNFirebase.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -866,6 +883,14 @@
 			isa = PBXGroup;
 			children = (
 				92CAC50A229C828E004DA016 /* libAirMaps.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92D1D980229E9591001430CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92D1D984229E9591001430CB /* libRNFirebase.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1068,6 +1093,10 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = 92D1D980229E9591001430CB /* Products */;
+					ProjectRef = 9AE97D47EF4F415D9E1E5D7F /* RNFirebase.xcodeproj */;
 				},
 				{
 					ProductGroup = 92CAC446229C3A42004DA016 /* Products */;
@@ -1408,6 +1437,13 @@
 			remoteRef = 92CAC509229C828E004DA016 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		92D1D984229E9591001430CB /* libRNFirebase.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNFirebase.a;
+			remoteRef = 92D1D983229E9591001430CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1434,6 +1470,7 @@
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				FA30F2DD44654273B2103A76 /* Orator Std Medium.ttf in Resources */,
 				B22BB77627854D32A275782E /* OratorStd.ttf in Resources */,
+				92D1D986229E95CD001430CB /* GoogleService-Info.plist in Resources */,
 				57622AD1BCB649619E0FA1E8 /* WeblySleek UI Light.ttf in Resources */,
 				1133780C79F5422A957DB01C /* WeblySleek UI Semibold.ttf in Resources */,
 				D08905DA4A6B4D11AEF5B3DD /* WeblySleek UI.ttf in Resources */,
@@ -1569,12 +1606,14 @@
 					"$(SRCROOT)/../node_modules/rn-viewpager/RNViewPagerDemo/ios/RNViewPagerDemo",
 					"$(SRCROOT)/../node_modules/react-native-location/ios",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
 				);
 				INFOPLIST_FILE = easerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1607,12 +1646,14 @@
 					"$(SRCROOT)/../node_modules/rn-viewpager/RNViewPagerDemo/ios/RNViewPagerDemo",
 					"$(SRCROOT)/../node_modules/react-native-location/ios",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
 				);
 				INFOPLIST_FILE = easerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1651,6 +1692,7 @@
 					"$(SRCROOT)/../node_modules/rn-viewpager/RNViewPagerDemo/ios/RNViewPagerDemo",
 					"$(SRCROOT)/../node_modules/react-native-location/ios",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
 				);
 				INFOPLIST_FILE = easer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1682,6 +1724,7 @@
 					"$(SRCROOT)/../node_modules/rn-viewpager/RNViewPagerDemo/ios/RNViewPagerDemo",
 					"$(SRCROOT)/../node_modules/react-native-location/ios",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
 				);
 				INFOPLIST_FILE = easer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1715,11 +1758,13 @@
 					"$(SRCROOT)/../node_modules/rn-viewpager/RNViewPagerDemo/ios/RNViewPagerDemo",
 					"$(SRCROOT)/../node_modules/react-native-location/ios",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
 				);
 				INFOPLIST_FILE = "easer-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1761,11 +1806,13 @@
 					"$(SRCROOT)/../node_modules/rn-viewpager/RNViewPagerDemo/ios/RNViewPagerDemo",
 					"$(SRCROOT)/../node_modules/react-native-location/ios",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
 				);
 				INFOPLIST_FILE = "easer-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1806,11 +1853,13 @@
 					"$(SRCROOT)/../node_modules/rn-viewpager/RNViewPagerDemo/ios/RNViewPagerDemo",
 					"$(SRCROOT)/../node_modules/react-native-location/ios",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
 				);
 				INFOPLIST_FILE = "easer-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1851,11 +1900,13 @@
 					"$(SRCROOT)/../node_modules/rn-viewpager/RNViewPagerDemo/ios/RNViewPagerDemo",
 					"$(SRCROOT)/../node_modules/react-native-location/ios",
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
 				);
 				INFOPLIST_FILE = "easer-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
