@@ -3,6 +3,7 @@ import { StyleSheet, View, SafeAreaView, Text,  } from 'react-native'
 import {IndicatorViewPager,PagerTabIndicator, PagerTitleIndicator, PagerDotIndicator } from 'rn-viewpager'
 import Map from './Map'
 import Swiper from './Swiper'
+import Messaging from './Messaging'
 
 
 
@@ -40,7 +41,7 @@ class Home extends React.Component {
                             <Swiper/>
                         </View>
                         <View style={{backgroundColor:'#1AA094'}}>
-                            <Text>page three</Text>
+                            <Messaging/>
                         </View>
                     </IndicatorViewPager>
                 </SafeAreaView>

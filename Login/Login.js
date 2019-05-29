@@ -1,6 +1,7 @@
 import React from 'react'
 import {Text, View, Image, TouchableOpacity, StyleSheet} from 'react-native'
-import {AccessToken,LoginButton, LoginManager} from 'react-native-fbsdk'
+import {AccessToken,LoginButton, GraphRequest, LoginManager} from 'react-native-fbsdk'
+import * as firebase from 'firebase'
 
 class Login extends React.Component{
 
@@ -12,7 +13,8 @@ class Login extends React.Component{
 fbconnect = () => {
     const { navigate } = this.props.navigation;
 
-    LoginManager.logInWithReadPermissions(["public_profile","user_events","user_photos"]).then(
+    LoginManager.logInWithReadPermissions(["public_profile","user_events","user_photos"])
+        .then(
             function (result) {
                 if (result.isCancelled) {
                     console.log("Login cancelled");
@@ -21,17 +23,55 @@ fbconnect = () => {
                         "Login success with permissions: " +
                         result.grantedPermissions.toString()
                     );
+                    console.log(AccessToken.getCurrentAccessToken());
+                    console.log(AccessToken);
+
+                    const credential = firebase.auth.FacebookAuthProvider.credential('594719077710798');
+                    firebase.auth().signInWithCredential(credential).catch((error) =>{
+                        console.log(error)
+                    })
                     navigate("Home");
+                    AccessToken.getCurrentAccessToken().then((data)=>{
+                        const infoRequest = new GraphRequest(
+                            '/me?fields=name,picture',
+                            null,
+                            this._responseInfoCallback
+                        )
+                        }
+
+                    )
+
 
                 }
             },
             function (error) {
                 console.log("Login fail with error: " + error);
             }
-        );
+        )
+
+    }
+
+    _responseInfoCallback = (error, result) => {
+        if (error) {
+            alert('Error fetching data: ' + error.toString());
+        } else {
+            alert('Result Name: ' + result.name);
+        }
     }
 
     render(){
+        let req = new GraphRequest('/me', {
+            httpMethod: 'GET',
+            version: 'v2.5',
+            parameters: {
+                'fields': {
+                    'string' : 'email,name,friends'
+                }
+            }
+        }, (err, res) => {
+            console.log("HEY"+err, res);
+        });
+
         return(
             <View style={styles.main_container}>
                 <View style={styles.logo_container}>
