@@ -1,6 +1,8 @@
 import React from 'react'
 import {Text, View, Image, TouchableOpacity, StyleSheet} from 'react-native'
 import {AccessToken,LoginButton, GraphRequest, LoginManager} from 'react-native-fbsdk'
+import firebase from 'react-native-firebase'
+//import {facebookLogin} from '../Functions/facebookLogin'
 
 class Login extends React.Component{
 
@@ -8,10 +10,49 @@ class Login extends React.Component{
         super(props);
     }
 
+    async facebookLogin() {
+
+        try {
+            const result = await LoginManager.logInWithReadPermissions(['public_profile', 'user_events']);
+
+            if (result.isCancelled) {
+                // handle this however suites the flow of your app
+              //  throw new Error('User cancelled request');
+                this.props.navigation.navigate("Login")
+
+            }else {
+                this.props.navigation.navigate("Home")
+
+                console.log(`Login success with permissions: ${result.grantedPermissions.toString()}`);
+
+                // get the access token
+                const data = await AccessToken.getCurrentAccessToken();
+                console.log(AccessToken.getCurrentAccessToken());
+
+
+                if (!data) {
+                    // handle this however suites the flow of your app
+                    throw new Error('Something went wrong obtaining the users access token');
+                }
+
+                // create a new firebase credential with the token then login with this credential
+                const credential = firebase.auth.FacebookAuthProvider.credential(data.accessToken);
+                const firebaseUserCredential = await firebase.auth().signInWithCredential(credential);
+
+                console.log("Firebase credential : ")
+                console.log(credential)
+
+                console.warn(JSON.stringify(firebaseUserCredential.user.toJSON()))
+
+            }
+        } catch (e) {
+            console.error(e);
+        }
+
+    }
 
 fbconnect = () => {
     const { navigate } = this.props.navigation;
-
     LoginManager.logInWithReadPermissions(["public_profile","user_events","user_photos"])
         .then(
             function (result) {
@@ -32,12 +73,8 @@ fbconnect = () => {
                             '/me?fields=name,picture',
                             null,
                             this._responseInfoCallback
-                        )
-                        }
-
+                        )}
                     )
-
-
                 }
             },
             function (error) {
@@ -78,7 +115,9 @@ fbconnect = () => {
                 </View>
                 <View style={{alignItems:'flex-end'}}>
                     <TouchableOpacity style={styles.FBButton}
-                                      onPress={()=>{this.fbconnect()}}
+                                      onPress={() => {this.facebookLogin().then(
+                                      //    this.props.navigation.navigate("Home")
+                                      )}}
                     >
                         <Image
                             source={require('../Images/Login/facebook_letter.png')}

@@ -15,7 +15,6 @@
 		00E356F31AD99517003FC87E /* easerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* easerTests.m */; };
 		1133780C79F5422A957DB01C /* WeblySleek UI Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BCF508531BA410FA07E023F /* WeblySleek UI Semibold.ttf */; };
 		11D1A2F320CAFA9E000508D9 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
-		11E566BF647AD33AA5EACA85 /* Pods_easer_easer_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904B36F7DC542E93DDA650B1 /* Pods_easer_easer_tvOSTests.framework */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
@@ -25,7 +24,6 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		2371F6B7DCD1C1582074BDE3 /* Pods_easer_easerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25716CBC6D986F082D986C0 /* Pods_easer_easerTests.framework */; };
 		27708308D7074F12B7042C1D /* RNViewPagerDemo-tvOS.app in Frameworks */ = {isa = PBXBuildFile; fileRef = 4520E545FC284880AE1AC05D /* RNViewPagerDemo-tvOS.app */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -42,8 +40,8 @@
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		3ACA7C57C0F9A912BCFB5E00 /* libPods-easer-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AABAD3C7CE33F90297471EB0 /* libPods-easer-tvOS.a */; };
 		4D419E140C284726A340BA5B /* weblysleekuil.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11C4044B1A0144A7A94A337F /* weblysleekuil.ttf */; };
+		5520D09419D556753C4B2015 /* libPods-easer-easerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D3B4FD866991CC361D4E32 /* libPods-easer-easerTests.a */; };
 		57622AD1BCB649619E0FA1E8 /* WeblySleek UI Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 620E43F538CC42BC944EA540 /* WeblySleek UI Light.ttf */; };
-		7BD67E4238D5BAB1241B52FA /* Pods_easer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF6CD754777C3809A523053 /* Pods_easer.framework */; };
 		7EABC10F46A547E2A50F7320 /* libRNLocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 351D0946D02F4A0BA55E9F81 /* libRNLocation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		8AEA2940417846B9A818EC70 /* WeblySleekUISemibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D33CA3C22614F0FBB883C34 /* WeblySleekUISemibold.ttf */; };
@@ -76,12 +74,14 @@
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		AFB3D47AAF40494F94147CBD /* weblysleekuisb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 882B3472B34E4E608BA7CAB5 /* weblysleekuisb.ttf */; };
 		B22BB77627854D32A275782E /* OratorStd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60CF54C69B2A47399A36028F /* OratorStd.ttf */; };
+		C0A6022C78C1AD082288F774 /* libPods-easer-easer-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA0AAFDB2BCD31BF947D08B /* libPods-easer-easer-tvOSTests.a */; };
 		CF4BDC622F654FF2A7C1EDB9 /* RNViewPagerDemo-tvOSTests.xctest in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA106D707CD4DD2B4F41D67 /* RNViewPagerDemo-tvOSTests.xctest */; };
 		D0382986A083476786FDFC4F /* RNViewPagerDemoTests.xctest in Frameworks */ = {isa = PBXBuildFile; fileRef = AFEDF664878F4561A53DFFCE /* RNViewPagerDemoTests.xctest */; };
 		D08905DA4A6B4D11AEF5B3DD /* WeblySleek UI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E716A883592444C1A539664B /* WeblySleek UI.ttf */; };
 		D30749F1C7F645EA864EE2FB /* libRCTFBSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E56515E03024CDAA4ED3CF9 /* libRCTFBSDK.a */; };
 		DCCF9AEC1EAF456DA341451C /* libRNGestureHandler-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F54560840048219D5903BD /* libRNGestureHandler-tvOS.a */; };
 		E28F7A6A2C5044ECB932FCB9 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB435743DFEE4CB6A2EC7542 /* libRNGestureHandler.a */; };
+		E96F13B2D1494BC8D91C153F /* libPods-easer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75122EB6FCFE7896F3E7719B /* libPods-easer.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
 		F0F1C4F3F8194D6F844967FF /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5DADF304AA4E81A7EE9FE8 /* libRNFirebase.a */; };
@@ -469,18 +469,20 @@
 		4D7B635647804C3A9BDB9084 /* RCTFBSDK.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTFBSDK.xcodeproj; path = "../node_modules/react-native-fbsdk/ios/RCTFBSDK.xcodeproj"; sourceTree = "<group>"; };
 		517190622EF0BF1F5A5930D0 /* Pods-easer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easer.release.xcconfig"; path = "Target Support Files/Pods-easer/Pods-easer.release.xcconfig"; sourceTree = "<group>"; };
 		59D16425A44E42AA9432E21A /* AirMaps.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AirMaps.xcodeproj; path = "../node_modules/react-native-maps/lib/ios/AirMaps.xcodeproj"; sourceTree = "<group>"; };
+		5BA0AAFDB2BCD31BF947D08B /* libPods-easer-easer-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-easer-easer-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		60CF54C69B2A47399A36028F /* OratorStd.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = OratorStd.ttf; path = ../src/fonts/OratorStd.ttf; sourceTree = "<group>"; };
 		620E43F538CC42BC944EA540 /* WeblySleek UI Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WeblySleek UI Light.ttf"; path = "../src/fonts/WeblySleek UI Light.ttf"; sourceTree = "<group>"; };
 		6BCF508531BA410FA07E023F /* WeblySleek UI Semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WeblySleek UI Semibold.ttf"; path = "../src/fonts/WeblySleek UI Semibold.ttf"; sourceTree = "<group>"; };
 		6D349A994905399F6D13E976 /* Pods-easerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easerTests.debug.xcconfig"; path = "Target Support Files/Pods-easerTests/Pods-easerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6DA459ED02D541D8A36E3FA2 /* RNGestureHandler.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNGestureHandler.xcodeproj; path = "../node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj"; sourceTree = "<group>"; };
+		70D3B4FD866991CC361D4E32 /* libPods-easer-easerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-easer-easerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7168B7F7668A40BEAFD0B5C3 /* Orator Std Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Orator Std Medium.ttf"; path = "../src/fonts/Orator Std Medium.ttf"; sourceTree = "<group>"; };
+		75122EB6FCFE7896F3E7719B /* libPods-easer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-easer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		8765FA7A272989C171BE6E19 /* Pods-easerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easerTests.release.xcconfig"; path = "Target Support Files/Pods-easerTests/Pods-easerTests.release.xcconfig"; sourceTree = "<group>"; };
 		882B3472B34E4E608BA7CAB5 /* weblysleekuisb.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = weblysleekuisb.ttf; path = ../src/fonts/weblysleekuisb.ttf; sourceTree = "<group>"; };
-		904B36F7DC542E93DDA650B1 /* Pods_easer_easer_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_easer_easer_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92CAC3B3229C11D9004DA016 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		92CAC3B4229C11DA004DA016 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		92CAC3B5229C11DA004DA016 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
@@ -523,11 +525,9 @@
 		CC607FA512400F4B27FEE1FC /* Pods-easer-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easer-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-easer-tvOS/Pods-easer-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		DB435743DFEE4CB6A2EC7542 /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = "<group>"; };
 		DBA106D707CD4DD2B4F41D67 /* RNViewPagerDemo-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = "RNViewPagerDemo-tvOSTests.xctest"; sourceTree = "<group>"; };
-		DEF6CD754777C3809A523053 /* Pods_easer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_easer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E716A883592444C1A539664B /* WeblySleek UI.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WeblySleek UI.ttf"; path = "../src/fonts/WeblySleek UI.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F25716CBC6D986F082D986C0 /* Pods_easer_easerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_easer_easerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -536,7 +536,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
-				2371F6B7DCD1C1582074BDE3 /* Pods_easer_easerTests.framework in Frameworks */,
+				5520D09419D556753C4B2015 /* libPods-easer-easerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +586,7 @@
 				7EABC10F46A547E2A50F7320 /* libRNLocation.a in Frameworks */,
 				9FD236ADB6F340DBBA4D97D0 /* libAirMaps.a in Frameworks */,
 				F0F1C4F3F8194D6F844967FF /* libRNFirebase.a in Frameworks */,
-				7BD67E4238D5BAB1241B52FA /* Pods_easer.framework in Frameworks */,
+				E96F13B2D1494BC8D91C153F /* libPods-easer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,7 +615,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */,
-				11E566BF647AD33AA5EACA85 /* Pods_easer_easer_tvOSTests.framework in Frameworks */,
+				C0A6022C78C1AD082288F774 /* libPods-easer-easer-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -770,9 +770,9 @@
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
 				AABAD3C7CE33F90297471EB0 /* libPods-easer-tvOS.a */,
-				DEF6CD754777C3809A523053 /* Pods_easer.framework */,
-				904B36F7DC542E93DDA650B1 /* Pods_easer_easer_tvOSTests.framework */,
-				F25716CBC6D986F082D986C0 /* Pods_easer_easerTests.framework */,
+				75122EB6FCFE7896F3E7719B /* libPods-easer.a */,
+				5BA0AAFDB2BCD31BF947D08B /* libPods-easer-easer-tvOSTests.a */,
+				70D3B4FD866991CC361D4E32 /* libPods-easer-easerTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -980,7 +980,7 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				0A94A89604EAC580FFEB8929 /* [CP] Embed Pods Frameworks */,
+				C5FDA29B00AABD0EABA9A412 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1001,7 +1001,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				A7911D62AE19CFBC7A25A869 /* [CP] Embed Pods Frameworks */,
+				969CB51E73FFFD78A9A64C3A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1039,7 +1039,7 @@
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
-				3D357144BD32FD9D1141242A /* [CP] Embed Pods Frameworks */,
+				2EA719E99C3B76BC7827FA4C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1569,38 +1569,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		0A94A89604EAC580FFEB8929 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-easer-easerTests/Pods-easer-easerTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
-				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-easer-easerTests/Pods-easer-easerTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1614,6 +1582,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		2EA719E99C3B76BC7827FA4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-easer-easer-tvOSTests/Pods-easer-easer-tvOSTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/gRPCCertificates.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-easer-easer-tvOSTests/Pods-easer-easer-tvOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		3A6DA00B82A079187DE2EB09 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1635,38 +1621,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3D357144BD32FD9D1141242A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-easer-easer-tvOSTests/Pods-easer-easer-tvOSTests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
-				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-easer-easer-tvOSTests/Pods-easer-easer-tvOSTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5BE3B78EDEB25E07AE819CD2 /* [CP] Check Pods Manifest.lock */ = {
@@ -1691,36 +1645,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A7911D62AE19CFBC7A25A869 /* [CP] Embed Pods Frameworks */ = {
+		969CB51E73FFFD78A9A64C3A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-easer/Pods-easer-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
-				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-easer/Pods-easer-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/gRPCCertificates.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-easer/Pods-easer-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-easer/Pods-easer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5FDA29B00AABD0EABA9A412 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-easer-easerTests/Pods-easer-easerTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/gRPCCertificates.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-easer-easerTests/Pods-easer-easerTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D17338295040B58AFBEE5867 /* [CP] Check Pods Manifest.lock */ = {
