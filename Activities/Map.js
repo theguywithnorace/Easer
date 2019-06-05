@@ -18,7 +18,6 @@ class Map extends React.Component {
         };
         this.centeringMap = false;
         this.firstLocationUpdate = true;
-        this.region={};
         this.region={
             latitude: 48.8,
             longitude: 2.34,

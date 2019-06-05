@@ -1,6 +1,6 @@
 import React from 'react'
 import {Text, View, Image, TouchableOpacity, StyleSheet} from 'react-native'
-import {AccessToken,LoginButton, GraphRequest, LoginManager} from 'react-native-fbsdk'
+import {AccessToken, GraphRequest, LoginManager, GraphRequestManager} from 'react-native-fbsdk'
 import firebase from 'react-native-firebase'
 //import {facebookLogin} from '../Functions/facebookLogin'
 
@@ -8,6 +8,9 @@ class Login extends React.Component{
 
     constructor(props) {
         super(props);
+        this.saveUser={
+            id: 1,
+        };
     }
 
     async facebookLogin() {
@@ -16,31 +19,32 @@ class Login extends React.Component{
             const result = await LoginManager.logInWithReadPermissions(['public_profile', 'user_events']);
 
             if (result.isCancelled) {
-                // handle this however suites the flow of your app
-              //  throw new Error('User cancelled request');
                 this.props.navigation.navigate("Login")
-
-            }else {
+            } else {
                 this.props.navigation.navigate("Home")
 
                 console.log(`Login success with permissions: ${result.grantedPermissions.toString()}`);
+                console.log("Result : ")
+                console.log(result);
 
                 // get the access token
                 const data = await AccessToken.getCurrentAccessToken();
                 console.log(AccessToken.getCurrentAccessToken());
+                console.log(data)
 
-
+                this.FBGraphRequest(data, this.FBLoginCallback)
                 if (!data) {
                     // handle this however suites the flow of your app
-                    throw new Error('Something went wrong obtaining the users access token');
+                    alert('Something went wrong obtaining the users access token');
+                    this.props.navigation.navigate("Login")
                 }
 
                 // create a new firebase credential with the token then login with this credential
                 const credential = firebase.auth.FacebookAuthProvider.credential(data.accessToken);
                 const firebaseUserCredential = await firebase.auth().signInWithCredential(credential);
 
-                console.log("Firebase credential : ")
-                console.log(credential)
+                console.log("Firebase credential : ");
+                console.log(firebaseUserCredential);
 
                 console.warn(JSON.stringify(firebaseUserCredential.user.toJSON()))
 
@@ -51,46 +55,45 @@ class Login extends React.Component{
 
     }
 
-fbconnect = () => {
-    const { navigate } = this.props.navigation;
-    LoginManager.logInWithReadPermissions(["public_profile","user_events","user_photos"])
-        .then(
-            function (result) {
-                if (result.isCancelled) {
-                    console.log("Login cancelled");
-                } else {
-                    console.log(
-                        "Login success with permissions: " +
-                        result.grantedPermissions.toString()
-                    );
-                    console.log(AccessToken.getCurrentAccessToken());
-                    console.log(AccessToken.getCurrentAccessToken());
+    async FBGraphRequest(data, callback) {
+        // Create a graph request asking for user information
+        const infoRequest = new GraphRequest('/me', {
+            accessToken: data.accessToken,
+            parameters: {
+                fields: {
+                    string: 'id, email, events'
+                },
 
-
-                    navigate("Home");
-                    AccessToken.getCurrentAccessToken().then((data)=>{
-                        const infoRequest = new GraphRequest(
-                            '/me?fields=name,picture',
-                            null,
-                            this._responseInfoCallback
-                        )}
-                    )
-                }
-            },
-            function (error) {
-                console.log("Login fail with error: " + error);
             }
-        )
-
+        }, callback.bind(this));
+        // Execute the graph request created above
+        new GraphRequestManager().addRequest(infoRequest).start();
+        console.log("----- Sending GRAPHAPI request ------")
     }
 
-    _responseInfoCallback = (error, result) => {
+    async FBLoginCallback(error, result) {
+let x;
         if (error) {
-            alert('Error fetching data: ' + error.toString());
+            this.setState({
+                showLoadingModal: false,
+                notificationMessage: "error"
+        });
+            console.log("ERROR in GraphAPI")
         } else {
-            alert('Result Name: ' + result.name);
+            // Retrieve and save user details in state. In our case with
+            // Redux and custom action saveUser
+            x = result.id;
+            console.log("---------------------");
+            console.log("USER:" + x+ "    result.id : "+ result.id)
+            console.log("event-id  " + result.events)
+            console.log(result.events)
+            console.log("---------------------");
+
         }
+        this.saveUser.id=x
+        console.log(this.saveUser.id)
     }
+
 
     render(){
         let req = new GraphRequest('/me', {
