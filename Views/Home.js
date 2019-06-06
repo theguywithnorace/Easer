@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, View, SafeAreaView, Text,  } from 'react-native'
+import { StyleSheet, View, SafeAreaView, Text, TouchableOpacity, Image } from 'react-native'
 import {IndicatorViewPager,PagerTabIndicator, PagerTitleIndicator, PagerDotIndicator } from 'rn-viewpager'
 import Map from './Map'
 import Swiper from './Swiper'
@@ -9,6 +9,24 @@ import Messaging from './Messaging'
 
 class Home extends React.Component {
 
+    static navigationOptions = ({navigation}) => {
+        return {
+            headerRight: (
+                <TouchableOpacity onPress={() => navigation.navigate('UserProfile')}
+                                  i={"info"}
+                                  color='red'>
+                    <Image
+                        source={require('../Images/User/user.png')}
+                        style={{
+                            width: 30,
+                            height: 30,
+                            margin: 12
+                        }}
+                    />
+                </TouchableOpacity>
+            )
+        }
+    }
 
     _renderTabIndicator() {
         let tabs = [{
@@ -29,6 +47,7 @@ class Home extends React.Component {
     render() {
         return (
             <View style={{flex:1}}>
+
                 <SafeAreaView style={{flex:1}}>
                     <IndicatorViewPager
                         style={{flex:1,  backgroundColor:'white'}}

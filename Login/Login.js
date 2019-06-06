@@ -45,9 +45,6 @@ class Login extends React.Component{
 
                 console.log("Firebase credential : ");
                 console.log(firebaseUserCredential);
-
-                console.warn(JSON.stringify(firebaseUserCredential.user.toJSON()))
-
             }
         } catch (e) {
             console.error(e);
@@ -85,9 +82,10 @@ let x;
             x = result.id;
             console.log("---------------------");
             console.log("USER:" + x+ "    result.id : "+ result.id)
-            console.log("event-id  " + result.events)
+            console.log("event-id  :")
             console.log(result.events)
             console.log("---------------------");
+            
 
         }
         this.saveUser.id=x

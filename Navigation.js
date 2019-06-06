@@ -2,6 +2,7 @@ import React from 'react'
 import { createStackNavigator, createAppContainer,createBottomTabNavigator } from 'react-navigation'
 import Login from'./Login/Login'
 import Home from './Views/Home'
+import UserProfile from './Views/UserProfile'
 
 const TestStackNavigator = createStackNavigator({
 
@@ -11,13 +12,17 @@ const TestStackNavigator = createStackNavigator({
             header:null
         },
     },
-    Home:{
+    Home: {
         screen: Home,
         navigationOptions: {
-        headerLeft: null,
-            title:'Easer'
+            headerLeft: null,
+            title: 'Easer'
+        },
     },
-},
+    UserProfile: {
+        screen: UserProfile,
+    },
+
 
 });
 
