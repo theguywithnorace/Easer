@@ -14,12 +14,12 @@ class UserProfile extends React.Component{
 
     render(){
         console.log("Global state of user profile : ")
-        console.log(this.props.userProfile)
+        console.log(this.props.user)
         return(
             <View>
                 <SafeAreaView>
                     <Text>
-                        { JSON.stringify(this.props.userProfile) }
+                        { JSON.stringify(this.props.user)}
                     </Text>
                 </SafeAreaView>
             </View>
@@ -29,8 +29,8 @@ class UserProfile extends React.Component{
 
 }
 const mapStateToProps = (state) => {
-    return {
-        userProfile: state.updateUserProfile.userProfile
+    return    {
+        user: state.updateUserProfile.user
     }
 }
 export default connect(mapStateToProps)(UserProfile)

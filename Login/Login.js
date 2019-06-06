@@ -2,15 +2,17 @@ import React from 'react'
 import {Text, View, Image, TouchableOpacity, StyleSheet} from 'react-native'
 import {AccessToken, GraphRequest, LoginManager, GraphRequestManager} from 'react-native-fbsdk'
 import firebase from 'react-native-firebase'
-//import {facebookLogin} from '../Functions/facebookLogin'
+import {connect} from 'react-redux'
+
 
 class Login extends React.Component{
 
     constructor(props) {
         super(props);
-        this.saveUser={
-            id: 1,
-        };
+        this.state={
+            user:{},
+            myEvents:{}
+        }
     }
 
     async facebookLogin() {
@@ -45,6 +47,8 @@ class Login extends React.Component{
 
                 console.log("Firebase credential : ");
                 console.log(firebaseUserCredential);
+                this._updateProfileByFirebase(firebaseUserCredential)
+
             }
         } catch (e) {
             console.error(e);
@@ -58,7 +62,7 @@ class Login extends React.Component{
             accessToken: data.accessToken,
             parameters: {
                 fields: {
-                    string: 'id, email, events'
+                    string: 'id, email, events, picture'
                 },
 
             }
@@ -83,29 +87,27 @@ let x;
             console.log("---------------------");
             console.log("USER:" + x+ "    result.id : "+ result.id)
             console.log("event-id  :")
-            console.log(result.events)
+            console.log(result)
             console.log("---------------------");
-            
+             console.log(result.picture.data.url)
 
         }
-        this.saveUser.id=x
-        console.log(this.saveUser.id)
     }
 
+    _updateProfileByFirebase = (credential) => {
+        this.setState({
+                user: {
+                    idFirebase: credential.user._user.uid,
+                    idFacebook: credential.additionalUserInfo.profile.id,
+                    name: credential.additionalUserInfo.profile.first_name,
+                    avatar_picture: credential.additionalUserInfo.profile.picture.data.url
+                }
+        })
+        const action = { type: "UPDATE_PROFILE", value: this.state.user };
+        this.props.dispatch(action)
+    }
 
     render(){
-        let req = new GraphRequest('/me', {
-            httpMethod: 'GET',
-            version: 'v2.5',
-            parameters: {
-                'fields': {
-                    'string' : 'email,name,friends'
-                }
-            }
-        }, (err, res) => {
-            console.log("HEY"+err, res);
-        });
-
         return(
             <View style={styles.main_container}>
                 <View style={styles.logo_container}>
@@ -195,4 +197,9 @@ const styles = StyleSheet.create({
         marginBottom:80
     }
 })
-export default Login;
+const mapStateToProps = (state) => {
+    return    {
+        user: state.updateUserProfile.user
+    }
+}
+export default connect(mapStateToProps)(Login)
