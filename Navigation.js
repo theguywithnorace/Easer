@@ -1,7 +1,7 @@
 import React from 'react'
 import { createStackNavigator, createAppContainer,createBottomTabNavigator } from 'react-navigation'
 import Login from'./Login/Login'
-import Home from './Activities/Home'
+import Home from './Views/Home'
 
 const TestStackNavigator = createStackNavigator({
 
