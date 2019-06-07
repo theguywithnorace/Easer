@@ -1,6 +1,7 @@
 import React from 'react'
 import {StyleSheet, View, ScrollView, SafeAreaView, Text, Image, TouchableOpacity} from 'react-native'
 import {connect} from 'react-redux'
+import Checkboxes from '../src/checkboxes'
 
 class User extends React.Component{
 
@@ -34,6 +35,7 @@ class User extends React.Component{
     render(){
         console.log("Global state of user profile : ")
         console.log(this.props.user)
+        const txt= 'hey'
         return(
             <SafeAreaView>
                 <ScrollView>
@@ -52,6 +54,15 @@ class User extends React.Component{
                     </View>
                     <Text style={styles.name_text}>{this.props.user.name}</Text>
                     <Text style={styles.je_suis_text}>Je suis plutot du genre...</Text>
+                    <View>
+                        <View>
+                            <View>
+                                <Checkboxes startText={txt}
+                                            endText={txt}/>
+                            </View>
+                        </View>
+                    </View>
+
 
 
                     <Text style={{color:'white'}}>

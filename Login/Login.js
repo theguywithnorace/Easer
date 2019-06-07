@@ -15,7 +15,7 @@ class Login extends React.Component{
             myEvents: []
         }
         if(this.props.user.isConnected){
-            this.props.navigation.navigate("Home")
+            this.props.navigation.navigate("User")
         }
         console.log(" user is connected in constructor ? "+ this.props.user.isConnected)
     }
