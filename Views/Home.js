@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, View, SafeAreaView, Text, TouchableOpacity, Image } from 'react-native'
+import { StyleSheet, View, SafeAreaView, Text, TouchableOpacity, Image, BackHandler } from 'react-native'
 import {IndicatorViewPager,PagerTabIndicator, PagerTitleIndicator, PagerDotIndicator } from 'rn-viewpager'
 import Map from './Map'
 import Swiper from './Swiper'
@@ -26,6 +26,17 @@ class Home extends React.Component {
                 </TouchableOpacity>
             )
         }
+    }
+
+    componentDidMount() {
+        BackHandler.addEventListener("hardwareBackPress", this.onBackPress);
+    }
+    componentWillUnmount() {
+        BackHandler.removeEventListener("hardwareBackPress", this.onBackPress);
+    }
+
+    onBackPress = () => {
+            BackHandler.exitApp();
     }
 
     _renderTabIndicator() {

@@ -9,9 +9,16 @@ class Login extends React.Component{
 
     constructor(props) {
         super(props);
-        this.state={
-            user:{},
-            myEvents:{}
+        this.state= {
+            user: {},
+            myEvents: []
+        }
+
+    }
+
+    componentWillMount(): void {
+        if(this.props.user.isConnected){
+            this.props.navigation.navigate("Home")
         }
     }
 
@@ -45,7 +52,6 @@ class Login extends React.Component{
                 const credential = firebase.auth.FacebookAuthProvider.credential(data.accessToken);
                 const firebaseUserCredential = await firebase.auth().signInWithCredential(credential);
 
-                console.log("Firebase credential : ");
                 console.log(firebaseUserCredential);
                 this._updateProfileByFirebase(firebaseUserCredential)
 
@@ -69,7 +75,6 @@ class Login extends React.Component{
         }, callback.bind(this));
         // Execute the graph request created above
         new GraphRequestManager().addRequest(infoRequest).start();
-        console.log("----- Sending GRAPHAPI request ------")
     }
 
     async FBLoginCallback(error, result) {
@@ -85,12 +90,10 @@ let x;
             // Redux and custom action saveUser
             x = result.id;
             console.log("---------------------");
-            console.log("USER:" + x+ "    result.id : "+ result.id)
-            console.log("event-id  :")
-            console.log(result)
+            console.log("EVENTS  :")
+            console.log(result.events.data)
             console.log("---------------------");
-             console.log(result.picture.data.url)
-
+            this._updateMyEvents(result)
         }
     }
 
@@ -104,6 +107,12 @@ let x;
                 }
         })
         const action = { type: "UPDATE_PROFILE", value: this.state.user };
+        this.props.dispatch(action)
+    }
+
+    _updateMyEvents = (result) =>{
+
+        const action = { type: "UPDATE_MY_EVENTS", value: result.events.data };
         this.props.dispatch(action)
     }
 
