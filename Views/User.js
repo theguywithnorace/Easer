@@ -44,7 +44,7 @@ class User extends React.Component{
                         <View style={styles.number_container_container}>
                             <View style={styles.number_container}>
                                 <Text style={styles.number}>{this.props.user.myFutureEvents.length}</Text>
-                                <Text style={styles.type_of_number}>Evenements Facebook</Text>
+                                <Text style={styles.type_of_number}>Evénements Facebook</Text>
                             </View>
                             <View style={styles.number_container}>
                                 <Text style={styles.number}>25</Text>
@@ -53,12 +53,14 @@ class User extends React.Component{
                         </View>
                     </View>
                     <Text style={styles.name_text}>{this.props.user.name}</Text>
-                    <Text style={styles.je_suis_text}>Je suis plutot du genre...</Text>
+                    <Text style={styles.je_suis_text}>Je suis plutôt du genre...</Text>
                     <View>
                         <View>
                             <View>
-                                <Checkboxes startText={txt}
-                                            endText={txt}/>
+                                <Checkboxes startText={'Sage'}
+                                            endText={'Fêtard'}/>
+                                <Checkboxes startText={'Amis'}
+                                            endText={'Amour'}/>
                             </View>
                         </View>
                     </View>
@@ -69,7 +71,7 @@ class User extends React.Component{
                         { JSON.stringify(this.props.user)}
                     </Text>
                     <Text>
-                        { this.props.user.myEvents[0].end_time}
+                        { this.props.user.myFutureEvents[0].end_time}
                     </Text>
                 </ScrollView>
             </SafeAreaView>
@@ -118,7 +120,8 @@ const styles = StyleSheet.create({
         fontFamily:'arial',
         fontSize:15,
         color:'#6d6d6d',
-        marginLeft: 10
+        marginLeft: 10,
+      //  backgroundColor:'pink'
 
     },
     icon_style:{
