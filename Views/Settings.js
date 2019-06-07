@@ -1,10 +1,14 @@
 import React from 'react'
-import {StyleSheet, View, ScrollView, SafeAreaView, Text, Image, TouchableOpacity} from 'react-native'
+import {StyleSheet, View, ScrollView, SafeAreaView, Button, Text, Image, TouchableOpacity} from 'react-native'
 import {connect} from 'react-redux'
 
 class Settings extends React.Component {
 
-
+    _disconnect(){
+        const action = { type: "DISCONNECT_USER", value: null };
+        this.props.dispatch(action);
+        this.props.navigation.navigate("Login")
+    }
 
     render(){
         return(
@@ -13,6 +17,8 @@ class Settings extends React.Component {
                 <Text>
                     SETTINGS
                 </Text>
+                <Button onPress={()=>{this._disconnect()}}
+                        title="disconnect"/>
             </ScrollView>
         </SafeAreaView>
         )

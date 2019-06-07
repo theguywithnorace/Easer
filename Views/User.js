@@ -39,13 +39,15 @@ class User extends React.Component{
                 <ScrollView>
                     <View style={styles.top_container}>
                         <Image style={styles.avatar} source={{uri: this.props.user.avatar_picture}}/>
-                        <View>
-                            <Text style={styles.number}>{this.props.user.myEvents.length}</Text>
-                            <Text style={styles.type_of_number}>Je suis plutot du genre...</Text>
-                        </View>
-                        <View>
-                            <Text style={styles.number}>Je suis plutot du genre...</Text>
-                            <Text style={styles.type_of_number}>Je suis plutot du genre...</Text>
+                        <View style={styles.number_container_container}>
+                            <View style={styles.number_container}>
+                                <Text style={styles.number}>{this.props.user.myFutureEvents.length}</Text>
+                                <Text style={styles.type_of_number}>Evenements Facebook</Text>
+                            </View>
+                            <View style={styles.number_container}>
+                                <Text style={styles.number}>25</Text>
+                                <Text style={styles.type_of_number}>Matchs</Text>
+                            </View>
                         </View>
                     </View>
                     <Text style={styles.name_text}>{this.props.user.name}</Text>
@@ -76,9 +78,19 @@ const styles = StyleSheet.create({
         borderRadius: 45,
         borderColor: '#cacaca',
         borderWidth: 1,
-        margin: 15,
+        margin: 19,
 
-    },number:{
+    },number_container_container:{
+        flexDirection: 'row',
+        flex:1,
+        justifyContent:'center'
+    },
+    number_container:{
+        alignItems:'center',
+        justifyContent:'center',
+        marginHorizontal:20
+    },
+    number:{
         fontFamily:'arial',
         fontSize:25,
     },type_of_number:{

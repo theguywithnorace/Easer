@@ -26,7 +26,7 @@ function updateUserProfile (state = initialState , action){
                 if(state.user.avatar_picture === undefined)
                     user1.avatar_picture = action.value.avatar_picture;
                 if(user1.idFirebase !== undefined && user1.idFacebook !== undefined && user1.name !== undefined)
-                    user1.isConnected= true;
+                    user1.isConnected= action.value.isConnected;
 
                 nextState = {...state, user: user1};
             return nextState || state;
@@ -38,8 +38,17 @@ function updateUserProfile (state = initialState , action){
                 console.log(user2.myFutureEvents)
                 console.log(user2)
                 nextState= {...state, user: user2}
-                console.log(nextState)
             return nextState || state;
+
+        case 'DISCONNECT_USER':
+            let user3 = state.user;
+
+            user3.isConnected = false;
+
+            nextState= {...state, user: user3}
+            console.log(nextState)
+            return nextState || state;
+
         default:
             return state;
     }

@@ -1,6 +1,7 @@
 import React from 'react'
 import {Text, View, Image, TouchableOpacity, StyleSheet} from 'react-native'
 import {AccessToken, GraphRequest, LoginManager, GraphRequestManager} from 'react-native-fbsdk'
+import moment from 'moment'
 import firebase from 'react-native-firebase'
 import {connect} from 'react-redux'
 
@@ -102,7 +103,8 @@ let x;
                     idFirebase: credential.user._user.uid,
                     idFacebook: credential.additionalUserInfo.profile.id,
                     name: credential.additionalUserInfo.profile.first_name,
-                    avatar_picture: credential.additionalUserInfo.profile.picture.data.url
+                    avatar_picture: credential.additionalUserInfo.profile.picture.data.url,
+                    isConnected: true
                 }
         })
         const action = { type: "UPDATE_PROFILE", value: this.state.user };
@@ -111,12 +113,14 @@ let x;
 
     _updateMyEvents = (result) =>{
         let futureEvents =[];
-        for(var i=0; i<=result.events.data.length;i++ ){
-            if(result.events.data.end_time>10 )
-                futureEvents.push(result.events.data)
+
+        for(var i=0; i<result.events.data.length;i++ ){
+            if(result.events.data[i].end_time > moment().format() )
+                futureEvents.push(result.events.data[i])
         }
-        const action = { type: "UPDATE_MY_EVENTS", value: result.events.data };
+        const action = { type: "UPDATE_MY_EVENTS", value: futureEvents };
         this.props.dispatch(action)
+        console.log(this.props.user.myFutureEvents)
     }
 
     render(){

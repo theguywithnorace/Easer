@@ -8,6 +8,8 @@
     "postinstall": "./node_modules/react-native-maps/enable-google-maps 'ios/**'"
   },
   "dependencies": {
+    "moment": "^2.24.0",
+    "moments": "^0.0.2",
     "react": "16.8.3",
     "react-native": "0.59.8",
     "react-native-card-stack-swiper": "^1.1.0",
