@@ -6,7 +6,8 @@ const initialState = {
         isNameUpdatedManually: false,
         isConnected: false,
         avatar_picture: undefined,
-        myEvents: [],
+        myFutureEvents: [],
+        myPastEvents:[],
     }
 };
 
@@ -33,8 +34,8 @@ function updateUserProfile (state = initialState , action){
         case 'UPDATE_MY_EVENTS':
              let user2 = state.user;
 
-                user2.myEvents = action.value;
-                console.log(user2.myEvents)
+                user2.myFutureEvents = action.value;
+                console.log(user2.myFutureEvents)
                 console.log(user2)
                 nextState= {...state, user: user2}
                 console.log(nextState)

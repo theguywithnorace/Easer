@@ -13,14 +13,13 @@ class Login extends React.Component{
             user: {},
             myEvents: []
         }
-
-    }
-
-    componentWillMount(): void {
         if(this.props.user.isConnected){
             this.props.navigation.navigate("Home")
         }
+        console.log(" user is connected in constructor ? "+ this.props.user.isConnected)
     }
+
+
 
     async facebookLogin() {
 
@@ -111,42 +110,52 @@ let x;
     }
 
     _updateMyEvents = (result) =>{
-
+        let futureEvents =[];
+        for(var i=0; i<=result.events.data.length;i++ ){
+            if(result.events.data.end_time>10 )
+                futureEvents.push(result.events.data)
+        }
         const action = { type: "UPDATE_MY_EVENTS", value: result.events.data };
         this.props.dispatch(action)
     }
 
     render(){
-        return(
-            <View style={styles.main_container}>
-                <View style={styles.logo_container}>
-                    <Image source={require('../Images/Login/logo_bouteilles_noBackground.png')}
-                           style={styles.logo}
-                    />
-                    <Text style={styles.logo_text}>EASER</Text>
-                </View>
-                <View style={{alignItems:'flex-end'}}>
-                    <TouchableOpacity style={styles.FBButton}
-                                      onPress={() => {this.facebookLogin().then(
-                                      //    this.props.navigation.navigate("Home")
-                                      )}}
-                    >
-                        <Image
-                            source={require('../Images/Login/facebook_letter.png')}
-                            style={styles.fBLogo}
+        if(!this.props.user.isConnected) {
+            return (
+                <View style={styles.main_container}>
+                    <View style={styles.logo_container}>
+                        <Image source={require('../Images/Login/logo_bouteilles_noBackground.png')}
+                               style={styles.logo}
                         />
-                        <Text style={styles.text_connexion}>Connexion</Text>
+                        <Text style={styles.logo_text}>EASER</Text>
+                    </View>
+                    <View style={{alignItems: 'flex-end'}}>
+                        <TouchableOpacity style={styles.FBButton}
+                                          onPress={() => {
+                                              this.facebookLogin().then(
+                                                  //    this.props.navigation.navigate("Home")
+                                              )
+                                          }}
+                        >
+                            <Image
+                                source={require('../Images/Login/facebook_letter.png')}
+                                style={styles.fBLogo}
+                            />
+                            <Text style={styles.text_connexion}>Connexion</Text>
+                        </TouchableOpacity>
+                    </View>
+                    <TouchableOpacity
+                        onPress={() => {
+                            this.props.navigation.navigate("Home")
+                        }}
+                    >
+                        <Text style={styles.text_pq_fb}>Pourquoi uniquement par Facebook ?</Text>
                     </TouchableOpacity>
                 </View>
-                <TouchableOpacity
-                    onPress={() => {
-                        this.props.navigation.navigate("Home")
-                    }}
-                >
-                    <Text style={styles.text_pq_fb}>Pourquoi uniquement par Facebook ?</Text>
-                </TouchableOpacity>
-            </View>
-        )
+            )
+        } else {
+            return null
+        }
     }
 }
 const styles = StyleSheet.create({

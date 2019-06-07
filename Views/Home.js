@@ -12,11 +12,11 @@ class Home extends React.Component {
     static navigationOptions = ({navigation}) => {
         return {
             headerRight: (
-                <TouchableOpacity onPress={() => navigation.navigate('UserProfile')}
+                <TouchableOpacity onPress={() => navigation.navigate('User')}
                                   i={"info"}
                                   color='red'>
                     <Image
-                        source={require('../Images/User/user.png')}
+                        source={require('../Images/User/user_bold.png')}
                         style={{
                             width: 30,
                             height: 30,
