@@ -8,6 +8,8 @@ const initialState = {
         avatar_picture: undefined,
         myFutureEvents: [],
         myPastEvents:[],
+        teufeur:undefined,
+        lover:undefined,
     }
 };
 
@@ -47,6 +49,23 @@ function updateUserProfile (state = initialState , action){
 
             nextState= {...state, user: user3}
             console.log(nextState)
+            return nextState || state;
+
+        case 'TEUFEUR_STATUS':
+            console.log(" in reducer")
+            let user4 = state.user;
+
+            user4.teufeur = action.value;
+            console.log(user4)
+            nextState= {...state, user: user4}
+            return nextState || state;
+
+        case 'UPDATE_MY_LOVER_STATUS':
+            let user5 = state.user;
+
+            user5.lover = action.value;
+            console.log(user5)
+            nextState= {...state, user: user5}
             return nextState || state;
 
         default:

@@ -5874,6 +5874,13 @@ react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
+react-native-awesome-alerts@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-native-awesome-alerts/-/react-native-awesome-alerts-1.2.0.tgz#a19b105d5133e92712d865795d532cd3f1e4de2d"
+  integrity sha512-ouxDGJ/porNkuaeqpgxIJA4jAPqHC9bJIsxLA21NA6eZhnEhbqWOprjsNqwI0/7bJxXm9baTzXESCMzwAy3eZw==
+  dependencies:
+    prop-types "^15.5.10"
+
 react-native-card-stack-swiper@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/react-native-card-stack-swiper/-/react-native-card-stack-swiper-1.1.0.tgz#5713afc3f4506f68cd90fe6102287aab7766e4ad"
@@ -6001,7 +6008,7 @@ react-native-ratings@^6.3.0:
 
 "react-native-ratings@https://github.com/theguywithnorace/react-native-ratings":
   version "6.3.1"
-  resolved "https://github.com/theguywithnorace/react-native-ratings#82e655e3517bed1a047cf95172d67cf91b564e44"
+  resolved "https://github.com/theguywithnorace/react-native-ratings#5a76bc603f965c0ea628534ec079a4fa9bd4191c"
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.5.10"

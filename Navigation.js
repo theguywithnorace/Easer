@@ -4,6 +4,7 @@ import Login from'./Login/Login'
 import Home from './Views/Home'
 import User from './Views/User'
 import Settings from './Views/Settings'
+import Test from './Views/Test'
 
 
 const TestStackNavigator = createStackNavigator({
@@ -29,6 +30,12 @@ const TestStackNavigator = createStackNavigator({
     },
     Settings: {
         screen: Settings,
+        navigationOptions: {
+            title: 'Paramètres'
+        }
+    },
+    Test: {
+        screen: Test,
         navigationOptions: {
             title: 'Paramètres'
         }

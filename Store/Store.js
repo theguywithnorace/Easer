@@ -1,5 +1,6 @@
 import {createStore, combineReducers} from 'redux'
 import updateUserProfile from './userProfileReducer'
+import updateUserPictures from './userPicturesReducer'
 import { persistCombineReducers } from 'redux-persist'
 import storage from 'redux-persist/lib/storage'
 
@@ -10,4 +11,4 @@ const rootPersistConfig = {
 
 
 
-export default createStore(persistCombineReducers(rootPersistConfig, {updateUserProfile, }))
+export default createStore(persistCombineReducers(rootPersistConfig, {updateUserProfile, updateUserPictures }))
