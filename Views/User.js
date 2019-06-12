@@ -1,21 +1,23 @@
 import React from 'react'
-import {StyleSheet, View, ScrollView, SafeAreaView, Text, Image, TouchableOpacity} from 'react-native'
+import {StyleSheet, View, ScrollView,ActivityIndicator, SafeAreaView, Text, Image, TouchableOpacity} from 'react-native'
 import {connect} from 'react-redux'
 import Checkboxes from '../src/Checkboxes'
 import AwesomeAlert from 'react-native-awesome-alerts';
 import {Button} from "react-native-elements";
+import ImagePicker from 'react-native-image-picker';
+
 
 
 class User extends React.Component{
     constructor(props){
         super(props);
         this.state={
-            showAlert: false,
+            showDeleteAlert: false,
+            showAddAlert : false,
+            renderingPicture : undefined,
+            isLoading : false,
         }
         this.imageNumberToDelete= undefined;
-    //    this.props.userPictures = [require('../Images/User/profile_pic.png'),require('../Images/User/profile_pic.png')];
-      //  const action = { type: "ADD_IMAGE", value: null };
-       // this.props.dispatch(action);
         console.log("constructor props")
         console.log(this.props)
     }
@@ -39,6 +41,15 @@ class User extends React.Component{
         }
     }
 
+    _displayLoadingCircle(){
+        if(this.state.isLoading ){
+            return (
+                <View style={styles.loading_container}>
+                    <ActivityIndicator size="large" color='white' />
+                </View>
+            )
+        }
+    }
 
     _showImages = () => {
         console.log("PROPS>>>>>")
@@ -49,7 +60,9 @@ class User extends React.Component{
         //création de la première ligne
         for (let i = 0; i <=2 ; i++) {
                 firstLineImages.push(
-                        <Image key={i} style={styles.picture} resizeMode='contain' source={this.props.userPictures[i]}/>
+                    <TouchableOpacity key={i} onPress={()=>{this.showAddAlert(i)}} onLongPress={ ()=>{this.showAlert(i)}} resizeMode='contain' style={styles.picture_opacity}>
+                        <Image   style={styles.picture} source={this.props.userPictures[i]}/>
+                    </TouchableOpacity>
                            )
             }
 
@@ -63,7 +76,9 @@ class User extends React.Component{
         } else {  //creation conditionelle de la 2e ligne
             for (let i = 3; i <=5; i++) {
                 secondLineImages.push(
-                    <Image key={i} style={styles.picture} resizeMode='contain' source={this.props.userPictures[i]}/>
+                    <TouchableOpacity key={i} resizeMode='contain' onPress={()=>{this.showAddAlert(i)}} onLongPress={ ()=>{this.showAlert(i)}} style={styles.picture_opacity}>
+                        <Image   style={styles.picture} source={this.props.userPictures[i]}/>
+                    </TouchableOpacity>
                 )
                 console.log("second line image")
                 console.log(secondLineImages)
@@ -82,21 +97,74 @@ class User extends React.Component{
     }
 
     showAlert = (i) => {
-        this.setState({
-            showAlert: true,
-        });
-        this.imageNumberToDelete=i;
+        if(i<(this.props.userPictures.length-1)) {
+            this.setState({
+                showDeleteAlert: true,
+            });
+            this.imageNumberToDelete = i;
+            console.log("DELETE");
+            console.log(this.props.userPictures.length)
+        }
+    };
+    showAddAlert  = (i) => {
+        if(i === (this.props.userPictures.length-1)){
+            this.setState({
+                showAddAlert: true,
+            });
+            console.log("ADD");
+            console.log(this.props.userPictures.length)
+        }
     };
 
     deleteImage = () =>{
-        const action = { type: "DELETE_IMAGE", value: this.state.imageNumberToDelete };
+        const action = { type: "DELETE_IMAGE", value: this.imageNumberToDelete };
         this.props.dispatch(action);
         this.imageNumberToDelete=undefined;
+    };
+
+    addPictureFromFacebook = () => {
+
+        this.setState({renderingPicture:''})
+    }
+
+
+    addPictureFromStorage = () => {
+        const options = {
+            storageOptions: {
+                skipBackup: true,
+                path: 'images',
+            },
+        };
+
+        ImagePicker.showImagePicker(options, (response) => {
+            this.setState({isLoading:true})
+            console.log('Response = ', response);
+            this._displayLoadingCircle();
+
+            if (response.didCancel) {
+                console.log('L\'utilisateur a annulé')
+                this.setState({showAddAlert: false,});
+            } else if (response.error) {
+                console.log('Erreur : ', response.error)
+                this.setState({showAddAlert: false,});
+
+            } else {
+                console.log('Photo : ', response.uri)
+                let requireSource = {uri: response.uri}
+
+                const action = {type: "ADD_IMAGE", value: requireSource};
+                this.props.dispatch(action);
+                this.setState({
+                    showAddAlert: false,
+                    isLoading : false});
+            }
+        })
     }
 
     hideAlert = () => {
         this.setState({
-            showAlert: false
+            showAddAlert: false,
+            showDeleteAlert: false,
         });
     };
 
@@ -104,8 +172,9 @@ class User extends React.Component{
         console.log("Global state of user profile : ")
         console.log(this.props.user)
         console.log(this.props)
-        const {showAlert} = this.state;
+        const {showDeleteAlert, showAddAlert} = this.state;
         return(
+            <View>
             <SafeAreaView>
                 <ScrollView>
                     <View style={styles.top_container}>
@@ -129,66 +198,111 @@ class User extends React.Component{
                                 <Checkboxes/>
                             </View>
                             <View style={styles.first_line_separator}/>
+                            <View style={{margin:2}}>
                                 {this._showImages()}
+                            </View>
+                            <View style={styles.second_line_separator}/>
+                            <Text style={{color:'white'}}>
+                                { JSON.stringify(this.props.user)}
+                            </Text>
+                            <Text style={{color:'white'}}>
+                                { JSON.stringify(this.props.user)}
+                            </Text>
                             <View style={styles.second_line_separator}/>
                             <View style={styles.second_line_separator}/>
-                            <View style={styles.second_line_separator}/>
+
                             <Button  title={'ADD PICTURES type 1'}
                                 onPress={()=> {
                                 const action = {type: "ADD_IMAGE", value: require('../Images/User/userpic.png')};
                                 this.props.dispatch(action);
-                                console.log(this.props.userPictures)
-                            }
+                                console.log(this.props.userPictures);
+                                    this.setState({renderingPicture:''})
+
+                                }
                             }/>
+
                             <Button  title={'ADD PICTURES type 2'}
                                      onPress={()=> {
-                                         const action = {type: "ADD_IMAGE", value: require('../Images/User/profile_pic.png')};
-                                         this.props.dispatch(action);
-                                         console.log(this.props.userPictures)
+                                         this.addPictureFromStorage()
+
                                      }
                                      }/>
                             <Button  title={'REMOVE PICTURES'}
                                      onPress={()=> {
                                          const action = {type: "DELETE_IMAGE", value: (this.props.userPictures.length-1)};
                                          this.props.dispatch(action);
-                                         console.log(this.props.userPictures)
-                                         console.log(this.props.userPictures.length)
+                                         console.log("userPictures : "+this.props.userPictures)
+                                         console.log("length" + this.props.userPictures.length);
+                                         this.setState({renderingPicture:''})
                                      }
                                      }/>
                             <View style={{flex:1,   flexDirection: 'row',}}>
-                                <Image style={styles.picture} resizeMode='contain' source={require('../Images/User/profile_pic.png')}/>
-                                <Image style={styles.picture} resizeMode='contain' source={require('../Images/User/profile_pic.png')}/>
-                                <Image style={styles.picture} resizeMode='contain' source={require('../Images/User/profile_pic.png')}/>
+                                <TouchableOpacity resizeMode='contain' style={styles.picture}>
+                                    <Image   style={styles.picture} source={require('../Images/User/userpic.png')}/>
+                                </TouchableOpacity>
+                                <TouchableOpacity resizeMode='contain' style={styles.picture}>
+                                    <Image   style={styles.picture} source={require('../Images/User/profile_pic.png')}/>
+                                </TouchableOpacity>
+                                <TouchableOpacity resizeMode='contain' style={styles.picture}>
+                                    <Image style={styles.picture} source={require('../Images/User/profile_pic.png')}/>
+                                </TouchableOpacity>
                             </View>
-                            <View style={{flex:1,   flexDirection: 'row',}}>
-                                <Image style={styles.picture} resizeMode='contain' source={require('../Images/User/profile_pic.png')}/>
-                                <Image style={styles.picture} resizeMode='contain' source={require('../Images/User/profile_pic.png')}/>
-                                <Image style={styles.picture} resizeMode='contain' source={require('../Images/User/userpic.png')}/>
-                            </View>
+
                             <View style={styles.second_line_separator}/>
 
                         </View>
                     </View>
-                    <AwesomeAlert
-                        show={showAlert}
-                        showProgress={false}
-                        title="Supprimer cette photo ?"
-                        closeOnTouchOutside={true}
-                        closeOnHardwareBackPress={true}
-                        showCancelButton={true}
-                        showConfirmButton={true}
-                        cancelText="Annuler"
-                        confirmText="Valider"
-                        confirmButtonColor="#DD6B55"
-                        onCancelPressed={() => {
-                            this.hideAlert();
-                        }}
-                        onConfirmPressed={() => {
-                            this.deleteImage();
-                        }}
-                    />
+
                 </ScrollView>
+                {this._displayLoadingCircle()}
+
             </SafeAreaView>
+            <AwesomeAlert
+                show={showDeleteAlert}
+                showProgress={false}
+                title="Supprimer cette photo ?"
+                closeOnTouchOutside={true}
+                closeOnHardwareBackPress={true}
+                showCancelButton={true}
+                showConfirmButton={true}
+                cancelText="Annuler"
+                confirmText="Valider"
+                confirmButtonColor="#DD6B55"
+                onDismiss={() => {
+                    this.hideAlert();
+                }}
+                onCancelPressed={() => {
+                    this.hideAlert();
+                }}
+                onConfirmPressed={() => {
+                    this.deleteImage();
+                    this.hideAlert();
+
+                }}
+            />
+            <AwesomeAlert
+                show={showAddAlert}
+                showProgress={false}
+                title="Ajouter une photo depuis... "
+                closeOnTouchOutside={true}
+                closeOnHardwareBackPress={true}
+                showCancelButton={true}
+                showConfirmButton={true}
+                cancelText="Mes Photos"
+                confirmText="Photos Facebook"
+                cancelButtonColor='#F684F7'
+                confirmButtonColor="#3a5eb6"
+                onCancelPressed={() => {
+                    this.addPictureFromStorage();
+                    this.hideAlert();
+                }}
+                onConfirmPressed={() => {
+                    this.deleteImage();
+                    this.hideAlert();
+
+                }}
+         />
+        </View>
 
         )
     }
@@ -255,12 +369,30 @@ const styles = StyleSheet.create({
         height:0.4,
         marginVertical:3
     },
+    picture_opacity:{
+        flex:1,
+        width: undefined,
+        height: undefined,
+    },
     picture:{
         flex:1,
         margin:2,
         width: undefined,
         height: undefined,
-        aspectRatio: 1,    }
+        aspectRatio: 1,
+    },color:{
+        backgroundColor:'#3a5eb6'
+    },
+    loading_container:{
+    position:'absolute',
+        left:0,
+        right:0,
+        bottom:250,
+        top:250,
+        alignItems: 'center',
+        justifyContent: 'center'
+}
+
 
 })
 

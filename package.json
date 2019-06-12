@@ -8,6 +8,7 @@
     "postinstall": "./node_modules/react-native-maps/enable-google-maps 'ios/**'"
   },
   "dependencies": {
+    "add": "^2.0.6",
     "moment": "^2.24.0",
     "moments": "^0.0.2",
     "react": "16.8.3",
@@ -21,6 +22,7 @@
     "react-native-firebase": "^5.4.0",
     "react-native-gesture-handler": "^1.2.1",
     "react-native-gifted-chat": "^0.9.1",
+    "react-native-image-picker": "^0.28.1",
     "react-native-location": "^2.2.0",
     "react-native-maps": "^0.24.2",
     "react-native-ratings": "https://github.com/theguywithnorace/react-native-ratings",
@@ -30,7 +32,8 @@
     "redux": "^4.0.1",
     "redux-persist": "^5.10.0",
     "rn-viewpager": "https://github.com/theguywithnorace/React-Native-ViewPager",
-    "tinycolor2": "^1.4.1"
+    "tinycolor2": "^1.4.1",
+    "yarn": "^1.16.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",

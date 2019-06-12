@@ -3,7 +3,7 @@ import {StyleSheet, View, Text, TouchableOpacity} from 'react-native'
 import {Rating , AirbnbRating} from 'react-native-ratings';
 import {connect} from "react-redux";
 
-class Checkboxes extends React.Component{
+class Checkboxes extends React.Component{yarn
       constructor(props){
           super(props)
           console.log("constructor props")
