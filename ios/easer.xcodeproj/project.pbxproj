@@ -45,12 +45,17 @@
 		2E52DFC3A49947F4914DE936 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 967904D78B1E4AB18AF3CE34 /* SimpleLineIcons.ttf */; };
 		4D419E140C284726A340BA5B /* weblysleekuil.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11C4044B1A0144A7A94A337F /* weblysleekuil.ttf */; };
 		4EC1D3671EE140758D87C573 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D907A8DD4D7849D38A656FE4 /* FontAwesome5_Regular.ttf */; };
+<<<<<<< HEAD
+=======
+		51318210DE7FBBAF3E393864 /* Pods_easer_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BB22783FAA8E9366481EEE /* Pods_easer_tvOSTests.framework */; };
+>>>>>>> All the problems are gone!!..once again :?
 		57622AD1BCB649619E0FA1E8 /* WeblySleek UI Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 620E43F538CC42BC944EA540 /* WeblySleek UI Light.ttf */; };
 		5D5558E9B3164C7AB001F039 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26B047B39EC644938ABEB9CE /* Entypo.ttf */; };
 		691434786A514FB9940F98CB /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C8D156F4A564B329E063A77 /* Octicons.ttf */; };
 		6BC55AA3A1260CBE7440F6B2 /* Pods_easer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA1BB89455CF144B7207C2A /* Pods_easer.framework */; };
 		6F0BA62C92754068A78EB63F /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3919FADB367E44CBA5331F25 /* AntDesign.ttf */; };
 		6F8FCCED8FAA40D39344BBE2 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0163132370C748C5AE4C1A32 /* Feather.ttf */; };
+		70C9C46128B7C761D6BCF590 /* Pods_easer_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C485BBEFD8A5BD5E18A066 /* Pods_easer_tvOS.framework */; };
 		74D731E6CD83404ABA1005E0 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB00D0BB695844B58E03326A /* MaterialIcons.ttf */; };
 		7EABC10F46A547E2A50F7320 /* libRNLocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 351D0946D02F4A0BA55E9F81 /* libRNLocation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
@@ -84,6 +89,7 @@
 		9FD236ADB6F340DBBA4D97D0 /* libAirMaps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 127F3B85F6B34BB39B8FA774 /* libAirMaps.a */; };
 		A790520B72B94B63995E55FB /* RNViewPagerDemo.app in Frameworks */ = {isa = PBXBuildFile; fileRef = A37104D15DED409D83037C9D /* RNViewPagerDemo.app */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		AE423F615A1D10C9CB43E978 /* Pods_easer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37831E50D44053CFAEB496BC /* Pods_easer.framework */; };
 		AFB3D47AAF40494F94147CBD /* weblysleekuisb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 882B3472B34E4E608BA7CAB5 /* weblysleekuisb.ttf */; };
 		B22BB77627854D32A275782E /* OratorStd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60CF54C69B2A47399A36028F /* OratorStd.ttf */; };
 		CF4BDC622F654FF2A7C1EDB9 /* RNViewPagerDemo-tvOSTests.xctest in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA106D707CD4DD2B4F41D67 /* RNViewPagerDemo-tvOSTests.xctest */; };
@@ -465,6 +471,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = easer/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		19F54560840048219D5903BD /* libRNGestureHandler-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNGestureHandler-tvOS.a"; sourceTree = "<group>"; };
+		22C485BBEFD8A5BD5E18A066 /* Pods_easer_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_easer_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B047B39EC644938ABEB9CE /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		282A7545A31BAC2A68B5D997 /* Pods-easer-easer-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easer-easer-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-easer-easer-tvOSTests/Pods-easer-easer-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* easer-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "easer-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -472,6 +479,7 @@
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA1BB89455CF144B7207C2A /* Pods_easer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_easer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		351D0946D02F4A0BA55E9F81 /* libRNLocation.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNLocation.a; sourceTree = "<group>"; };
+		37831E50D44053CFAEB496BC /* Pods_easer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_easer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3919FADB367E44CBA5331F25 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		3E674CBB31B9B4A8499801C8 /* libPods-easer-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-easer-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF3B076D922F925FE19A9F6 /* Pods-easer-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easer-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-easer-tvOSTests/Pods-easer-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -483,12 +491,16 @@
 		608E6A9D80D64ED1B60F3FF9 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		60CF54C69B2A47399A36028F /* OratorStd.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = OratorStd.ttf; path = ../src/fonts/OratorStd.ttf; sourceTree = "<group>"; };
 		620E43F538CC42BC944EA540 /* WeblySleek UI Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WeblySleek UI Light.ttf"; path = "../src/fonts/WeblySleek UI Light.ttf"; sourceTree = "<group>"; };
+		68BB22783FAA8E9366481EEE /* Pods_easer_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_easer_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BCF508531BA410FA07E023F /* WeblySleek UI Semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "WeblySleek UI Semibold.ttf"; path = "../src/fonts/WeblySleek UI Semibold.ttf"; sourceTree = "<group>"; };
 		6D349A994905399F6D13E976 /* Pods-easerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easerTests.debug.xcconfig"; path = "Target Support Files/Pods-easerTests/Pods-easerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6DA459ED02D541D8A36E3FA2 /* RNGestureHandler.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNGestureHandler.xcodeproj; path = "../node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj"; sourceTree = "<group>"; };
 		70D3B4FD866991CC361D4E32 /* libPods-easer-easerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-easer-easerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7168B7F7668A40BEAFD0B5C3 /* Orator Std Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Orator Std Medium.ttf"; path = "../src/fonts/Orator Std Medium.ttf"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		72BCB1FA9E459FB914EF72A9 /* libPods-easer-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-easer-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+=======
+>>>>>>> All the problems are gone!!..once again :?
 		7582ADDC46D847759A585549 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
@@ -557,7 +569,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
+<<<<<<< HEAD
 				E440420B2567292ECB4CB47C /* Pods_easerTests.framework in Frameworks */,
+=======
+>>>>>>> All the problems are gone!!..once again :?
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,7 +622,11 @@
 				7EABC10F46A547E2A50F7320 /* libRNLocation.a in Frameworks */,
 				9FD236ADB6F340DBBA4D97D0 /* libAirMaps.a in Frameworks */,
 				F0F1C4F3F8194D6F844967FF /* libRNFirebase.a in Frameworks */,
+<<<<<<< HEAD
 				6BC55AA3A1260CBE7440F6B2 /* Pods_easer.framework in Frameworks */,
+=======
+				AE423F615A1D10C9CB43E978 /* Pods_easer.framework in Frameworks */,
+>>>>>>> All the problems are gone!!..once again :?
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,7 +645,11 @@
 				DCCF9AEC1EAF456DA341451C /* libRNGestureHandler-tvOS.a in Frameworks */,
 				27708308D7074F12B7042C1D /* RNViewPagerDemo-tvOS.app in Frameworks */,
 				CF4BDC622F654FF2A7C1EDB9 /* RNViewPagerDemo-tvOSTests.xctest in Frameworks */,
+<<<<<<< HEAD
 				0F27E537DB7B89D721B97D2A /* libPods-easer-tvOS.a in Frameworks */,
+=======
+				70C9C46128B7C761D6BCF590 /* Pods_easer_tvOS.framework in Frameworks */,
+>>>>>>> All the problems are gone!!..once again :?
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,7 +658,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */,
+<<<<<<< HEAD
 				29D3F149CADA10E2595EBEA5 /* libPods-easer-tvOSTests.a in Frameworks */,
+=======
+				51318210DE7FBBAF3E393864 /* Pods_easer_tvOSTests.framework in Frameworks */,
+>>>>>>> All the problems are gone!!..once again :?
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -781,10 +808,16 @@
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
 				70D3B4FD866991CC361D4E32 /* libPods-easer-easerTests.a */,
+<<<<<<< HEAD
 				2EA1BB89455CF144B7207C2A /* Pods_easer.framework */,
 				EDE04BC359B06794051679BF /* Pods_easerTests.framework */,
 				72BCB1FA9E459FB914EF72A9 /* libPods-easer-tvOS.a */,
 				3E674CBB31B9B4A8499801C8 /* libPods-easer-tvOSTests.a */,
+=======
+				37831E50D44053CFAEB496BC /* Pods_easer.framework */,
+				22C485BBEFD8A5BD5E18A066 /* Pods_easer_tvOS.framework */,
+				68BB22783FAA8E9366481EEE /* Pods_easer_tvOSTests.framework */,
+>>>>>>> All the problems are gone!!..once again :?
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1009,7 +1042,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "easerTests" */;
 			buildPhases = (
+<<<<<<< HEAD
 				D436F5EC041CB924095CD92E /* [CP] Check Pods Manifest.lock */,
+=======
+>>>>>>> All the problems are gone!!..once again :?
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -1033,7 +1069,11 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+<<<<<<< HEAD
 				AD116445A3E27CCB2276E82A /* [CP] Embed Pods Frameworks */,
+=======
+				96522A7849B609F80592AF33 /* [CP] Embed Pods Frameworks */,
+>>>>>>> All the problems are gone!!..once again :?
 			);
 			buildRules = (
 			);
@@ -1666,6 +1706,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+<<<<<<< HEAD
 		AD116445A3E27CCB2276E82A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1699,25 +1740,42 @@
 			showEnvVarsInLog = 0;
 		};
 		D436F5EC041CB924095CD92E /* [CP] Check Pods Manifest.lock */ = {
+=======
+		96522A7849B609F80592AF33 /* [CP] Embed Pods Frameworks */ = {
+>>>>>>> All the problems are gone!!..once again :?
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-easer/Pods-easer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+<<<<<<< HEAD
 				"$(DERIVED_FILE_DIR)/Pods-easerTests-checkManifestLockResult.txt",
+=======
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+>>>>>>> All the problems are gone!!..once again :?
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-easer/Pods-easer-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FDC70060CDFDEB8C03B99209 /* [CP] Check Pods Manifest.lock */ = {
@@ -1809,7 +1867,10 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = 6D349A994905399F6D13E976 /* Pods-easerTests.debug.xcconfig */;
+=======
+>>>>>>> All the problems are gone!!..once again :?
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1854,7 +1915,10 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = 8765FA7A272989C171BE6E19 /* Pods-easerTests.release.xcconfig */;
+=======
+>>>>>>> All the problems are gone!!..once again :?
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
