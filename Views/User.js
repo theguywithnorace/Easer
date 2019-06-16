@@ -202,6 +202,12 @@ class User extends React.Component{
                                 {this._showImages()}
                             </View>
                             <View style={styles.second_line_separator}/>
+                            <Text style={styles.event_text}>Mes évenements</Text>
+                            <Text style={styles.je_suis_text}>Aucun évenement prévu</Text>
+                            <Text style={styles.je_suis_text}>Cliquez "Je participe" ou "interessé" aux évenements facebook auquels vous participez</Text>
+
+
+
                             <Text style={{color:'white'}}>
                                 { JSON.stringify(this.props.user)}
                             </Text>
@@ -391,7 +397,14 @@ const styles = StyleSheet.create({
         top:250,
         alignItems: 'center',
         justifyContent: 'center'
-}
+},
+    event_text: {
+        fontWeight: 'bold',
+        fontFamily:'arial',
+        fontSize:16,
+        marginLeft: 10,
+        marginTop:10
+    },
 
 
 })

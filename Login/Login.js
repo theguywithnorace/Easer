@@ -149,7 +149,7 @@ let x;
                     </View>
                     <TouchableOpacity
                         onPress={() => {
-                            this.props.navigation.navigate("Test")
+                            this.props.navigation.navigate("User")
                         }}
                     >
                         <Text style={styles.text_pq_fb}>Pourquoi uniquement par Facebook ?</Text>
