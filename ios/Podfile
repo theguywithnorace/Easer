@@ -9,7 +9,6 @@ target 'easer' do
     pod 'Firebase/Firestore', '~> 5.20.2'
 
 
-<<<<<<< HEAD
     # pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
     target 'easerTests' do
         inherit! :search_paths
@@ -18,18 +17,7 @@ target 'easer' do
 end
 
 target 'easer-tvOS' do
-  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
-   #use_frameworks!
-
-  # Pods for easerCocoa-tvOS
-=======
-#  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
-
-end
-
-target 'easer-tvOS' do
   use_frameworks!
->>>>>>> All the problems are gone!!..once again :?
 
   target 'easer-tvOSTests' do
     inherit! :search_paths

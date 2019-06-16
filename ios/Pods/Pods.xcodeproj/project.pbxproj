@@ -1043,11 +1043,9 @@
 		425EC366C2FD43CAC3EF870E2047B2A5 /* GPBProtocolBuffers_RuntimeSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C69D9869F681B1B118A192341E488CB /* GPBProtocolBuffers_RuntimeSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42648321BEDE832F7D91DD8B6539CFD4 /* p_ed25519_asn1.c in Sources */ = {isa = PBXBuildFile; fileRef = A9D82272F0B03D95F9CEAA15FC1CD410 /* p_ed25519_asn1.c */; settings = {COMPILER_FLAGS = "-DOPENSSL_NO_ASM -GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
 		4268B58408AFB8486E1A5CBF5E9C98E2 /* pollset.h in Headers */ = {isa = PBXBuildFile; fileRef = D15B87AF0D343012D496C0CE35D56B7B /* pollset.h */; };
-<<<<<<< HEAD
-=======
-		42A0F6CB67A9B95149E13219FA319E7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7C3B55005F2F6CD299D2ABD623CBAE /* Foundation.framework */; };
->>>>>>> All the problems are gone!!..once again :?
-		42B2CCE4B34F4CD36BA7E528B81C8A47 /* health_check_service_server_builder_option.h in Headers */ = {isa = PBXBuildFile; fileRef = 1134E8C34DAF3AEABEDFFFC601D158FA /* health_check_service_server_builder_option.h */; };
+
+42A0F6CB67A9B95149E13219FA319E7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7C3B55005F2F6CD299D2ABD623CBAE /* Foundation.framework */; };
+42B2CCE4B34F4CD36BA7E528B81C8A47 /* health_check_service_server_builder_option.h in Headers */ = {isa = PBXBuildFile; fileRef = 1134E8C34DAF3AEABEDFFFC601D158FA /* health_check_service_server_builder_option.h */; };
 		42B3BF3D76925F853750FC0477CD2741 /* json_writer.h in Copy ../../src/core/lib/json Private Headers */ = {isa = PBXBuildFile; fileRef = FE086A6BBA58060DB7163C7921C1F4D0 /* json_writer.h */; };
 		42BAC1B83E6A998E0285E9853264F912 /* GULNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 832D5908A1FB6757CC3A3CAFEC85144C /* GULNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42D2585480E0E2D39B198CE40F34ED78 /* FLevelDBStorageEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9EC09A032FE45625D6966C0BCA9E14 /* FLevelDBStorageEngine.m */; };
@@ -1208,11 +1206,9 @@
 		4E0359C9DF67B2B8BE96BD12A7AA9B80 /* ordered_code.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E197EEAA223CFFC721A60FDAAB542D0 /* ordered_code.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4E202450E91CEB8946051162E7A9475B /* resolve_address_custom.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7082BA8D76B54091C14F6DD0A0877E /* resolve_address_custom.h */; };
 		4E29962C8EE7BBF3A4CDDD6AD1B75CAA /* FIRAuthCredential.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C24C5204570B6AD28AE8BEA5130BC0D /* FIRAuthCredential.h */; settings = {ATTRIBUTES = (Public, ); }; };
-<<<<<<< HEAD
+
 		4E31F3D4C53FF76EB01E60FD1B30A6DC /* Pods-easer-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C540FBEFDE86CB18951A740C81F5E3A4 /* Pods-easer-tvOSTests-dummy.m */; };
-=======
->>>>>>> All the problems are gone!!..once again :?
-		4E33715A45DCF90450DE90403764B008 /* server_posix.cc in Sources */ = {isa = PBXBuildFile; fileRef = F86639621058194385F09A0E795680BE /* server_posix.cc */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+4E33715A45DCF90450DE90403764B008 /* server_posix.cc in Sources */ = {isa = PBXBuildFile; fileRef = F86639621058194385F09A0E795680BE /* server_posix.cc */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4E376C0BB8C3E21AE591C991F79AC7CE /* FSTView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E5400BAF15128CE269113F699A09646 /* FSTView.mm */; settings = {COMPILER_FLAGS = "$(inherited) -Wreorder -Werror=reorder"; }; };
 		4E572C8CCAAB9C493CDAE99A3D8243B0 /* time_windows.cc in Sources */ = {isa = PBXBuildFile; fileRef = C11358FFF6BA42F723521B0796006CE6 /* time_windows.cc */; settings = {COMPILER_FLAGS = "-DGRPC_ARES=0 -DPB_FIELD_16BIT -DGRPC_SHADOW_BORINGSSL_SYMBOLS -fno-objc-arc"; }; };
 		4E5B9169394D321B05285625BDF0A111 /* FIRTransactionResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 296DFE4B269C0E7817A55EEE88816C32 /* FIRTransactionResult.m */; };
@@ -1725,10 +1721,7 @@
 		72E492064A9EF572BD32B8684ECC0DC1 /* internal.h in Copy ../../crypto/fipsmodule/rand Private Headers */ = {isa = PBXBuildFile; fileRef = 9B8D30CF98F01326A66640B734DF7E76 /* internal.h */; };
 		72E8DA58EF1D6499517621999F49623E /* crc32c.h in Headers */ = {isa = PBXBuildFile; fileRef = E3DA5F606726EC2309F183B685E09E08 /* crc32c.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		72F066CD7CDD15EAF6A8FDC73555A7E1 /* interceptor.h in Copy impl/codegen Public Headers */ = {isa = PBXBuildFile; fileRef = 610696952F0079BD8BB8854C763233BE /* interceptor.h */; };
-<<<<<<< HEAD
 		73015568261B2D91960FD02D78E6F5C6 /* Pods-easer-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBFA51FFCF9E60F2F8C50448A0FB286 /* Pods-easer-tvOS-dummy.m */; };
-=======
->>>>>>> All the problems are gone!!..once again :?
 		7312EF739C234DF881309DAE89428E21 /* FIRInstanceIDStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E676805EC28EFAD1AE0CDABA09774134 /* FIRInstanceIDStore.m */; };
 		7317F1B0A129FE6778A2B15CA10B4EBB /* frame_settings.h in Copy ../../src/core/ext/transport/chttp2/transport Private Headers */ = {isa = PBXBuildFile; fileRef = C5B8AD2738BFB9A7B2F1D7CCAD9C29DF /* frame_settings.h */; };
 		7323F084EFFB725CDAE6ECA6A4B8D6C7 /* alarm.cc in Sources */ = {isa = PBXBuildFile; fileRef = CCD27DDC9A4AB115A6C47014B2A410B0 /* alarm.cc */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -2271,12 +2264,10 @@
 		99C64EB312B2F9C80E7780FCC44862B8 /* local_documents_view.mm in Sources */ = {isa = PBXBuildFile; fileRef = 734CF764535762551C59EF1E091B8AFE /* local_documents_view.mm */; settings = {COMPILER_FLAGS = "$(inherited) -Wreorder -Werror=reorder"; }; };
 		99CDCC2008F4B77BFC1658095EA3ED50 /* FTreeNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 84391AE78A46FD2C09B5983A021CE922 /* FTreeNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		99F743DF75E51621CE04AC00EC312441 /* client_load_reporting_filter.h in Copy ../../src/core/ext/filters/client_channel/lb_policy/grpclb Public Headers */ = {isa = PBXBuildFile; fileRef = 6883339C203D7F25B8DCDCFDD8441D9E /* client_load_reporting_filter.h */; };
-<<<<<<< HEAD
+
 		99FB5E82D71205477494FEE7901F1FAC /* Pods-easer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A6D94EDD649170C2F3AA809592CFBD /* Pods-easer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-=======
-		99FB5E82D71205477494FEE7901F1FAC /* Pods-easer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE1B810207077A901446D3418BDAE5C5 /* Pods-easer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
->>>>>>> All the problems are gone!!..once again :?
-		99FDDC2859F9A9D79B731F1AF49CB286 /* channel.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = F77839B14FE121FDC69417D50DB20678 /* channel.h */; };
+99FB5E82D71205477494FEE7901F1FAC /* Pods-easer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE1B810207077A901446D3418BDAE5C5 /* Pods-easer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+99FDDC2859F9A9D79B731F1AF49CB286 /* channel.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = F77839B14FE121FDC69417D50DB20678 /* channel.h */; };
 		9A13E0AA3761BCD37AAACFA85662EBD5 /* socket_windows.h in Copy ../../src/core/lib/iomgr Private Headers */ = {isa = PBXBuildFile; fileRef = B1FAC65F556FB56FA31E83C584C0E2DA /* socket_windows.h */; };
 		9A2414EC10B088EE31F9819A2CDA0F29 /* FIRDocumentReference.mm in Sources */ = {isa = PBXBuildFile; fileRef = 398A966A79BB7EEFC92F786ECCB0C23D /* FIRDocumentReference.mm */; settings = {COMPILER_FLAGS = "$(inherited) -Wreorder -Werror=reorder"; }; };
 		9A3A075C3C0F04A0B732DB0F77C99B8F /* ofb.c in Sources */ = {isa = PBXBuildFile; fileRef = ACF47A34144C87F62A8AF89F9A8D1877 /* ofb.c */; settings = {COMPILER_FLAGS = "-DOPENSSL_NO_ASM -GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
@@ -2406,11 +2397,8 @@
 		A279D37E476FC9808CC50F27B387D54F /* sockaddr_custom.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C00CEDC7125ED49BEDD1025415360DB /* sockaddr_custom.h */; };
 		A2844D5964F81FD2EA20CA8866B73422 /* endpoint_pair.h in Copy ../../src/core/lib/iomgr Private Headers */ = {isa = PBXBuildFile; fileRef = 0587E23FCF953AA578275266CB27F13E /* endpoint_pair.h */; };
 		A29684C8FB296111D8E3B5CB1513E1F4 /* span.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = C4D67801C1FF8B4DBFDDBBED4573E3C0 /* span.h */; };
-<<<<<<< HEAD
-=======
-		A2A87BE2BAB74AAD9F13AC4FAE0A7376 /* Pods-easer-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 807E986911BC2C4AF7497179376D3269 /* Pods-easer-tvOS-dummy.m */; };
->>>>>>> All the problems are gone!!..once again :?
-		A2D388D50E07BC70B0808404638F79BF /* FSTLLRBEmptyNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D7EFD04EEFA2C62E2A819BE0F17FEF5 /* FSTLLRBEmptyNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+A2A87BE2BAB74AAD9F13AC4FAE0A7376 /* Pods-easer-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 807E986911BC2C4AF7497179376D3269 /* Pods-easer-tvOS-dummy.m */; };
+A2D388D50E07BC70B0808404638F79BF /* FSTLLRBEmptyNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D7EFD04EEFA2C62E2A819BE0F17FEF5 /* FSTLLRBEmptyNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A2D95707989D17E7AA1E8CD0E472434C /* FirebaseInstanceID-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B1818ABEBC410DB0A4E0DA9C5C6E45F /* FirebaseInstanceID-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2DDB2ADF3D5124AB116C414B58482ED /* string_windows.h in Headers */ = {isa = PBXBuildFile; fileRef = C64ED7DBFF2AEFDD8D2372F8302C394F /* string_windows.h */; };
 		A2DF15E3026175F3218031A05B12AB7A /* transport_security_common.pb.c in Sources */ = {isa = PBXBuildFile; fileRef = 19B903C1385F0B580CC84A0AF9098211 /* transport_security_common.pb.c */; settings = {COMPILER_FLAGS = "-DGRPC_ARES=0 -DPB_FIELD_16BIT -DGRPC_SHADOW_BORINGSSL_SYMBOLS -fno-objc-arc"; }; };
@@ -2527,11 +2515,8 @@
 		A99558243DF2D2515D7B7264E2BF0BE1 /* client_channel_factory.h in Headers */ = {isa = PBXBuildFile; fileRef = ABDEB59E591FF5049EA450AB8E673B06 /* client_channel_factory.h */; };
 		A9B0DEEB56D1CB4A16DB301377E838B7 /* auth_filters.h in Headers */ = {isa = PBXBuildFile; fileRef = 593C0BDB0EB83D1576621E68BEA27AFA /* auth_filters.h */; };
 		A9B766468401030117179BF8065A84F2 /* FIRAuthWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CF35B9390BAC4A8FA3A189AA39420B /* FIRAuthWebView.m */; };
-<<<<<<< HEAD
-=======
-		A9C09F2132A1C8BB0F629A92FEDB1CB5 /* Pods-easer-tvOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44120F0E3EE52739CBE958F740432ACC /* Pods-easer-tvOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
->>>>>>> All the problems are gone!!..once again :?
-		A9C4A6A6BF72C4D66A17FD8B161AAF36 /* http_server_filter.h in Headers */ = {isa = PBXBuildFile; fileRef = 11BE2A3BC4A11824D23AECBF3BF44951 /* http_server_filter.h */; };
+A9C09F2132A1C8BB0F629A92FEDB1CB5 /* Pods-easer-tvOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44120F0E3EE52739CBE958F740432ACC /* Pods-easer-tvOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+A9C4A6A6BF72C4D66A17FD8B161AAF36 /* http_server_filter.h in Headers */ = {isa = PBXBuildFile; fileRef = 11BE2A3BC4A11824D23AECBF3BF44951 /* http_server_filter.h */; };
 		A9F9047134CA55D9E765033D55F6D5B8 /* log_format.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD94B6E4F9F7C01800D8F3AEBA3FCE4 /* log_format.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AA123D2468708D45B8325D751A9BB729 /* completion_queue.h in Copy ../../src/core/lib/surface Private Headers */ = {isa = PBXBuildFile; fileRef = F79689B95517C1A1D6AA548F07C42D1E /* completion_queue.h */; };
 		AA3B1355705B47039538BDCAE73B545A /* path.h in Headers */ = {isa = PBXBuildFile; fileRef = 71B880AC22E126C1E490A5634B623C1E /* path.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -2878,11 +2863,8 @@
 		C2C9E4F74417F1D3C6F981818645B22E /* FIRInstanceIDTokenStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A70FF6D28703936048B578F0F4BC9 /* FIRInstanceIDTokenStore.m */; };
 		C2EBB4A648550707F5BC6868FA8C83D4 /* inproc_plugin.cc in Sources */ = {isa = PBXBuildFile; fileRef = C8525CC3484D725DE582A41C30DDEABB /* inproc_plugin.cc */; settings = {COMPILER_FLAGS = "-DGRPC_ARES=0 -DPB_FIELD_16BIT -DGRPC_SHADOW_BORINGSSL_SYMBOLS -fno-objc-arc"; }; };
 		C328E4D3954CAE3CDA6ECCEF7EAF9C46 /* pair.c in Sources */ = {isa = PBXBuildFile; fileRef = DE932D792B61F7BE403E06934A6F7ADC /* pair.c */; settings = {COMPILER_FLAGS = "-DOPENSSL_NO_ASM -GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
-<<<<<<< HEAD
-=======
-		C331D993CAA33744A1A44EC9CD506A0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7C3B55005F2F6CD299D2ABD623CBAE /* Foundation.framework */; };
->>>>>>> All the problems are gone!!..once again :?
-		C342B25B5586D0673B5ADFCCCD6D2858 /* generic_stub.h in Headers */ = {isa = PBXBuildFile; fileRef = DF45CBFC277A7F2FCD6BE2B264D244D4 /* generic_stub.h */; };
+C331D993CAA33744A1A44EC9CD506A0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7C3B55005F2F6CD299D2ABD623CBAE /* Foundation.framework */; };
+C342B25B5586D0673B5ADFCCCD6D2858 /* generic_stub.h in Headers */ = {isa = PBXBuildFile; fileRef = DF45CBFC277A7F2FCD6BE2B264D244D4 /* generic_stub.h */; };
 		C3567D2AA7E4A7B985925C05807EBF79 /* server_auth_filter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 25C78E339DC2C4C00AE3953D0CC138D0 /* server_auth_filter.cc */; settings = {COMPILER_FLAGS = "-DGRPC_ARES=0 -DPB_FIELD_16BIT -DGRPC_SHADOW_BORINGSSL_SYMBOLS -fno-objc-arc"; }; };
 		C35C05D819C1B3B3C07243EB9A1C0795 /* tls_pthread.cc in Sources */ = {isa = PBXBuildFile; fileRef = 17054CD702ED93D85BB694650182A312 /* tls_pthread.cc */; settings = {COMPILER_FLAGS = "-DGRPC_ARES=0 -DPB_FIELD_16BIT -DGRPC_SHADOW_BORINGSSL_SYMBOLS -fno-objc-arc"; }; };
 		C36C4A7003DACCBD24CD59219056BDA2 /* FSTLRUGarbageCollector.mm in Sources */ = {isa = PBXBuildFile; fileRef = EFB770D1D1D3FE7D11EDF6C43F18F640 /* FSTLRUGarbageCollector.mm */; settings = {COMPILER_FLAGS = "$(inherited) -Wreorder -Werror=reorder"; }; };
@@ -3048,11 +3030,9 @@
 		D00A03574A6B510C4C0E71F6376C3859 /* alpn.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B4CB82EEBE9586C7283B9012D6461DA /* alpn.h */; };
 		D010185E4C9C0AAA83402A33F3C7C059 /* FTupleRemovedQueriesEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A2441B83C685453510115A62319E053 /* FTupleRemovedQueriesEvents.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D0404A6D61D588C395C5591E4AE71DB2 /* server_builder_plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 3653EA377C2FA63A41094DD07C2BA126 /* server_builder_plugin.h */; };
-<<<<<<< HEAD
+
 		D05420C1D1F48B440CF5ED2543000502 /* Pods-easerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C7F6A0944FE03BCCE831DE7F9041D6D /* Pods-easerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-=======
->>>>>>> All the problems are gone!!..once again :?
-		D084155807CBA49C61B2DF37F0878997 /* internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8D30CF98F01326A66640B734DF7E76 /* internal.h */; };
+D084155807CBA49C61B2DF37F0878997 /* internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8D30CF98F01326A66640B734DF7E76 /* internal.h */; };
 		D08D1F78062FB32507C7B1B7FE3B55A6 /* hpack_encoder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9678C029C067DFB1F02018F0FDDB22C2 /* hpack_encoder.cc */; settings = {COMPILER_FLAGS = "-DGRPC_ARES=0 -DPB_FIELD_16BIT -DGRPC_SHADOW_BORINGSSL_SYMBOLS -fno-objc-arc"; }; };
 		D0AE1D910C616E3E32378BF7B712F606 /* workaround_cronet_compression_filter.h in Copy ../../src/core/ext/filters/workarounds Private Headers */ = {isa = PBXBuildFile; fileRef = AB044023DF82D20B8B14012545CB280D /* workaround_cronet_compression_filter.h */; };
 		D0AEDD34FC58490C03FE8120A9EF0F16 /* log.h in Headers */ = {isa = PBXBuildFile; fileRef = 68C1279EC24EACB1CB27BA970896518A /* log.h */; };
@@ -3151,12 +3131,10 @@
 		D666266FD47E7562C162B59E4E92730C /* FIRCollectionReference+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F7BCF67DF8A4DBCA49BA4DE7F4D294B8 /* FIRCollectionReference+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D6822E26E413227E12B5CD4CEBBC99CE /* timeout_encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E73B54970AA80C6D91F974A2A0E91F /* timeout_encoding.h */; };
 		D6B59945E81B5F934D01448181D09D01 /* FIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 559767D86B59F38E8F48ABBD9D9E952C /* FIndex.m */; };
-<<<<<<< HEAD
+
 		D6B691053B4EB5BA581B11F854A54D88 /* Pods-easer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 599FB3CC350E7AEC809E45D18F9CE9CB /* Pods-easer-dummy.m */; };
-=======
-		D6B691053B4EB5BA581B11F854A54D88 /* Pods-easer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DAFDAEF67D47BC5C86A8D91864DA66 /* Pods-easer-dummy.m */; };
->>>>>>> All the problems are gone!!..once again :?
-		D6B7042F094F3CA251D316CB55A7955C /* rpc_service_method.h in Headers */ = {isa = PBXBuildFile; fileRef = 13B59F200511DA1731DB99BA473A8252 /* rpc_service_method.h */; };
+D6B691053B4EB5BA581B11F854A54D88 /* Pods-easer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DAFDAEF67D47BC5C86A8D91864DA66 /* Pods-easer-dummy.m */; };
+D6B7042F094F3CA251D316CB55A7955C /* rpc_service_method.h in Headers */ = {isa = PBXBuildFile; fileRef = 13B59F200511DA1731DB99BA473A8252 /* rpc_service_method.h */; };
 		D6BD52A4EB97670EDA3B072EFBEF0711 /* alts_shared_resource.h in Headers */ = {isa = PBXBuildFile; fileRef = BB30352F49B201C4927A7C5D8E891BC8 /* alts_shared_resource.h */; };
 		D6C8E31006575711DEEDCE25E4016509 /* FListenComplete.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BC22530A9335B05438BBFC0F6BD911 /* FListenComplete.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D6CA475DAE73FB54C4C4D171476467FC /* grpc_posix.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D52D7FF5695240ED971A3EEE8F57892 /* grpc_posix.h */; };
@@ -3218,11 +3196,9 @@
 		D9C3A292465F72341EF0C43B18D97F53 /* extension.cc in Sources */ = {isa = PBXBuildFile; fileRef = A9B069FD920C43D1268D69A02595F87D /* extension.cc */; settings = {COMPILER_FLAGS = "$(inherited) -Wreorder -Werror=reorder $(inherited) -Wno-comma -Wno-range-loop-analysis -Wno-shorten-64-to-32 -fno-objc-arc"; }; };
 		D9CAE14DCA36C3004B5BE799BBC7FE42 /* httpcli_security_connector.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3870C78B4A63028E9B1CFFB4B1B42F80 /* httpcli_security_connector.cc */; settings = {COMPILER_FLAGS = "-DGRPC_ARES=0 -DPB_FIELD_16BIT -DGRPC_SHADOW_BORINGSSL_SYMBOLS -fno-objc-arc"; }; };
 		D9D6187F7293E8F09CAE0182AF1259A9 /* FIRInstanceIDKeyPairUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CA53DDC79E0FB1C9862BB80B96C2AE36 /* FIRInstanceIDKeyPairUtilities.m */; };
-<<<<<<< HEAD
+
 		D9F24BB64B8391EFC6A5CBFADE85934F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7C3B55005F2F6CD299D2ABD623CBAE /* Foundation.framework */; };
-=======
->>>>>>> All the problems are gone!!..once again :?
-		D9FC8E03ADBE2609167669D948D4F781 /* duration.pb.h in Headers */ = {isa = PBXBuildFile; fileRef = A21EDCBB8BFB663E94A0F0BB632CBC39 /* duration.pb.h */; };
+D9FC8E03ADBE2609167669D948D4F781 /* duration.pb.h in Headers */ = {isa = PBXBuildFile; fileRef = A21EDCBB8BFB663E94A0F0BB632CBC39 /* duration.pb.h */; };
 		DA1905BEC8FAD88573782B9788429384 /* pollset.h in Headers */ = {isa = PBXBuildFile; fileRef = 963348AB9A05E2FB28951CC4A35A8673 /* pollset.h */; };
 		DA1B4B3752578667742DD33BA418B7DD /* security_handshaker.h in Copy ../../src/core/lib/security/transport Public Headers */ = {isa = PBXBuildFile; fileRef = A04EA9058F315DF4A22D4C45E24007B8 /* security_handshaker.h */; };
 		DA20E7CF90739F307E087B29BF4685A4 /* FIRAuthNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA41FAD466306B6D5443C645DDF6C25 /* FIRAuthNotificationManager.m */; };
@@ -3250,11 +3226,9 @@
 		DB756046A10419F839F9913DCE765AD8 /* FIRInstanceIDTokenFetchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B314C90E866678AF0B3164AE2EC9D566 /* FIRInstanceIDTokenFetchOperation.m */; };
 		DB7761DE3A68B57974F5A08C6509DD3B /* FIRSecureTokenRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 92BB88FBCCA28518844B247EF82813D0 /* FIRSecureTokenRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DB83428586FC33181864F0A061C7D73D /* GoogleUtilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 748E4BD94B8AFB82FC4576D2927844AC /* GoogleUtilities-dummy.m */; };
-<<<<<<< HEAD
+
 		DBB493731CE70C4971B82D1DA21DD156 /* Pods-easerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0055AE3908A34E7B7291331C735EC149 /* Pods-easerTests-dummy.m */; };
-=======
->>>>>>> All the problems are gone!!..once again :?
-		DBB57B57BB358F91D1862394EDB0B097 /* query.nanopb.h in Headers */ = {isa = PBXBuildFile; fileRef = A3565E4D960D33C7405666B7B9D7D581 /* query.nanopb.h */; settings = {ATTRIBUTES = (Project, ); }; };
+DBB57B57BB358F91D1862394EDB0B097 /* query.nanopb.h in Headers */ = {isa = PBXBuildFile; fileRef = A3565E4D960D33C7405666B7B9D7D581 /* query.nanopb.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DBCCEE7F81657387D72DFFAF7E32EC02 /* timer_manager.cc in Sources */ = {isa = PBXBuildFile; fileRef = 48B4434DAC2EC8F0DE117C0447E4DCAB /* timer_manager.cc */; settings = {COMPILER_FLAGS = "-DGRPC_ARES=0 -DPB_FIELD_16BIT -DGRPC_SHADOW_BORINGSSL_SYMBOLS -fno-objc-arc"; }; };
 		DBD1FA8EDB76FEEDF4B390E302873970 /* FCacheNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 42ED22E60D3F5DD1CA5377F4F7F322BF /* FCacheNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DBE16DB16D0DE90AB130BE7EB1BD0166 /* Latlng.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1CDB70BF0A0E545B223A39EBED6BE9 /* Latlng.pbobjc.m */; settings = {COMPILER_FLAGS = "$(inherited) -Wreorder -Werror=reorder -fno-objc-arc"; }; };
@@ -3382,11 +3356,8 @@
 		E35A296B05765F67C30CA73EF595470C /* alloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 397333FACA5E6060099576514CAC955A /* alloc.h */; };
 		E3631FAFD05EC28EFACE1E15D8D04EF8 /* ssl_asn1.cc in Sources */ = {isa = PBXBuildFile; fileRef = 13A46BE7B71F8B15EE4072D8B117F2EC /* ssl_asn1.cc */; settings = {COMPILER_FLAGS = "-DOPENSSL_NO_ASM -GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
 		E3648349CF952D81E650D0AD4DA7EE9B /* FIRInstanceIDTokenDeleteOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A55EAFB28203B41A2850A3856C64FAF0 /* FIRInstanceIDTokenDeleteOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-<<<<<<< HEAD
-=======
-		E36E05F228B8C5163E92DF8BCE2587A4 /* Pods-easer-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF10D236CC2CCED98CC914BD655576A9 /* Pods-easer-tvOSTests-dummy.m */; };
->>>>>>> All the problems are gone!!..once again :?
-		E3839C1AA323297B4F4FA5A339017262 /* FSTLLRBNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 04DC54EA82E144D18931DD32A4F32E98 /* FSTLLRBNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+E36E05F228B8C5163E92DF8BCE2587A4 /* Pods-easer-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF10D236CC2CCED98CC914BD655576A9 /* Pods-easer-tvOSTests-dummy.m */; };
+E3839C1AA323297B4F4FA5A339017262 /* FSTLLRBNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 04DC54EA82E144D18931DD32A4F32E98 /* FSTLLRBNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E39FF32693B39D8A17EC5737C9925DF8 /* NSError+FIRInstanceID.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCC50C02B1973C790DF04BF58E1C966 /* NSError+FIRInstanceID.m */; };
 		E3A2671C6B05280FE3861F5EBE077C04 /* frame_data.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93E9F3E49D34D7F702441B830AA48372 /* frame_data.cc */; settings = {COMPILER_FLAGS = "-DGRPC_ARES=0 -DPB_FIELD_16BIT -DGRPC_SHADOW_BORINGSSL_SYMBOLS -fno-objc-arc"; }; };
 		E3AAA52E95EC8D7776FF3C49CBEB03C6 /* ssl_session_cache.h in Copy ../../src/core/tsi/ssl/session_cache Private Headers */ = {isa = PBXBuildFile; fileRef = 744F234EAB5BE6BCDC75FE41E4294DEF /* ssl_session_cache.h */; };
@@ -3603,11 +3574,8 @@
 		F332B7BD4DB81B560AE5759480167324 /* leveldb_query_cache.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B5DB3D488666E3412C69F8D4DFF650 /* leveldb_query_cache.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F332CD62905692B330AC8B0C04B5AEA9 /* Struct.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = FD38BC9880F6D7C50127B850867C0495 /* Struct.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F33A6C5FA04699C08759BC3DE1E55021 /* percent_encoding.h in Copy ../../src/core/lib/slice Private Headers */ = {isa = PBXBuildFile; fileRef = 3DC35B3E4F2104DB64C85088855EBC02 /* percent_encoding.h */; };
-<<<<<<< HEAD
-=======
-		F357AE5BF4BF1619ADAA21039A26FE98 /* Pods-easer-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 103BFEF831CFBF0D34D4AFA834441113 /* Pods-easer-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
->>>>>>> All the problems are gone!!..once again :?
-		F35EFD37BE66F4415944E27544874039 /* version.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7C9ECE9F5954364688F7770D6B7ED2A1 /* version.cc */; settings = {COMPILER_FLAGS = "-DGRPC_ARES=0 -DPB_FIELD_16BIT -DGRPC_SHADOW_BORINGSSL_SYMBOLS -fno-objc-arc"; }; };
+F357AE5BF4BF1619ADAA21039A26FE98 /* Pods-easer-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 103BFEF831CFBF0D34D4AFA834441113 /* Pods-easer-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+F35EFD37BE66F4415944E27544874039 /* version.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7C9ECE9F5954364688F7770D6B7ED2A1 /* version.cc */; settings = {COMPILER_FLAGS = "-DGRPC_ARES=0 -DPB_FIELD_16BIT -DGRPC_SHADOW_BORINGSSL_SYMBOLS -fno-objc-arc"; }; };
 		F3647FCDB5D3BB972DAACF3A24C47336 /* FIRInstanceIDCheckinStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 5635A39CCA70F6781A13B8C67C04EECA /* FIRInstanceIDCheckinStore.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F3683CE5F19599AA748420AEC9FCE1C9 /* GPBUnknownField.m in Sources */ = {isa = PBXBuildFile; fileRef = D80989085883E534E74185F8D55AA644 /* GPBUnknownField.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F39803A81C8BDD6D65479A6802739E57 /* asn_pack.c in Sources */ = {isa = PBXBuildFile; fileRef = 95649B88AF6087242A5E390281EC80C3 /* asn_pack.c */; settings = {COMPILER_FLAGS = "-DOPENSSL_NO_ASM -GCC_WARN_INHIBIT_ALL_WARNINGS -w -fno-objc-arc"; }; };
@@ -6753,11 +6721,9 @@
 /* Begin PBXFileReference section */
 		004635D3AD84C3080FC1F8A4131ECAD9 /* FIRFirestore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRFirestore.h; path = Firestore/Source/Public/FIRFirestore.h; sourceTree = "<group>"; };
 		00553A23F5907BF703D1DD6A3362D7F3 /* FIRAuth_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuth_Internal.h; path = Firebase/Auth/Source/FIRAuth_Internal.h; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		0055AE3908A34E7B7291331C735EC149 /* Pods-easerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-easerTests-dummy.m"; sourceTree = "<group>"; };
-=======
->>>>>>> All the problems are gone!!..once again :?
-		006171BEB38036A53F6D2BB67D2E4348 /* FIRAuthErrorUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthErrorUtils.h; path = Firebase/Auth/Source/FIRAuthErrorUtils.h; sourceTree = "<group>"; };
+006171BEB38036A53F6D2BB67D2E4348 /* FIRAuthErrorUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthErrorUtils.h; path = Firebase/Auth/Source/FIRAuthErrorUtils.h; sourceTree = "<group>"; };
 		0062D38309BF6DC4B2E6B1FCBAAACDA5 /* thread_manager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = thread_manager.h; path = src/cpp/thread_manager/thread_manager.h; sourceTree = "<group>"; };
 		007488ED8531423F1D7C60B6B23CAB24 /* grpclb_channel_secure.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = grpclb_channel_secure.cc; path = src/core/ext/filters/client_channel/lb_policy/grpclb/grpclb_channel_secure.cc; sourceTree = "<group>"; };
 		0080B28C1C88E0AB16F1AD77F56D5525 /* a_bitstr.c */ = {isa = PBXFileReference; includeInIndex = 1; name = a_bitstr.c; path = crypto/asn1/a_bitstr.c; sourceTree = "<group>"; };
@@ -6885,11 +6851,8 @@
 		0C7BFCF5387ADF68CBD98FD6686C524B /* Type.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Type.pbobjc.h; path = objectivec/google/protobuf/Type.pbobjc.h; sourceTree = "<group>"; };
 		0C8F8C5A10237F9188F75E7D8940B2E6 /* firestore.nanopb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = firestore.nanopb.h; path = Firestore/Protos/nanopb/google/firestore/v1/firestore.nanopb.h; sourceTree = "<group>"; };
 		0C9FFCD0F2B9D1FA097DAE9434DC21B6 /* service_type.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = service_type.h; path = include/grpcpp/impl/service_type.h; sourceTree = "<group>"; };
-<<<<<<< HEAD
-=======
-		0CDAE15F0D78493DC1B9B4B28E74F2FC /* Pods-easer-tvOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-easer-tvOSTests.modulemap"; sourceTree = "<group>"; };
->>>>>>> All the problems are gone!!..once again :?
-		0CEB1F8C70A04E6BA57A6BBEAE371F98 /* merger.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = merger.cc; path = table/merger.cc; sourceTree = "<group>"; };
+0CDAE15F0D78493DC1B9B4B28E74F2FC /* Pods-easer-tvOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-easer-tvOSTests.modulemap"; sourceTree = "<group>"; };
+0CEB1F8C70A04E6BA57A6BBEAE371F98 /* merger.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = merger.cc; path = table/merger.cc; sourceTree = "<group>"; };
 		0CF00844CBEC9C383FC2A3E24D4C690A /* FIRAuthTokenResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthTokenResult.h; path = Firebase/Auth/Source/Public/FIRAuthTokenResult.h; sourceTree = "<group>"; };
 		0D094F149A3F700B86AEBF92A624753D /* hpack_parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hpack_parser.h; path = src/core/ext/transport/chttp2/transport/hpack_parser.h; sourceTree = "<group>"; };
 		0D323764A6ECFBDC4D3554C804E3AA54 /* FIRAuthDataResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRAuthDataResult.m; path = Firebase/Auth/Source/FIRAuthDataResult.m; sourceTree = "<group>"; };
@@ -6906,11 +6869,9 @@
 		0E1D1BD8B8E782285A453D02DF9440B4 /* FIRAuthUserDefaultsStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthUserDefaultsStorage.h; path = Firebase/Auth/Source/FIRAuthUserDefaultsStorage.h; sourceTree = "<group>"; };
 		0E3AC14ABF65F5DD2856671E5123B95A /* timestamp.pb.c */ = {isa = PBXFileReference; includeInIndex = 1; name = timestamp.pb.c; path = src/core/ext/filters/client_channel/lb_policy/grpclb/proto/grpc/lb/v1/google/protobuf/timestamp.pb.c; sourceTree = "<group>"; };
 		0E7D93B8570FF809740162D6AB719FE2 /* FIRInstanceIDCheckinPreferences.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRInstanceIDCheckinPreferences.m; path = Firebase/InstanceID/FIRInstanceIDCheckinPreferences.m; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		0EB8DF4680C4C4E68C889AEBB3BF0E2C /* Pods-easerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-easerTests.release.xcconfig"; sourceTree = "<group>"; };
-=======
->>>>>>> All the problems are gone!!..once again :?
-		0EBED0F6BF17AEF27A5CEBB4BB72EB52 /* internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = internal.h; path = src/core/ext/transport/chttp2/transport/internal.h; sourceTree = "<group>"; };
+0EBED0F6BF17AEF27A5CEBB4BB72EB52 /* internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = internal.h; path = src/core/ext/transport/chttp2/transport/internal.h; sourceTree = "<group>"; };
 		0ED6D08297D322736C41B76DEDEE4DCD /* metadata_batch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metadata_batch.h; path = src/core/lib/transport/metadata_batch.h; sourceTree = "<group>"; };
 		0ED79CB9256C88454C5CBF8B6077DB1B /* FTupleBoolBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTupleBoolBlock.m; path = Firebase/Database/Utilities/Tuples/FTupleBoolBlock.m; sourceTree = "<group>"; };
 		0EEA6406284F1F66DE6DC2C80E5BA43A /* endpoint_pair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = endpoint_pair.h; path = src/core/lib/iomgr/endpoint_pair.h; sourceTree = "<group>"; };
@@ -6928,11 +6889,8 @@
 		0FD23B2A41BBFFF8C4CFE83EEC3CFA4D /* FMaxNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMaxNode.h; path = Firebase/Database/FMaxNode.h; sourceTree = "<group>"; };
 		1001CFA0C6908BD0C414E292D8019897 /* FSTTreeSortedDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSTTreeSortedDictionary.m; path = Firestore/third_party/Immutable/FSTTreeSortedDictionary.m; sourceTree = "<group>"; };
 		1036985C2E5BBB5E371C600D0F4CF869 /* tcp_server_posix.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = tcp_server_posix.cc; path = src/core/lib/iomgr/tcp_server_posix.cc; sourceTree = "<group>"; };
-<<<<<<< HEAD
-=======
-		103BFEF831CFBF0D34D4AFA834441113 /* Pods-easer-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-easer-tvOS-umbrella.h"; sourceTree = "<group>"; };
->>>>>>> All the problems are gone!!..once again :?
-		10451957A9AA75A29B18930CB6B04056 /* arena.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = arena.h; path = util/arena.h; sourceTree = "<group>"; };
+103BFEF831CFBF0D34D4AFA834441113 /* Pods-easer-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-easer-tvOS-umbrella.h"; sourceTree = "<group>"; };
+10451957A9AA75A29B18930CB6B04056 /* arena.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = arena.h; path = util/arena.h; sourceTree = "<group>"; };
 		10455C752747A0914FC5A2D5E4DF17A9 /* error.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = error.cc; path = src/core/lib/iomgr/error.cc; sourceTree = "<group>"; };
 		105C490EA1D320DAE223EA25D43264C3 /* document_key.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = document_key.cc; path = Firestore/core/src/firebase/firestore/model/document_key.cc; sourceTree = "<group>"; };
 		107AA22C30FEF4777F292D5610752818 /* block_builder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = block_builder.h; path = table/block_builder.h; sourceTree = "<group>"; };
@@ -6958,11 +6916,9 @@
 		1288B6C682F01902AED07020FC1F543C /* watch_change.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = watch_change.h; path = Firestore/core/src/firebase/firestore/remote/watch_change.h; sourceTree = "<group>"; };
 		1293033F2EB774D9D02A4DE90ACC1170 /* async_generic_service.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = async_generic_service.h; path = include/grpcpp/impl/codegen/async_generic_service.h; sourceTree = "<group>"; };
 		12C328DBA47F637AB0401E8DC4F6D663 /* FirebaseDatabase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FirebaseDatabase-Info.plist"; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		12DF4647158DF113F84A520BE221698A /* Pods-easer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-easer.debug.xcconfig"; sourceTree = "<group>"; };
-=======
->>>>>>> All the problems are gone!!..once again :?
-		13049C02938ECE0BC2BEA4D4EC965EAF /* leveldb_index_manager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = leveldb_index_manager.h; path = Firestore/core/src/firebase/firestore/local/leveldb_index_manager.h; sourceTree = "<group>"; };
+13049C02938ECE0BC2BEA4D4EC965EAF /* leveldb_index_manager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = leveldb_index_manager.h; path = Firestore/core/src/firebase/firestore/local/leveldb_index_manager.h; sourceTree = "<group>"; };
 		13194E602877E40D7D91907AC4E0DAA2 /* nanopb.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nanopb.xcconfig; sourceTree = "<group>"; };
 		1321B16C55F7D778A9C7925F6743182C /* firestore.nanopb.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = firestore.nanopb.cc; path = Firestore/Protos/nanopb/google/firestore/v1/firestore.nanopb.cc; sourceTree = "<group>"; };
 		134BDDAE12AF719420160125DDE4173E /* port_posix.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = port_posix.cc; path = port/port_posix.cc; sourceTree = "<group>"; };
@@ -7106,11 +7062,9 @@
 		1EEB7AE10B3CE939925A0E867768D0BF /* unix_sockets_posix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unix_sockets_posix.h; path = src/core/lib/iomgr/unix_sockets_posix.h; sourceTree = "<group>"; };
 		1EF9265A3F58C2D20E4EF596F30838CE /* cpu-intel.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "cpu-intel.c"; path = "crypto/cpu-intel.c"; sourceTree = "<group>"; };
 		1F2CDC7754F03B4B79827090045F3431 /* FirebaseAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FirebaseAuth.h; path = Firebase/Auth/Source/Public/FirebaseAuth.h; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		1F3F94EB5400151D67D7C9CB8897EA6D /* Pods-easer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-easer-acknowledgements.markdown"; sourceTree = "<group>"; };
-=======
->>>>>>> All the problems are gone!!..once again :?
-		1F402946C1E9D78361208F911C68F399 /* FIRAuthKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthKeychain.h; path = Firebase/Auth/Source/FIRAuthKeychain.h; sourceTree = "<group>"; };
+1F402946C1E9D78361208F911C68F399 /* FIRAuthKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthKeychain.h; path = Firebase/Auth/Source/FIRAuthKeychain.h; sourceTree = "<group>"; };
 		1F48609AD6FC89EAC48A66159D05EC9C /* ssl_lib.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = ssl_lib.cc; path = ssl/ssl_lib.cc; sourceTree = "<group>"; };
 		1F5EE6F8E2FE4D9CDA4B1D342C8D025B /* Empty.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Empty.pbobjc.h; path = objectivec/google/protobuf/Empty.pbobjc.h; sourceTree = "<group>"; };
 		1F752A4C558D0700FBE2A33239CA55BD /* FIRErrorCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRErrorCode.h; path = Firebase/Core/Private/FIRErrorCode.h; sourceTree = "<group>"; };
@@ -7177,11 +7131,8 @@
 		24206D53B0F1CE70566B033693C851A1 /* e_rc4.c */ = {isa = PBXFileReference; includeInIndex = 1; name = e_rc4.c; path = crypto/cipher_extra/e_rc4.c; sourceTree = "<group>"; };
 		244A82F1DA38BAF6967D1AA611C1EE35 /* Common.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Common.pbobjc.h; path = Firestore/Protos/objc/google/firestore/v1/Common.pbobjc.h; sourceTree = "<group>"; };
 		2463B76C19FA4DD556B3695967306144 /* leveldb_remote_document_cache.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = leveldb_remote_document_cache.mm; path = Firestore/core/src/firebase/firestore/local/leveldb_remote_document_cache.mm; sourceTree = "<group>"; };
-<<<<<<< HEAD
-=======
-		24A9B275DB994B52E8B8FE6235C21E17 /* Pods-easer-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-easer-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
->>>>>>> All the problems are gone!!..once again :?
-		24B73800C05995DBAA99356AA8053CFF /* alloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = alloc.h; path = include/grpc/support/alloc.h; sourceTree = "<group>"; };
+24A9B275DB994B52E8B8FE6235C21E17 /* Pods-easer-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-easer-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+24B73800C05995DBAA99356AA8053CFF /* alloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = alloc.h; path = include/grpc/support/alloc.h; sourceTree = "<group>"; };
 		24BC20BE99FF8CFF1D0414DB14F949BC /* leveldb_migrations.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = leveldb_migrations.cc; path = Firestore/core/src/firebase/firestore/local/leveldb_migrations.cc; sourceTree = "<group>"; };
 		24CD0EF17FD704187F9EB2B618D35272 /* sync_windows.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sync_windows.h; path = include/grpc/impl/codegen/sync_windows.h; sourceTree = "<group>"; };
 		24FBAFFB56399DAE97EDA1014C5DF082 /* d1_both.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = d1_both.cc; path = ssl/d1_both.cc; sourceTree = "<group>"; };
@@ -7441,7 +7392,7 @@
 		3C398D70359135592FD40BE5DCDCAB04 /* completion_queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = completion_queue.h; path = include/grpcpp/impl/codegen/completion_queue.h; sourceTree = "<group>"; };
 		3C7355CA779B7C3C7AF80FEC25DBBFD6 /* pollset.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = pollset.cc; path = src/core/lib/iomgr/pollset.cc; sourceTree = "<group>"; };
 		3C7E431EE7843768CADEB4044AEE3ECE /* secure_channel_arguments.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = secure_channel_arguments.cc; path = src/cpp/common/secure_channel_arguments.cc; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		3C7F6A0944FE03BCCE831DE7F9041D6D /* Pods-easerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-easerTests-umbrella.h"; sourceTree = "<group>"; };
 		3CAE2E807495257528C1CE06DD26E168 /* target_authority_table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = target_authority_table.h; path = src/core/lib/security/transport/target_authority_table.h; sourceTree = "<group>"; };
 		3CBD20BF913DC1F192CD6673B9A2AC9C /* Pods-easer-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-easer-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -7452,14 +7403,12 @@
 		3D10CF1821CD6B51B4A7EDCD04D97955 /* channelz_registry.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = channelz_registry.cc; path = src/core/lib/channel/channelz_registry.cc; sourceTree = "<group>"; };
 		3D27522225DDD2122D5ECA0E860CDB3A /* Pods-easer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-easer-acknowledgements.plist"; sourceTree = "<group>"; };
 		3D30FFC1DDEF8D126F99365D6DAE62B5 /* Pods-easerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-easerTests-Info.plist"; sourceTree = "<group>"; };
-=======
-		3CAE2E807495257528C1CE06DD26E168 /* target_authority_table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = target_authority_table.h; path = src/core/lib/security/transport/target_authority_table.h; sourceTree = "<group>"; };
+3CAE2E807495257528C1CE06DD26E168 /* target_authority_table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = target_authority_table.h; path = src/core/lib/security/transport/target_authority_table.h; sourceTree = "<group>"; };
 		3CD32E75EAF77BEAD5F4AACCD98C2F1F /* FIRFieldValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRFieldValue.h; path = Firestore/Source/Public/FIRFieldValue.h; sourceTree = "<group>"; };
 		3CD45317D224A258AC22D27AE9E48BD8 /* FPruneForest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FPruneForest.h; path = Firebase/Database/Persistence/FPruneForest.h; sourceTree = "<group>"; };
 		3D08A5851C84543A3787F3988CA6DC1A /* hkdf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hkdf.h; path = include/openssl/hkdf.h; sourceTree = "<group>"; };
 		3D10CF1821CD6B51B4A7EDCD04D97955 /* channelz_registry.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = channelz_registry.cc; path = src/core/lib/channel/channelz_registry.cc; sourceTree = "<group>"; };
->>>>>>> All the problems are gone!!..once again :?
-		3D6BAD76DDDBB07C1BE9624FF2F5B6E9 /* lame_client.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lame_client.h; path = src/core/lib/surface/lame_client.h; sourceTree = "<group>"; };
+3D6BAD76DDDBB07C1BE9624FF2F5B6E9 /* lame_client.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lame_client.h; path = src/core/lib/surface/lame_client.h; sourceTree = "<group>"; };
 		3D842685CBA5AB285B402EA49D2B3E3A /* handshaker.pb.c */ = {isa = PBXFileReference; includeInIndex = 1; name = handshaker.pb.c; path = src/core/tsi/alts/handshaker/handshaker.pb.c; sourceTree = "<group>"; };
 		3DA167FFC19AD870A548FDF118C25F00 /* pollset_custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pollset_custom.h; path = src/core/lib/iomgr/pollset_custom.h; sourceTree = "<group>"; };
 		3DB1692C3F1B8423F04B1A7667D4AB59 /* env.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = env.h; path = include/leveldb/env.h; sourceTree = "<group>"; };
@@ -7519,26 +7468,22 @@
 		417732683F2AB83C49303FA76A61D89F /* asn1_locl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1_locl.h; path = crypto/asn1/asn1_locl.h; sourceTree = "<group>"; };
 		4187B94C392E34EBA3FE7F436E0B4A3B /* ssl_aead_ctx.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = ssl_aead_ctx.cc; path = ssl/ssl_aead_ctx.cc; sourceTree = "<group>"; };
 		419A089F4E6D681B8712C74EBE6EC390 /* x_algor.c */ = {isa = PBXFileReference; includeInIndex = 1; name = x_algor.c; path = crypto/x509/x_algor.c; sourceTree = "<group>"; };
-<<<<<<< HEAD
-=======
-		41B01CCEC97B1BC1CA60DA82F34B4233 /* Pods-easer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-easer-acknowledgements.plist"; sourceTree = "<group>"; };
->>>>>>> All the problems are gone!!..once again :?
-		41B96AE9B969862969CDD57166FA08D4 /* bio_ssl.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = bio_ssl.cc; path = ssl/bio_ssl.cc; sourceTree = "<group>"; };
+
+41B01CCEC97B1BC1CA60DA82F34B4233 /* Pods-easer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-easer-acknowledgements.plist"; sourceTree = "<group>"; };
+41B96AE9B969862969CDD57166FA08D4 /* bio_ssl.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = bio_ssl.cc; path = ssl/bio_ssl.cc; sourceTree = "<group>"; };
 		41B9EC711F872CEF76EAAAC1E2685528 /* FIRInstanceIDCheckinService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceIDCheckinService.h; path = Firebase/InstanceID/FIRInstanceIDCheckinService.h; sourceTree = "<group>"; };
 		41C84BF7BD1ADAC45897CD862AC49CBA /* GPBUtilities_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUtilities_PackagePrivate.h; path = objectivec/GPBUtilities_PackagePrivate.h; sourceTree = "<group>"; };
 		41C9AAE09AB2726809D712F52473C499 /* FIRIdentityToolkitRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRIdentityToolkitRequest.h; path = Firebase/Auth/Source/RPCs/FIRIdentityToolkitRequest.h; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		41DD7942EEF8D14DAD6A4D49249E909F /* Pods-easer-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-easer-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		41DE851E222D19854C1EA8F17F7C13EE /* iomgr_windows.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = iomgr_windows.cc; path = src/core/lib/iomgr/iomgr_windows.cc; sourceTree = "<group>"; };
 		422BE7C9A14A8571B91AC89FDE4D4A57 /* resolver_registry.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = resolver_registry.cc; path = src/core/ext/filters/client_channel/resolver_registry.cc; sourceTree = "<group>"; };
 		423040B01B88E1877D5CD757F9D06055 /* v3_extku.c */ = {isa = PBXFileReference; includeInIndex = 1; name = v3_extku.c; path = crypto/x509v3/v3_extku.c; sourceTree = "<group>"; };
-=======
-		41DE851E222D19854C1EA8F17F7C13EE /* iomgr_windows.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = iomgr_windows.cc; path = src/core/lib/iomgr/iomgr_windows.cc; sourceTree = "<group>"; };
+41DE851E222D19854C1EA8F17F7C13EE /* iomgr_windows.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = iomgr_windows.cc; path = src/core/lib/iomgr/iomgr_windows.cc; sourceTree = "<group>"; };
 		422BE7C9A14A8571B91AC89FDE4D4A57 /* resolver_registry.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = resolver_registry.cc; path = src/core/ext/filters/client_channel/resolver_registry.cc; sourceTree = "<group>"; };
 		423040B01B88E1877D5CD757F9D06055 /* v3_extku.c */ = {isa = PBXFileReference; includeInIndex = 1; name = v3_extku.c; path = crypto/x509v3/v3_extku.c; sourceTree = "<group>"; };
 		423430388CD79D326D581635DEA47BEA /* Pods-easer-tvOSTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-easer-tvOSTests-Info.plist"; sourceTree = "<group>"; };
->>>>>>> All the problems are gone!!..once again :?
-		423EA1C8B9F9AD89D77CCE2140A45DA7 /* grpc_root_certificate_finder_apple.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = grpc_root_certificate_finder_apple.mm; path = Firestore/core/src/firebase/firestore/remote/grpc_root_certificate_finder_apple.mm; sourceTree = "<group>"; };
+423EA1C8B9F9AD89D77CCE2140A45DA7 /* grpc_root_certificate_finder_apple.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = grpc_root_certificate_finder_apple.mm; path = Firestore/core/src/firebase/firestore/remote/grpc_root_certificate_finder_apple.mm; sourceTree = "<group>"; };
 		423F238F17F7CA6C41421F7B98EF9E41 /* FTree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTree.h; path = Firebase/Database/Core/Utilities/FTree.h; sourceTree = "<group>"; };
 		424B40BCECA50977CF6DCA1FECA893B9 /* arena.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = arena.h; path = src/core/lib/gpr/arena.h; sourceTree = "<group>"; };
 		4264D3C67AF22ACE2676B59B46D46D91 /* xds.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = xds.cc; path = src/core/ext/filters/client_channel/lb_policy/xds/xds.cc; sourceTree = "<group>"; };
@@ -7553,11 +7498,9 @@
 		437F8FD8D3D111237C43CD96F1561E0A /* json_reader.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = json_reader.cc; path = src/core/lib/json/json_reader.cc; sourceTree = "<group>"; };
 		438E3E796B8358DD7D00F290F8C13E53 /* grpc_shadow_boringssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = grpc_shadow_boringssl.h; path = src/core/tsi/grpc_shadow_boringssl.h; sourceTree = "<group>"; };
 		43B1E4CD7B30B9FD278100133C2AC788 /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FirebaseAuth.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-<<<<<<< HEAD
-=======
-		44120F0E3EE52739CBE958F740432ACC /* Pods-easer-tvOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-easer-tvOSTests-umbrella.h"; sourceTree = "<group>"; };
->>>>>>> All the problems are gone!!..once again :?
-		441FD6A10B8C77A1DB0CE242F77B407B /* version_set.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = version_set.cc; path = db/version_set.cc; sourceTree = "<group>"; };
+
+44120F0E3EE52739CBE958F740432ACC /* Pods-easer-tvOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-easer-tvOSTests-umbrella.h"; sourceTree = "<group>"; };
+441FD6A10B8C77A1DB0CE242F77B407B /* version_set.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = version_set.cc; path = db/version_set.cc; sourceTree = "<group>"; };
 		442DCB43FE24E3A2FF10A4B51D9A8146 /* metadata_map.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metadata_map.h; path = include/grpcpp/impl/codegen/metadata_map.h; sourceTree = "<group>"; };
 		443737FEC438F6E043FDBCB0D1B888EB /* channel_stack_type.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = channel_stack_type.cc; path = src/core/lib/surface/channel_stack_type.cc; sourceTree = "<group>"; };
 		4439444C932F9571924863CD9D7D0317 /* reader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = reader.h; path = Firestore/core/src/firebase/firestore/nanopb/reader.h; sourceTree = "<group>"; };
@@ -7590,11 +7533,9 @@
 		46C98E621A54CA2637788D5791D18F68 /* repair.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = repair.cc; path = db/repair.cc; sourceTree = "<group>"; };
 		46D6846FCCCF98CDBE16DF8DC2EDA8A8 /* FAckUserWrite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAckUserWrite.m; path = Firebase/Database/Core/Operation/FAckUserWrite.m; sourceTree = "<group>"; };
 		46EEF9BAB8910754F34DD99DAA248797 /* Firestore.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firestore.pbobjc.h; path = Firestore/Protos/objc/google/firestore/v1/Firestore.pbobjc.h; sourceTree = "<group>"; };
-<<<<<<< HEAD
-=======
-		470672B4DF4FE015CB15B19CCDA1F1B6 /* Pods-easer-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-easer-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
->>>>>>> All the problems are gone!!..once again :?
-		4712F0EBCFB7D507536F9E74003E5B4F /* FIRInstanceIDAuthService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceIDAuthService.h; path = Firebase/InstanceID/FIRInstanceIDAuthService.h; sourceTree = "<group>"; };
+
+470672B4DF4FE015CB15B19CCDA1F1B6 /* Pods-easer-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-easer-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+4712F0EBCFB7D507536F9E74003E5B4F /* FIRInstanceIDAuthService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceIDAuthService.h; path = Firebase/InstanceID/FIRInstanceIDAuthService.h; sourceTree = "<group>"; };
 		471AA20ECFDD879F23376943FA21B296 /* md4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md4.h; path = include/openssl/md4.h; sourceTree = "<group>"; };
 		473220256D2811715E43640219F5FAA3 /* FIRComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRComponent.m; path = Firebase/Core/FIRComponent.m; sourceTree = "<group>"; };
 		475A0591200545D245146E45A5D16580 /* channel_arguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = channel_arguments.h; path = include/grpcpp/support/channel_arguments.h; sourceTree = "<group>"; };
@@ -7611,11 +7552,9 @@
 		489EEC38E0995F726A392A59EF523845 /* FIRAuthDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthDispatcher.h; path = Firebase/Auth/Source/FIRAuthDispatcher.h; sourceTree = "<group>"; };
 		48A9CE3FF7438DFA5D4B729EB693609E /* port_posix_sse.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = port_posix_sse.cc; path = port/port_posix_sse.cc; sourceTree = "<group>"; };
 		48B4434DAC2EC8F0DE117C0447E4DCAB /* timer_manager.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = timer_manager.cc; path = src/core/lib/iomgr/timer_manager.cc; sourceTree = "<group>"; };
-<<<<<<< HEAD
-=======
-		48D13237E86CC39AFB45E3141384BF8F /* Pods-easer-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-easer-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
->>>>>>> All the problems are gone!!..once again :?
-		492663A0CA9D23C383DA52AA2A9129ED /* dynamic_thread_pool.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = dynamic_thread_pool.cc; path = src/cpp/server/dynamic_thread_pool.cc; sourceTree = "<group>"; };
+
+48D13237E86CC39AFB45E3141384BF8F /* Pods-easer-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-easer-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+492663A0CA9D23C383DA52AA2A9129ED /* dynamic_thread_pool.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = dynamic_thread_pool.cc; path = src/cpp/server/dynamic_thread_pool.cc; sourceTree = "<group>"; };
 		492BD2E1329908C8860DF1737337F1A5 /* tcp_server_custom.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = tcp_server_custom.cc; path = src/core/lib/iomgr/tcp_server_custom.cc; sourceTree = "<group>"; };
 		4934A18A215CC8B50DC0E1ACF5F3B309 /* NSData+FIRBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+FIRBase64.h"; path = "Firebase/Auth/Source/NSData+FIRBase64.h"; sourceTree = "<group>"; };
 		4936909BDEEBD86C9721EC0D6CA95CD3 /* Document.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Document.pbobjc.h; path = Firestore/Protos/objc/google/firestore/v1/Document.pbobjc.h; sourceTree = "<group>"; };
@@ -7700,18 +7639,16 @@
 		4FDBC72E4989DD3229460AF02C833567 /* google_default_credentials.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = google_default_credentials.h; path = src/core/lib/security/credentials/google_default/google_default_credentials.h; sourceTree = "<group>"; };
 		4FE1FB41B912ED3017A098E181DBE807 /* d1_pkt.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = d1_pkt.cc; path = ssl/d1_pkt.cc; sourceTree = "<group>"; };
 		4FF48792D1CBDB04CB9A1896522D8232 /* aes.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aes.c; path = crypto/fipsmodule/aes/aes.c; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		502DFAABAF09BD7B1F5EB74642B63D26 /* lame_client.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lame_client.h; path = src/core/lib/surface/lame_client.h; sourceTree = "<group>"; };
 		5050FB57E2E17B36EFAB174819443182 /* transport_security.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = transport_security.cc; path = src/core/tsi/transport_security.cc; sourceTree = "<group>"; };
 		5053DC1C37850B47D6A0075968D968BA /* cmac.c */ = {isa = PBXFileReference; includeInIndex = 1; name = cmac.c; path = crypto/cmac/cmac.c; sourceTree = "<group>"; };
-=======
-		500BEB2CF3735FCE03C72C71EB0B1E20 /* Pods-easer-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-easer-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+500BEB2CF3735FCE03C72C71EB0B1E20 /* Pods-easer-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-easer-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		502DFAABAF09BD7B1F5EB74642B63D26 /* lame_client.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lame_client.h; path = src/core/lib/surface/lame_client.h; sourceTree = "<group>"; };
 		5050FB57E2E17B36EFAB174819443182 /* transport_security.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = transport_security.cc; path = src/core/tsi/transport_security.cc; sourceTree = "<group>"; };
 		5053DC1C37850B47D6A0075968D968BA /* cmac.c */ = {isa = PBXFileReference; includeInIndex = 1; name = cmac.c; path = crypto/cmac/cmac.c; sourceTree = "<group>"; };
 		5092DF0760F7596DE3516F960D21C2F7 /* Pods-easer-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-easer-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
->>>>>>> All the problems are gone!!..once again :?
-		5092FFDA32DA76DEA2F1533F58B93553 /* HTTP.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTP.pbobjc.m; path = Firestore/Protos/objc/google/api/HTTP.pbobjc.m; sourceTree = "<group>"; };
+5092FFDA32DA76DEA2F1533F58B93553 /* HTTP.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTP.pbobjc.m; path = Firestore/Protos/objc/google/api/HTTP.pbobjc.m; sourceTree = "<group>"; };
 		509D068FB1365DB971CDF4C88D4DE703 /* srtp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srtp.h; path = include/openssl/srtp.h; sourceTree = "<group>"; };
 		50B1CE6BBCDDCAF240CCF0569FA260BF /* alts_credentials.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = alts_credentials.h; path = src/core/lib/security/credentials/alts/alts_credentials.h; sourceTree = "<group>"; };
 		50C1FF7004B158CC0661CA65B56060FF /* v3_lib.c */ = {isa = PBXFileReference; includeInIndex = 1; name = v3_lib.c; path = crypto/x509v3/v3_lib.c; sourceTree = "<group>"; };
@@ -7736,11 +7673,9 @@
 		51F20CE9AAB37F44DDCC37902FB36886 /* connected_channel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = connected_channel.h; path = src/core/lib/channel/connected_channel.h; sourceTree = "<group>"; };
 		51FD35EC28BE94BE52C28D88ADED18D4 /* grpc_root_certificate_finder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = grpc_root_certificate_finder.h; path = Firestore/core/src/firebase/firestore/remote/grpc_root_certificate_finder.h; sourceTree = "<group>"; };
 		5202009251529B411AC2B13D5B5F1B3C /* common.nanopb.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = common.nanopb.cc; path = Firestore/Protos/nanopb/google/firestore/v1/common.nanopb.cc; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		520D52567A1F58C6CFD5BF881BE68F73 /* Pods-easer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-easer-frameworks.sh"; sourceTree = "<group>"; };
-=======
->>>>>>> All the problems are gone!!..once again :?
-		521505724D6BFF277A3550C7D39ED061 /* v3_skey.c */ = {isa = PBXFileReference; includeInIndex = 1; name = v3_skey.c; path = crypto/x509v3/v3_skey.c; sourceTree = "<group>"; };
+521505724D6BFF277A3550C7D39ED061 /* v3_skey.c */ = {isa = PBXFileReference; includeInIndex = 1; name = v3_skey.c; path = crypto/x509v3/v3_skey.c; sourceTree = "<group>"; };
 		52163216DC858E808DC418053F47D3DE /* lhash_macros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lhash_macros.h; path = include/openssl/lhash_macros.h; sourceTree = "<group>"; };
 		52521FC44691C36C1CB30B4027B169FA /* aes_gcm.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = aes_gcm.cc; path = src/core/tsi/alts/crypt/aes_gcm.cc; sourceTree = "<group>"; };
 		52825E59D42B8588A020F120D36D801B /* empty_credentials_provider.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = empty_credentials_provider.cc; path = Firestore/core/src/firebase/firestore/auth/empty_credentials_provider.cc; sourceTree = "<group>"; };
@@ -7808,11 +7743,9 @@
 		57C965CF5A5616020113583D477EF590 /* mem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mem.h; path = include/openssl/mem.h; sourceTree = "<group>"; };
 		57CCA839829B1ADA57E08325AD2CBAF2 /* FSnapshotHolder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSnapshotHolder.h; path = Firebase/Database/Core/FSnapshotHolder.h; sourceTree = "<group>"; };
 		580AE6D5840E8392CCB1BE9D22CC4EC6 /* security_connector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = security_connector.h; path = src/core/lib/security/security_connector/security_connector.h; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		582DC748CE999ACA568FF714FD2CF017 /* Pods-easer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-easer.modulemap"; sourceTree = "<group>"; };
-=======
->>>>>>> All the problems are gone!!..once again :?
-		5857C260FA53FF0063C1218BBD91A91E /* composite_credentials.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = composite_credentials.cc; path = src/core/lib/security/credentials/composite/composite_credentials.cc; sourceTree = "<group>"; };
+5857C260FA53FF0063C1218BBD91A91E /* composite_credentials.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = composite_credentials.cc; path = src/core/lib/security/credentials/composite/composite_credentials.cc; sourceTree = "<group>"; };
 		585AA810DDA70238A3357E897AC0A278 /* gsec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gsec.h; path = src/core/tsi/alts/crypt/gsec.h; sourceTree = "<group>"; };
 		58D86F27948ACB2F1F511B608A09C77A /* dumpfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dumpfile.h; path = include/leveldb/dumpfile.h; sourceTree = "<group>"; };
 		58EEDA209C2977C881E92C9B1F25BDB6 /* alts_tsi_handshaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = alts_tsi_handshaker.h; path = src/core/tsi/alts/handshaker/alts_tsi_handshaker.h; sourceTree = "<group>"; };
@@ -7832,11 +7765,9 @@
 		599153B20650F85D42CEA41881F250F4 /* max_age_filter.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = max_age_filter.cc; path = src/core/ext/filters/max_age/max_age_filter.cc; sourceTree = "<group>"; };
 		59941706B40F12F73CE42D0CECD9BF32 /* resolve_address.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = resolve_address.cc; path = src/core/lib/iomgr/resolve_address.cc; sourceTree = "<group>"; };
 		599D1A590B39EC56DEF08A0B0CE0ADFB /* FIRActionCodeSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRActionCodeSettings.m; path = Firebase/Auth/Source/FIRActionCodeSettings.m; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		599FB3CC350E7AEC809E45D18F9CE9CB /* Pods-easer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-easer-dummy.m"; sourceTree = "<group>"; };
-=======
->>>>>>> All the problems are gone!!..once again :?
-		59ADF5613AAA84EC651EAA8D80AC3794 /* FIRInstanceIDTokenFetchOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceIDTokenFetchOperation.h; path = Firebase/InstanceID/FIRInstanceIDTokenFetchOperation.h; sourceTree = "<group>"; };
+59ADF5613AAA84EC651EAA8D80AC3794 /* FIRInstanceIDTokenFetchOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceIDTokenFetchOperation.h; path = Firebase/InstanceID/FIRInstanceIDTokenFetchOperation.h; sourceTree = "<group>"; };
 		59B88698CEB41FBDA4320586BBDAA689 /* GULNetworkConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetworkConstants.h; path = GoogleUtilities/Network/Private/GULNetworkConstants.h; sourceTree = "<group>"; };
 		59C7F608B259061E8A23AB47C5D2E407 /* status.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = status.h; path = include/grpcpp/impl/codegen/status.h; sourceTree = "<group>"; };
 		59CCB27104F32DA9815A5F50D9BDED44 /* dsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dsa.h; path = include/openssl/dsa.h; sourceTree = "<group>"; };
@@ -7844,12 +7775,10 @@
 		59E119550F07E36B4738B3E4D40D9604 /* bin_encoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bin_encoder.h; path = src/core/ext/transport/chttp2/transport/bin_encoder.h; sourceTree = "<group>"; };
 		5A10C56B89EF54C1663FAC504436FA09 /* ossl_typ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ossl_typ.h; path = include/openssl/ossl_typ.h; sourceTree = "<group>"; };
 		5A3479D1A9D9DD886D9A63F2FE502540 /* version_edit.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = version_edit.cc; path = db/version_edit.cc; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		5A5FD3395A257B53FC6B82DAD1AA282C /* libPods-easer-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-easer-tvOSTests.a"; path = "libPods-easer-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-=======
-		5A5FD3395A257B53FC6B82DAD1AA282C /* Pods_easer_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_easer_tvOSTests.framework; path = "Pods-easer-tvOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
->>>>>>> All the problems are gone!!..once again :?
-		5A62D8C171808EB4FFBB7206E7FA7E42 /* frame_window_update.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = frame_window_update.h; path = src/core/ext/transport/chttp2/transport/frame_window_update.h; sourceTree = "<group>"; };
+5A5FD3395A257B53FC6B82DAD1AA282C /* Pods_easer_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_easer_tvOSTests.framework; path = "Pods-easer-tvOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+5A62D8C171808EB4FFBB7206E7FA7E42 /* frame_window_update.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = frame_window_update.h; path = src/core/ext/transport/chttp2/transport/frame_window_update.h; sourceTree = "<group>"; };
 		5A77B43FA7741EBF878ACC665E422167 /* FTupleBoolBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTupleBoolBlock.h; path = Firebase/Database/Utilities/Tuples/FTupleBoolBlock.h; sourceTree = "<group>"; };
 		5A9FB40CA3CA35CC2BA60F67ADF729AC /* security_handshaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = security_handshaker.h; path = src/core/lib/security/transport/security_handshaker.h; sourceTree = "<group>"; };
 		5A9FE441333848C6E490CE64C504A031 /* curve25519_tables.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = curve25519_tables.h; path = third_party/fiat/curve25519_tables.h; sourceTree = "<group>"; };
@@ -7924,11 +7853,9 @@
 		60D0B0BA78FB375944583F31135CB9B9 /* FIRSecureTokenService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRSecureTokenService.m; path = Firebase/Auth/Source/FIRSecureTokenService.m; sourceTree = "<group>"; };
 		60D6A58F863283C0D45EDA382BCB3FF4 /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdsa.h; path = include/openssl/ecdsa.h; sourceTree = "<group>"; };
 		610696952F0079BD8BB8854C763233BE /* interceptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = interceptor.h; path = include/grpcpp/impl/codegen/interceptor.h; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		6117C9C7183D35F7E9B561423D3952EE /* Pods_easerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_easerTests.framework; path = "Pods-easerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-=======
->>>>>>> All the problems are gone!!..once again :?
-		611930CDEB8A08AA6EE5272E3298C79D /* tcp_server.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tcp_server.h; path = src/core/lib/iomgr/tcp_server.h; sourceTree = "<group>"; };
+611930CDEB8A08AA6EE5272E3298C79D /* tcp_server.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tcp_server.h; path = src/core/lib/iomgr/tcp_server.h; sourceTree = "<group>"; };
 		6119A9AA69D354AD5FA9CD69A4D6DE0E /* FIRMutableData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRMutableData.m; path = Firebase/Database/Api/FIRMutableData.m; sourceTree = "<group>"; };
 		614A2D6FC7ADC9518510831B00CF0514 /* rc4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc4.h; path = include/openssl/rc4.h; sourceTree = "<group>"; };
 		6197D335595990DECA3D6AD6C1B5D57B /* atomic_with_std.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = atomic_with_std.h; path = src/core/lib/gprpp/atomic_with_std.h; sourceTree = "<group>"; };
@@ -8020,11 +7947,9 @@
 		6814A95D2F7F234396A740AE5C982CFC /* view_snapshot.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = view_snapshot.mm; path = Firestore/core/src/firebase/firestore/core/view_snapshot.mm; sourceTree = "<group>"; };
 		681FE31168189B2158004AEBB3FDBFF8 /* deterministic.c */ = {isa = PBXFileReference; includeInIndex = 1; name = deterministic.c; path = crypto/rand_extra/deterministic.c; sourceTree = "<group>"; };
 		68207AEAB6ADA1C015CC398AF3940499 /* client_context.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = client_context.h; path = include/grpcpp/impl/codegen/client_context.h; sourceTree = "<group>"; };
-<<<<<<< HEAD
-=======
-		682F6FF43CF316A887919906B345177E /* Pods-easer-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-easer-tvOS-Info.plist"; sourceTree = "<group>"; };
->>>>>>> All the problems are gone!!..once again :?
-		687245B30957C98A36F2E2055B0106EE /* FIRDataSnapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRDataSnapshot.m; path = Firebase/Database/Api/FIRDataSnapshot.m; sourceTree = "<group>"; };
+
+682F6FF43CF316A887919906B345177E /* Pods-easer-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-easer-tvOS-Info.plist"; sourceTree = "<group>"; };
+687245B30957C98A36F2E2055B0106EE /* FIRDataSnapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRDataSnapshot.m; path = Firebase/Database/Api/FIRDataSnapshot.m; sourceTree = "<group>"; };
 		6883339C203D7F25B8DCDCFDD8441D9E /* client_load_reporting_filter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = client_load_reporting_filter.h; path = src/core/ext/filters/client_channel/lb_policy/grpclb/client_load_reporting_filter.h; sourceTree = "<group>"; };
 		688BE2ABC53F3E16BE196EAD4EBE92DB /* buf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buf.h; path = include/openssl/buf.h; sourceTree = "<group>"; };
 		68C1279EC24EACB1CB27BA970896518A /* log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = log.h; path = include/grpc/impl/codegen/log.h; sourceTree = "<group>"; };
@@ -8066,12 +7991,10 @@
 		6CA01CAD91165A3B49493DBF1A9A29BE /* iterator_adaptors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iterator_adaptors.h; path = Firestore/core/src/firebase/firestore/util/iterator_adaptors.h; sourceTree = "<group>"; };
 		6CC6A313F7DDFD3E38B857B848AE6106 /* iomgr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iomgr.h; path = src/core/lib/iomgr/iomgr.h; sourceTree = "<group>"; };
 		6CE0740E5CF46CE547A35AF00D61FCDC /* mutation_batch.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = mutation_batch.cc; path = Firestore/core/src/firebase/firestore/model/mutation_batch.cc; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		6D60DA8778E59BD153745A853B5DBADF /* libPods-easer-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-easer-tvOS.a"; path = "libPods-easer-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-=======
-		6D60DA8778E59BD153745A853B5DBADF /* Pods_easer_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_easer_tvOS.framework; path = "Pods-easer-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
->>>>>>> All the problems are gone!!..once again :?
-		6D75F353C035A7549FCAE57D0CE17593 /* token.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = token.cc; path = Firestore/core/src/firebase/firestore/auth/token.cc; sourceTree = "<group>"; };
+6D60DA8778E59BD153745A853B5DBADF /* Pods_easer_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_easer_tvOS.framework; path = "Pods-easer-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+6D75F353C035A7549FCAE57D0CE17593 /* token.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = token.cc; path = Firestore/core/src/firebase/firestore/auth/token.cc; sourceTree = "<group>"; };
 		6D8C422C54DF2948AC1658A1109ACABA /* socket_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = socket_utils.h; path = src/core/lib/iomgr/socket_utils.h; sourceTree = "<group>"; };
 		6DB521896F6840E8AE1E73B3C395177E /* FChildEventRegistration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FChildEventRegistration.m; path = Firebase/Database/Core/View/FChildEventRegistration.m; sourceTree = "<group>"; };
 		6E08B638F7C5A6E04EF825FFFAFC96A9 /* connector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = connector.h; path = src/core/ext/filters/client_channel/connector.h; sourceTree = "<group>"; };
@@ -8080,11 +8003,9 @@
 		6E8A39FDF6A859A22375423CE6E0CA0E /* table_builder.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = table_builder.cc; path = table/table_builder.cc; sourceTree = "<group>"; };
 		6E8A81DA64F1F876FB71DFC40CDD4038 /* FIRSendVerificationCodeRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRSendVerificationCodeRequest.h; path = Firebase/Auth/Source/RPCs/FIRSendVerificationCodeRequest.h; sourceTree = "<group>"; };
 		6EA31280A075765D07802F863D3318C0 /* frame_rst_stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = frame_rst_stream.h; path = src/core/ext/transport/chttp2/transport/frame_rst_stream.h; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		6EBFA51FFCF9E60F2F8C50448A0FB286 /* Pods-easer-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-easer-tvOS-dummy.m"; sourceTree = "<group>"; };
-=======
->>>>>>> All the problems are gone!!..once again :?
-		6EDBE3C845D2AAD18FFEBE544923994D /* serialization_traits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = serialization_traits.h; path = include/grpcpp/impl/codegen/serialization_traits.h; sourceTree = "<group>"; };
+6EDBE3C845D2AAD18FFEBE544923994D /* serialization_traits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = serialization_traits.h; path = include/grpcpp/impl/codegen/serialization_traits.h; sourceTree = "<group>"; };
 		6F089B3FF73204E0DA6060700363F4DD /* base_path.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = base_path.h; path = Firestore/core/src/firebase/firestore/model/base_path.h; sourceTree = "<group>"; };
 		6F1EF072BE9922495922C4642BD1168E /* FSTFirestoreComponent.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FSTFirestoreComponent.mm; path = Firestore/Source/API/FSTFirestoreComponent.mm; sourceTree = "<group>"; };
 		6F5757AAD2162C9151D617477BE93FEA /* poly1305.c */ = {isa = PBXFileReference; includeInIndex = 1; name = poly1305.c; path = crypto/poly1305/poly1305.c; sourceTree = "<group>"; };
@@ -8103,11 +8024,9 @@
 		70D04632856CD2A8DED5E3D53CC9DD02 /* pollset_set.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = pollset_set.cc; path = src/core/lib/iomgr/pollset_set.cc; sourceTree = "<group>"; };
 		70DD42DA905739D7F6E70A890AA0907B /* completion_queue.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = completion_queue.cc; path = src/core/lib/surface/completion_queue.cc; sourceTree = "<group>"; };
 		70E760655AF3893FCDBE3449C71FE18B /* GPBExtensionInternals.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBExtensionInternals.m; path = objectivec/GPBExtensionInternals.m; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		70FF5EF6DC6DF19EB940CAB0973AEED4 /* Pods-easer-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-easer-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
-=======
->>>>>>> All the problems are gone!!..once again :?
-		71197B3DE810751A9BE5C340982A437A /* parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parser.h; path = src/core/lib/http/parser.h; sourceTree = "<group>"; };
+71197B3DE810751A9BE5C340982A437A /* parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parser.h; path = src/core/lib/http/parser.h; sourceTree = "<group>"; };
 		711AD83D199E72696392F7B49ACF9A18 /* client_load_reporting_filter.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = client_load_reporting_filter.cc; path = src/core/ext/filters/client_channel/lb_policy/grpclb/client_load_reporting_filter.cc; sourceTree = "<group>"; };
 		716F2AE4389B9389055596331BACF86A /* generic.c */ = {isa = PBXFileReference; includeInIndex = 1; name = generic.c; path = crypto/fipsmodule/bn/generic.c; sourceTree = "<group>"; };
 		717095990FA515CB5FBFF6AE754DEBFC /* status_util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = status_util.h; path = src/core/lib/channel/status_util.h; sourceTree = "<group>"; };
@@ -8137,11 +8056,9 @@
 		73A22FA4EA4D874E1DEE618ADE1BC782 /* dynamic_annotations.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = dynamic_annotations.cc; path = "Firestore/third_party/abseil-cpp/absl/base/dynamic_annotations.cc"; sourceTree = "<group>"; };
 		73AF409717DCF7F6C633B75B3290A63F /* env.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = env.h; path = src/core/lib/gpr/env.h; sourceTree = "<group>"; };
 		73BC6F951D69323B3CD6EC7FCF8818F5 /* FTrackedQueryManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTrackedQueryManager.m; path = Firebase/Database/Persistence/FTrackedQueryManager.m; sourceTree = "<group>"; };
-<<<<<<< HEAD
-=======
-		73DAFDAEF67D47BC5C86A8D91864DA66 /* Pods-easer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-easer-dummy.m"; sourceTree = "<group>"; };
->>>>>>> All the problems are gone!!..once again :?
-		74292BFB750E10F1A56AB5B48B04DA51 /* p256-x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "p256-x86_64.h"; path = "crypto/fipsmodule/ec/p256-x86_64.h"; sourceTree = "<group>"; };
+
+73DAFDAEF67D47BC5C86A8D91864DA66 /* Pods-easer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-easer-dummy.m"; sourceTree = "<group>"; };
+74292BFB750E10F1A56AB5B48B04DA51 /* p256-x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "p256-x86_64.h"; path = "crypto/fipsmodule/ec/p256-x86_64.h"; sourceTree = "<group>"; };
 		74344997B437FA5BC54C7D89869E7F49 /* filesystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = filesystem.h; path = Firestore/core/src/firebase/firestore/util/filesystem.h; sourceTree = "<group>"; };
 		744F234EAB5BE6BCDC75FE41E4294DEF /* ssl_session_cache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl_session_cache.h; path = src/core/tsi/ssl/session_cache/ssl_session_cache.h; sourceTree = "<group>"; };
 		74521FAC16A39D8698F85FA57214968C /* FIREmailLinkSignInRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIREmailLinkSignInRequest.m; path = Firebase/Auth/Source/RPCs/FIREmailLinkSignInRequest.m; sourceTree = "<group>"; };
@@ -8223,11 +8140,9 @@
 		7ABDB4564F02E5541240D0586A506173 /* e_ssl3.c */ = {isa = PBXFileReference; includeInIndex = 1; name = e_ssl3.c; path = crypto/cipher_extra/e_ssl3.c; sourceTree = "<group>"; };
 		7AC2EB359204FBBE03B5F576DA4755C3 /* gethostname.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gethostname.h; path = src/core/lib/iomgr/gethostname.h; sourceTree = "<group>"; };
 		7AF029BE43955AFBF32BC12AD7AAD1D6 /* memtable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = memtable.h; path = db/memtable.h; sourceTree = "<group>"; };
-<<<<<<< HEAD
-=======
-		7AFB4F7A09BF9EE259789A4B397BAD98 /* Pods-easer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-easer-acknowledgements.markdown"; sourceTree = "<group>"; };
->>>>>>> All the problems are gone!!..once again :?
-		7B0163C5A12586E30AB5EFBC9CE5AB55 /* mpscq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mpscq.h; path = src/core/lib/gpr/mpscq.h; sourceTree = "<group>"; };
+
+7AFB4F7A09BF9EE259789A4B397BAD98 /* Pods-easer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-easer-acknowledgements.markdown"; sourceTree = "<group>"; };
+7B0163C5A12586E30AB5EFBC9CE5AB55 /* mpscq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mpscq.h; path = src/core/lib/gpr/mpscq.h; sourceTree = "<group>"; };
 		7B04D401F9AA4549D9358B340294C69D /* insecure_credentials.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = insecure_credentials.cc; path = src/cpp/client/insecure_credentials.cc; sourceTree = "<group>"; };
 		7B3CB169A02AD4C27965E7C6D9A94CD0 /* string_posix.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = string_posix.cc; path = src/core/lib/gpr/string_posix.cc; sourceTree = "<group>"; };
 		7B3D92136565854BE988B1A66E0B5269 /* x509_vfy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509_vfy.h; path = include/openssl/x509_vfy.h; sourceTree = "<group>"; };
@@ -8293,11 +8208,9 @@
 		802EF73788DA35FE3BBAD338927B427D /* inproc_transport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = inproc_transport.h; path = src/core/ext/transport/inproc/inproc_transport.h; sourceTree = "<group>"; };
 		805058977045037A6E75B35420B88F05 /* snapshot_version.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = snapshot_version.cc; path = Firestore/core/src/firebase/firestore/model/snapshot_version.cc; sourceTree = "<group>"; };
 		807413CC451169ECB6DBF859B4BDB87C /* timer_uv.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = timer_uv.cc; path = src/core/lib/iomgr/timer_uv.cc; sourceTree = "<group>"; };
-<<<<<<< HEAD
-=======
-		807E986911BC2C4AF7497179376D3269 /* Pods-easer-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-easer-tvOS-dummy.m"; sourceTree = "<group>"; };
->>>>>>> All the problems are gone!!..once again :?
-		807F689DF16FAC34220835CC467866F6 /* FPersistentConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FPersistentConnection.h; path = Firebase/Database/Core/FPersistentConnection.h; sourceTree = "<group>"; };
+
+807E986911BC2C4AF7497179376D3269 /* Pods-easer-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-easer-tvOS-dummy.m"; sourceTree = "<group>"; };
+807F689DF16FAC34220835CC467866F6 /* FPersistentConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FPersistentConnection.h; path = Firebase/Database/Core/FPersistentConnection.h; sourceTree = "<group>"; };
 		80807C877B0E47D408F0D83B68C2ADA4 /* alts_grpc_record_protocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = alts_grpc_record_protocol.h; path = src/core/tsi/alts/zero_copy_frame_protector/alts_grpc_record_protocol.h; sourceTree = "<group>"; };
 		80A9AADA2BF4DCE22A4874A8A0F04C0F /* host_port.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = host_port.cc; path = src/core/lib/gpr/host_port.cc; sourceTree = "<group>"; };
 		80AC443BE4BC6A7DF128BF9650015359 /* tls.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tls.h; path = src/core/lib/gpr/tls.h; sourceTree = "<group>"; };
@@ -8361,11 +8274,9 @@
 		84DB7223494AA272D5AE7858676875A0 /* keys_view.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = keys_view.h; path = Firestore/core/src/firebase/firestore/immutable/keys_view.h; sourceTree = "<group>"; };
 		84E2DD9541035C5F3FAEB1690AC6F214 /* channel_create.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = channel_create.cc; path = src/core/ext/transport/chttp2/client/insecure/channel_create.cc; sourceTree = "<group>"; };
 		8522D788E1FDBD7131961809B11781A4 /* FIRQuery_Init.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRQuery_Init.h; path = Firestore/Source/API/FIRQuery_Init.h; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		854EA9AE039149992B925626EA0A9AB3 /* Pods-easer-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-easer-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-=======
->>>>>>> All the problems are gone!!..once again :?
-		855D54B54F1858CC1EBA10DD93B2D9B7 /* shift.c */ = {isa = PBXFileReference; includeInIndex = 1; name = shift.c; path = crypto/fipsmodule/bn/shift.c; sourceTree = "<group>"; };
+855D54B54F1858CC1EBA10DD93B2D9B7 /* shift.c */ = {isa = PBXFileReference; includeInIndex = 1; name = shift.c; path = crypto/fipsmodule/bn/shift.c; sourceTree = "<group>"; };
 		85743AA795B331F82BEA178620588E1E /* channel_stack.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = channel_stack.cc; path = src/core/lib/channel/channel_stack.cc; sourceTree = "<group>"; };
 		861A1B81F6D2197DBCEA80D220940328 /* hpack_parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hpack_parser.h; path = src/core/ext/transport/chttp2/transport/hpack_parser.h; sourceTree = "<group>"; };
 		8622F5D43E7C3A02126F74BD02023AD9 /* FIRIMessageCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRIMessageCode.h; path = Firebase/InstanceID/FIRIMessageCode.h; sourceTree = "<group>"; };
@@ -8475,11 +8386,9 @@
 		903758CEB20444D6CB0055F35A5025D4 /* frame_goaway.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = frame_goaway.cc; path = src/core/ext/transport/chttp2/transport/frame_goaway.cc; sourceTree = "<group>"; };
 		9040E3C1EE335200C7A7A8167CD22531 /* FQueryParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FQueryParams.h; path = Firebase/Database/Core/FQueryParams.h; sourceTree = "<group>"; };
 		90413B93F3997008C8DB348620BB55A5 /* time.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = time.cc; path = src/core/lib/gpr/time.cc; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		9051477FD846466E2F280C8AF4DC55B0 /* Pods-easerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-easerTests.modulemap"; sourceTree = "<group>"; };
-=======
->>>>>>> All the problems are gone!!..once again :?
-		905C7D0F60CAC39F2A07454163D60293 /* FRangedFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FRangedFilter.m; path = Firebase/Database/FRangedFilter.m; sourceTree = "<group>"; };
+905C7D0F60CAC39F2A07454163D60293 /* FRangedFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FRangedFilter.m; path = Firebase/Database/FRangedFilter.m; sourceTree = "<group>"; };
 		906301B4B340E09371C698DA2AA4D2D4 /* ResourceBundle-gRPCCertificates-gRPC-C++-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-gRPCCertificates-gRPC-C++-Info.plist"; sourceTree = "<group>"; };
 		9078D76D4CCDDF811C638E59F4A0F1DB /* ssl_stat.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = ssl_stat.cc; path = ssl/ssl_stat.cc; sourceTree = "<group>"; };
 		908F874CFA41B4A4C23553DB72AC9F5F /* proxy_mapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = proxy_mapper.h; path = src/core/ext/filters/client_channel/proxy_mapper.h; sourceTree = "<group>"; };
@@ -8507,11 +8416,9 @@
 		92B391A8B92E1802AFD6BB0FFDF6B0AA /* status.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = status.h; path = include/grpcpp/support/status.h; sourceTree = "<group>"; };
 		92BB60FB6826753D3CF71DC25B5F0195 /* alts_grpc_record_protocol_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = alts_grpc_record_protocol_common.h; path = src/core/tsi/alts/zero_copy_frame_protector/alts_grpc_record_protocol_common.h; sourceTree = "<group>"; };
 		92BB88FBCCA28518844B247EF82813D0 /* FIRSecureTokenRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRSecureTokenRequest.h; path = Firebase/Auth/Source/RPCs/FIRSecureTokenRequest.h; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		92C02283A6AB2068DF0CA4F307390606 /* Pods-easerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-easerTests-acknowledgements.plist"; sourceTree = "<group>"; };
-=======
->>>>>>> All the problems are gone!!..once again :?
-		92C033A88DE2C0A8D6ACCD61BED67AD0 /* FIRSnapshotMetadata.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FIRSnapshotMetadata.mm; path = Firestore/Source/API/FIRSnapshotMetadata.mm; sourceTree = "<group>"; };
+92C033A88DE2C0A8D6ACCD61BED67AD0 /* FIRSnapshotMetadata.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FIRSnapshotMetadata.mm; path = Firestore/Source/API/FIRSnapshotMetadata.mm; sourceTree = "<group>"; };
 		92D02700E82DB786355C4DAD58017D18 /* FIRSecureTokenResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRSecureTokenResponse.m; path = Firebase/Auth/Source/RPCs/FIRSecureTokenResponse.m; sourceTree = "<group>"; };
 		92D649F584315C3B1B6ECCDD8E45B042 /* string_win.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = string_win.cc; path = Firestore/core/src/firebase/firestore/util/string_win.cc; sourceTree = "<group>"; };
 		92F043685D66F953C3C23F6DF9EAAFE0 /* GPBUnknownFieldSet_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownFieldSet_PackagePrivate.h; path = objectivec/GPBUnknownFieldSet_PackagePrivate.h; sourceTree = "<group>"; };
@@ -8604,11 +8511,9 @@
 		9B8D30CF98F01326A66640B734DF7E76 /* internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = internal.h; path = crypto/fipsmodule/rand/internal.h; sourceTree = "<group>"; };
 		9B906CD218404F6CD5D1BAE7408D0AC7 /* db_impl.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = db_impl.cc; path = db/db_impl.cc; sourceTree = "<group>"; };
 		9B940F38E65CF977568374CA41CD418C /* local_transport_security.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = local_transport_security.h; path = src/core/tsi/local_transport_security.h; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		9B9756C1EDAF85EC45A61CFDAC0FED0C /* Pods-easer-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-easer-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-=======
->>>>>>> All the problems are gone!!..once again :?
-		9BBF87E9BE37222246C6108EC0F474E9 /* time_precise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = time_precise.h; path = src/core/lib/gpr/time_precise.h; sourceTree = "<group>"; };
+9BBF87E9BE37222246C6108EC0F474E9 /* time_precise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = time_precise.h; path = src/core/lib/gpr/time_precise.h; sourceTree = "<group>"; };
 		9BC5C3C7259A21C9EFB18007CA9D5037 /* GoogleUtilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleUtilities-prefix.pch"; sourceTree = "<group>"; };
 		9BDB8A031E7B6C1921A217D925820262 /* FIRFieldPath+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FIRFieldPath+Internal.h"; path = "Firestore/Source/API/FIRFieldPath+Internal.h"; sourceTree = "<group>"; };
 		9C223A0C380C694C6E53E4BB61B714CB /* FIRComponentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRComponentType.h; path = Firebase/Core/Private/FIRComponentType.h; sourceTree = "<group>"; };
@@ -8646,16 +8551,14 @@
 		9F47E9156E78849021F7971AA21168E6 /* blinding.c */ = {isa = PBXFileReference; includeInIndex = 1; name = blinding.c; path = crypto/fipsmodule/rsa/blinding.c; sourceTree = "<group>"; };
 		9F748C27657DD034F0376DF955DA8A6D /* http_client_filter.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = http_client_filter.cc; path = src/core/ext/filters/http/client/http_client_filter.cc; sourceTree = "<group>"; };
 		9F8869AF8FD9DD6AB64024EF8E25E65B /* mutation_queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mutation_queue.h; path = Firestore/core/src/firebase/firestore/local/mutation_queue.h; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		9FB86F77208E12C2CE986154671EE8DA /* internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = internal.h; path = crypto/fipsmodule/cipher/internal.h; sourceTree = "<group>"; };
 		A005AA03ECF50486F2E8EF47A1403057 /* resolve_address_custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = resolve_address_custom.h; path = src/core/lib/iomgr/resolve_address_custom.h; sourceTree = "<group>"; };
-=======
-		9F937CEB36A54E48F2E82847D3E1F51E /* Pods-easer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-easer-Info.plist"; sourceTree = "<group>"; };
+9F937CEB36A54E48F2E82847D3E1F51E /* Pods-easer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-easer-Info.plist"; sourceTree = "<group>"; };
 		9FB86F77208E12C2CE986154671EE8DA /* internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = internal.h; path = crypto/fipsmodule/cipher/internal.h; sourceTree = "<group>"; };
 		A005AA03ECF50486F2E8EF47A1403057 /* resolve_address_custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = resolve_address_custom.h; path = src/core/lib/iomgr/resolve_address_custom.h; sourceTree = "<group>"; };
 		A02D184DD2536AF952DC8050AEEB0574 /* Pods-easer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-easer.modulemap"; sourceTree = "<group>"; };
->>>>>>> All the problems are gone!!..once again :?
-		A037D58A8B0AECA7A178B12DA49A9B71 /* useful.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = useful.h; path = src/core/lib/gpr/useful.h; sourceTree = "<group>"; };
+A037D58A8B0AECA7A178B12DA49A9B71 /* useful.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = useful.h; path = src/core/lib/gpr/useful.h; sourceTree = "<group>"; };
 		A046BD4BE2A9A43CEC30B012137C83C7 /* hpack_parser.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = hpack_parser.cc; path = src/core/ext/transport/chttp2/transport/hpack_parser.cc; sourceTree = "<group>"; };
 		A04E543943D09B368F2636F18AA979EC /* chacha.c */ = {isa = PBXFileReference; includeInIndex = 1; name = chacha.c; path = crypto/chacha/chacha.c; sourceTree = "<group>"; };
 		A04EA9058F315DF4A22D4C45E24007B8 /* security_handshaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = security_handshaker.h; path = src/core/lib/security/transport/security_handshaker.h; sourceTree = "<group>"; };
@@ -8675,11 +8578,9 @@
 		A158932FF347E213A5050F59DCEA1552 /* dbformat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dbformat.h; path = db/dbformat.h; sourceTree = "<group>"; };
 		A1A98F9B7CCD17024EA520E4562554B8 /* GTMSessionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcher.h; path = Source/GTMSessionFetcher.h; sourceTree = "<group>"; };
 		A1BCA60F3958AFB5C0F8CDA0D7389F8F /* string_windows.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = string_windows.cc; path = src/core/lib/gpr/string_windows.cc; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		A1C27238A4FDCC14DF22CF9277178E6D /* Pods-easer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-easer-Info.plist"; sourceTree = "<group>"; };
-=======
->>>>>>> All the problems are gone!!..once again :?
-		A1CDB9A6F061E25F6B8997BF87B5DC73 /* target_id_generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = target_id_generator.h; path = Firestore/core/src/firebase/firestore/core/target_id_generator.h; sourceTree = "<group>"; };
+A1CDB9A6F061E25F6B8997BF87B5DC73 /* target_id_generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = target_id_generator.h; path = Firestore/core/src/firebase/firestore/core/target_id_generator.h; sourceTree = "<group>"; };
 		A1E57B67C855D1847C53F7BDEF2BFAFE /* Status.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Status.pbobjc.m; path = Firestore/Protos/objc/google/rpc/Status.pbobjc.m; sourceTree = "<group>"; };
 		A209FCFA0BEE078F8D4123A3F9B11A31 /* FLimitedFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLimitedFilter.h; path = Firebase/Database/Core/View/Filter/FLimitedFilter.h; sourceTree = "<group>"; };
 		A20E17D22BA186F6BA14B89EBE72F844 /* annotations.nanopb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = annotations.nanopb.h; path = Firestore/Protos/nanopb/google/api/annotations.nanopb.h; sourceTree = "<group>"; };
@@ -8802,11 +8703,9 @@
 		AD1128C4ABF9CDD8E6544E3CB259B662 /* FSTDocument.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FSTDocument.mm; path = Firestore/Source/Model/FSTDocument.mm; sourceTree = "<group>"; };
 		AD20AB47F48447DE7027664A9CDB0DB2 /* FIRAuthInterop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthInterop.h; path = Interop/Auth/Public/FIRAuthInterop.h; sourceTree = "<group>"; };
 		AD20CFAE9E02BD50AAC3C5DE030CDCAE /* oauth2_credentials.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = oauth2_credentials.cc; path = src/core/lib/security/credentials/oauth2/oauth2_credentials.cc; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		AD22BC9E6BAB96B23B669097F1E5BED0 /* Pods-easer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-easer.release.xcconfig"; sourceTree = "<group>"; };
-=======
->>>>>>> All the problems are gone!!..once again :?
-		AD3CB1F1D6FC1B923B8734B7AF64A7BD /* FIRQuerySnapshot.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FIRQuerySnapshot.mm; path = Firestore/Source/API/FIRQuerySnapshot.mm; sourceTree = "<group>"; };
+AD3CB1F1D6FC1B923B8734B7AF64A7BD /* FIRQuerySnapshot.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FIRQuerySnapshot.mm; path = Firestore/Source/API/FIRQuerySnapshot.mm; sourceTree = "<group>"; };
 		AD495094164F87967B216969FB7F0609 /* montgomery_inv.c */ = {isa = PBXFileReference; includeInIndex = 1; name = montgomery_inv.c; path = crypto/fipsmodule/bn/montgomery_inv.c; sourceTree = "<group>"; };
 		AD667EE77734B5E44417A9FF626F6E12 /* FClock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FClock.h; path = Firebase/Database/FClock.h; sourceTree = "<group>"; };
 		AD6C0723A26F1CABBCA4717372A3A60B /* FView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FView.m; path = Firebase/Database/Core/View/FView.m; sourceTree = "<group>"; };
@@ -8826,11 +8725,9 @@
 		AEAE3D266A7E2B4C8D3BCB5786CF5F55 /* cpu-arm-linux.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "cpu-arm-linux.c"; path = "crypto/cpu-arm-linux.c"; sourceTree = "<group>"; };
 		AEC42483814DE2DA89096B73CD31C3A8 /* authority.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = authority.cc; path = src/core/ext/transport/chttp2/client/authority.cc; sourceTree = "<group>"; };
 		AED696D4F97B9F392047710225A2D641 /* FIRFieldValue.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FIRFieldValue.mm; path = Firestore/Source/API/FIRFieldValue.mm; sourceTree = "<group>"; };
-<<<<<<< HEAD
-=======
-		AF10D236CC2CCED98CC914BD655576A9 /* Pods-easer-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-easer-tvOSTests-dummy.m"; sourceTree = "<group>"; };
->>>>>>> All the problems are gone!!..once again :?
-		AF304B9D83840F7AF2FDCF7EF2F6A27E /* db.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = db.h; path = include/leveldb/db.h; sourceTree = "<group>"; };
+
+AF10D236CC2CCED98CC914BD655576A9 /* Pods-easer-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-easer-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+AF304B9D83840F7AF2FDCF7EF2F6A27E /* db.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = db.h; path = include/leveldb/db.h; sourceTree = "<group>"; };
 		AF487CEC1C92AB51C4EDE49A6668ADF3 /* pcy_node.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pcy_node.c; path = crypto/x509v3/pcy_node.c; sourceTree = "<group>"; };
 		AF4A3D77DD5825176E5050BBA2CFEA41 /* sync_posix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sync_posix.h; path = include/grpc/support/sync_posix.h; sourceTree = "<group>"; };
 		AF89C0C36E9721B7F48331C62744E0A4 /* xds_channel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xds_channel.h; path = src/core/ext/filters/client_channel/lb_policy/xds/xds_channel.h; sourceTree = "<group>"; };
@@ -8992,11 +8889,9 @@
 		BBFE69DC43DDB41F0F1ADACA1CFCDC83 /* stats_data.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = stats_data.cc; path = src/core/lib/debug/stats_data.cc; sourceTree = "<group>"; };
 		BC1CB8A92328F4FFC421D6A7ABD599F2 /* no_document.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = no_document.cc; path = Firestore/core/src/firebase/firestore/model/no_document.cc; sourceTree = "<group>"; };
 		BC3D8E2C34571CA79E9A5BBB7F04404C /* json_token.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = json_token.h; path = src/core/lib/security/credentials/jwt/json_token.h; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		BC4B29A6EA171B3C83286186F9E95533 /* Pods-easerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-easerTests.debug.xcconfig"; sourceTree = "<group>"; };
-=======
->>>>>>> All the problems are gone!!..once again :?
-		BC70A4208C841403F13246448C9F77AF /* async_generic_service.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = async_generic_service.cc; path = src/cpp/server/async_generic_service.cc; sourceTree = "<group>"; };
+BC70A4208C841403F13246448C9F77AF /* async_generic_service.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = async_generic_service.cc; path = src/cpp/server/async_generic_service.cc; sourceTree = "<group>"; };
 		BC723A9F98796D258A39DDE9A97D6F9B /* FViewProcessorResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FViewProcessorResult.h; path = Firebase/Database/FViewProcessorResult.h; sourceTree = "<group>"; };
 		BC861A81397439AA48736C755F402322 /* target_authority_table.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = target_authority_table.cc; path = src/core/lib/security/transport/target_authority_table.cc; sourceTree = "<group>"; };
 		BC8F8801A968C9BB33BEDA95018A4E38 /* host_port.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = host_port.h; path = src/core/lib/gpr/host_port.h; sourceTree = "<group>"; };
@@ -9011,18 +8906,16 @@
 		BDA0F98DDCD58713FC77B5EB748C2B71 /* FKeyIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKeyIndex.h; path = Firebase/Database/FKeyIndex.h; sourceTree = "<group>"; };
 		BDC837D7006627860C0A8FFF9CE73529 /* FIRAuthAppCredential.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRAuthAppCredential.m; path = Firebase/Auth/Source/FIRAuthAppCredential.m; sourceTree = "<group>"; };
 		BDE248AE6069DC1E5EF410325D45D1AD /* FIRFederatedAuthProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRFederatedAuthProvider.h; path = Firebase/Auth/Source/Public/FIRFederatedAuthProvider.h; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		BDEEC0CBCC71935B847397DBC72E7CF7 /* Pods-easer-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-easer-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		BE028F85310BA2247D22C72FD360D44C /* reference_set.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = reference_set.cc; path = Firestore/core/src/firebase/firestore/local/reference_set.cc; sourceTree = "<group>"; };
 		BE0464C105747C45951C77FC3DC0E98D /* avl.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = avl.cc; path = src/core/lib/avl/avl.cc; sourceTree = "<group>"; };
 		BE100B9D2C70C9949AD11AC631DDA90A /* FSTArraySortedDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSTArraySortedDictionary.m; path = Firestore/third_party/Immutable/FSTArraySortedDictionary.m; sourceTree = "<group>"; };
-=======
-		BE028F85310BA2247D22C72FD360D44C /* reference_set.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = reference_set.cc; path = Firestore/core/src/firebase/firestore/local/reference_set.cc; sourceTree = "<group>"; };
+BE028F85310BA2247D22C72FD360D44C /* reference_set.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = reference_set.cc; path = Firestore/core/src/firebase/firestore/local/reference_set.cc; sourceTree = "<group>"; };
 		BE0464C105747C45951C77FC3DC0E98D /* avl.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = avl.cc; path = src/core/lib/avl/avl.cc; sourceTree = "<group>"; };
 		BE100B9D2C70C9949AD11AC631DDA90A /* FSTArraySortedDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSTArraySortedDictionary.m; path = Firestore/third_party/Immutable/FSTArraySortedDictionary.m; sourceTree = "<group>"; };
 		BE1B810207077A901446D3418BDAE5C5 /* Pods-easer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-easer-umbrella.h"; sourceTree = "<group>"; };
->>>>>>> All the problems are gone!!..once again :?
-		BE30AABDA3AF6453ABD6765E01C5D6A4 /* FLLRBNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLLRBNode.h; path = Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FLLRBNode.h; sourceTree = "<group>"; };
+BE30AABDA3AF6453ABD6765E01C5D6A4 /* FLLRBNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLLRBNode.h; path = Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FLLRBNode.h; sourceTree = "<group>"; };
 		BE33F170EF4F664DFD2ABA55C4F80E27 /* FIRUserMetadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRUserMetadata.m; path = Firebase/Auth/Source/FIRUserMetadata.m; sourceTree = "<group>"; };
 		BE46ADBDFE8B68C2B9E938A39952541F /* byte_buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = byte_buffer.h; path = include/grpcpp/impl/codegen/byte_buffer.h; sourceTree = "<group>"; };
 		BE4CA9123B559BA610B07D98ACFF51B1 /* channel_stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = channel_stack.h; path = src/core/lib/channel/channel_stack.h; sourceTree = "<group>"; };
@@ -9030,11 +8923,9 @@
 		BE8848438A1CBFE550F2069DD78AD9AA /* wakeup_fd_posix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wakeup_fd_posix.h; path = src/core/lib/iomgr/wakeup_fd_posix.h; sourceTree = "<group>"; };
 		BEC3C216E39CE76DC274E3BE54160F51 /* iterator_wrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iterator_wrapper.h; path = table/iterator_wrapper.h; sourceTree = "<group>"; };
 		BEDB78EC17464D581F6A692068D208B6 /* sync_custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sync_custom.h; path = include/grpc/support/sync_custom.h; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		BEE29EA17FAEE80A0AC12FE2ED21AAB7 /* Pods-easer-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-easer-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-=======
->>>>>>> All the problems are gone!!..once again :?
-		BEFA412B3968DC1464ECBF623A57C362 /* table.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = table.cc; path = table/table.cc; sourceTree = "<group>"; };
+BEFA412B3968DC1464ECBF623A57C362 /* table.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = table.cc; path = table/table.cc; sourceTree = "<group>"; };
 		BEFB28B49BC507ED7D83A2F2BFDC1BBC /* FSTSyncEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSTSyncEngine.h; path = Firestore/Source/Core/FSTSyncEngine.h; sourceTree = "<group>"; };
 		BF0A1B810C47C229643AC835347B922D /* alts_zero_copy_grpc_protector.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = alts_zero_copy_grpc_protector.cc; path = src/core/tsi/alts/zero_copy_frame_protector/alts_zero_copy_grpc_protector.cc; sourceTree = "<group>"; };
 		BF1C65F906A8155643E05A45BCF044CF /* FLevelDBStorageEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLevelDBStorageEngine.h; path = Firebase/Database/Persistence/FLevelDBStorageEngine.h; sourceTree = "<group>"; };
@@ -9106,14 +8997,12 @@
 		C4F2A0375D4FC1DE8A697145AA21ED04 /* FIRAuthOperationType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRAuthOperationType.h; path = Firebase/Auth/Source/FIRAuthOperationType.h; sourceTree = "<group>"; };
 		C4F33F4A6352A27711502163376FB104 /* alts_grpc_integrity_only_record_protocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = alts_grpc_integrity_only_record_protocol.h; path = src/core/tsi/alts/zero_copy_frame_protector/alts_grpc_integrity_only_record_protocol.h; sourceTree = "<group>"; };
 		C4F4B5A17A14C0F6A580D1D144B637B2 /* abstract.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = abstract.h; path = src/core/lib/gprpp/abstract.h; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		C529B991062EBEE2E498F14F77A7968C /* executor.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = executor.cc; path = src/core/lib/iomgr/executor.cc; sourceTree = "<group>"; };
 		C540FBEFDE86CB18951A740C81F5E3A4 /* Pods-easer-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-easer-tvOSTests-dummy.m"; sourceTree = "<group>"; };
-=======
-		C5224BE752DBC17F23C017752817553D /* Pods-easer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-easer.debug.xcconfig"; sourceTree = "<group>"; };
+C5224BE752DBC17F23C017752817553D /* Pods-easer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-easer.debug.xcconfig"; sourceTree = "<group>"; };
 		C529B991062EBEE2E498F14F77A7968C /* executor.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = executor.cc; path = src/core/lib/iomgr/executor.cc; sourceTree = "<group>"; };
->>>>>>> All the problems are gone!!..once again :?
-		C5601DF2D2EA23F9A792285EE90DD1D6 /* gRPC-Core-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "gRPC-Core-dummy.m"; sourceTree = "<group>"; };
+C5601DF2D2EA23F9A792285EE90DD1D6 /* gRPC-Core-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "gRPC-Core-dummy.m"; sourceTree = "<group>"; };
 		C5615079D8927A4BEDD540AEBC87820A /* pkcs8.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pkcs8.c; path = crypto/pkcs8/pkcs8.c; sourceTree = "<group>"; };
 		C57168F4C2267715780EE21DC1705AFA /* slice_string_helpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = slice_string_helpers.h; path = src/core/lib/slice/slice_string_helpers.h; sourceTree = "<group>"; };
 		C59E5AE16D144E7249B59733E7236338 /* ssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl.h; path = include/openssl/ssl.h; sourceTree = "<group>"; };
@@ -9263,11 +9152,9 @@
 		D153626ED408CB7C979F7772A6C2BCD5 /* tree_sorted_map.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tree_sorted_map.h; path = Firestore/core/src/firebase/firestore/immutable/tree_sorted_map.h; sourceTree = "<group>"; };
 		D15B87AF0D343012D496C0CE35D56B7B /* pollset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pollset.h; path = src/core/lib/iomgr/pollset.h; sourceTree = "<group>"; };
 		D174B4F55C1C5EC317693297D4C348F7 /* log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = log.h; path = include/grpc/support/log.h; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		D1A6D94EDD649170C2F3AA809592CFBD /* Pods-easer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-easer-umbrella.h"; sourceTree = "<group>"; };
-=======
->>>>>>> All the problems are gone!!..once again :?
-		D22316A172DBBC5C15BFA5C98FC7510D /* bytes.c */ = {isa = PBXFileReference; includeInIndex = 1; name = bytes.c; path = crypto/fipsmodule/bn/bytes.c; sourceTree = "<group>"; };
+D22316A172DBBC5C15BFA5C98FC7510D /* bytes.c */ = {isa = PBXFileReference; includeInIndex = 1; name = bytes.c; path = crypto/fipsmodule/bn/bytes.c; sourceTree = "<group>"; };
 		D226C10DA1A15EF2AAAB79D455CAF3B0 /* FTupleStringNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTupleStringNode.m; path = Firebase/Database/Utilities/Tuples/FTupleStringNode.m; sourceTree = "<group>"; };
 		D236E127A9DC0C1D112A4DA52464C1A2 /* FTupleTSN.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTupleTSN.h; path = Firebase/Database/Utilities/Tuples/FTupleTSN.h; sourceTree = "<group>"; };
 		D23D87A09839A7CD0638ECA3B2080689 /* load_system_roots.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = load_system_roots.h; path = src/core/lib/security/security_connector/load_system_roots.h; sourceTree = "<group>"; };
@@ -9278,11 +9165,9 @@
 		D2EB9A0C8E1AAB6EC593A9A5D88403E0 /* FStorageEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FStorageEngine.h; path = Firebase/Database/Persistence/FStorageEngine.h; sourceTree = "<group>"; };
 		D2F2E1C6754F618B1CD10BEE9CBADC9A /* cpu-arm.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "cpu-arm.c"; path = "crypto/cpu-arm.c"; sourceTree = "<group>"; };
 		D2F5A5E22ECDFEAAB49303CE270A881A /* tls.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tls.h; path = src/core/lib/gpr/tls.h; sourceTree = "<group>"; };
-<<<<<<< HEAD
-=======
-		D32832E81DD4A47CC00CD176AF8131A0 /* Pods-easer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-easer-frameworks.sh"; sourceTree = "<group>"; };
->>>>>>> All the problems are gone!!..once again :?
-		D34E35EB769A50BA60FF56447A56C6A6 /* v3_int.c */ = {isa = PBXFileReference; includeInIndex = 1; name = v3_int.c; path = crypto/x509v3/v3_int.c; sourceTree = "<group>"; };
+
+D32832E81DD4A47CC00CD176AF8131A0 /* Pods-easer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-easer-frameworks.sh"; sourceTree = "<group>"; };
+D34E35EB769A50BA60FF56447A56C6A6 /* v3_int.c */ = {isa = PBXFileReference; includeInIndex = 1; name = v3_int.c; path = crypto/x509v3/v3_int.c; sourceTree = "<group>"; };
 		D366DDAB98D90CD9ED165239967AD274 /* client_callback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = client_callback.h; path = include/grpcpp/support/client_callback.h; sourceTree = "<group>"; };
 		D37C1458F70510AD50264E8E9507B3DC /* error_apple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = error_apple.h; path = Firestore/core/src/firebase/firestore/util/error_apple.h; sourceTree = "<group>"; };
 		D39B818C5DAB95F0978C3F9375D89BF7 /* chttp2_plugin.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = chttp2_plugin.cc; path = src/core/ext/transport/chttp2/transport/chttp2_plugin.cc; sourceTree = "<group>"; };
@@ -9418,11 +9303,9 @@
 		DD8CB14A491FE15642C8C4B2761C2FEA /* digests.c */ = {isa = PBXFileReference; includeInIndex = 1; name = digests.c; path = crypto/fipsmodule/digest/digests.c; sourceTree = "<group>"; };
 		DD9F4D597BA583EE5CB17A9205D0D28A /* message_compress_filter.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = message_compress_filter.cc; path = src/core/ext/filters/http/message_compress/message_compress_filter.cc; sourceTree = "<group>"; };
 		DDB6625913095F15904F6108BE440E3C /* curve25519.c */ = {isa = PBXFileReference; includeInIndex = 1; name = curve25519.c; path = third_party/fiat/curve25519.c; sourceTree = "<group>"; };
-<<<<<<< HEAD
-=======
-		DDDEA7105BA57271C071A70477EE175E /* Pods-easer-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-easer-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
->>>>>>> All the problems are gone!!..once again :?
-		DDF54323FC57D03E9E62178BFB5B2403 /* FNamedNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FNamedNode.m; path = Firebase/Database/FNamedNode.m; sourceTree = "<group>"; };
+
+DDDEA7105BA57271C071A70477EE175E /* Pods-easer-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-easer-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+DDF54323FC57D03E9E62178BFB5B2403 /* FNamedNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FNamedNode.m; path = Firebase/Database/FNamedNode.m; sourceTree = "<group>"; };
 		DDF71F10DA9FD842425988CB71A78B3D /* FEventRaiser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FEventRaiser.m; path = Firebase/Database/Core/View/FEventRaiser.m; sourceTree = "<group>"; };
 		DE1613764E1A425688B0DA9B3D195BA1 /* FLLRBEmptyNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLLRBEmptyNode.m; path = Firebase/Database/third_party/FImmutableSortedDictionary/FImmutableSortedDictionary/FLLRBEmptyNode.m; sourceTree = "<group>"; };
 		DE3A61C00388478E9943491A0886558D /* mutation.nanopb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mutation.nanopb.h; path = Firestore/Protos/nanopb/firestore/local/mutation.nanopb.h; sourceTree = "<group>"; };
@@ -9442,11 +9325,9 @@
 		DF8269CBB82C998C52C211E1E7885389 /* filename.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = filename.h; path = db/filename.h; sourceTree = "<group>"; };
 		DFBF94F7227C8D1106FD5904F48C28DF /* FTupleUserCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTupleUserCallback.h; path = Firebase/Database/Utilities/Tuples/FTupleUserCallback.h; sourceTree = "<group>"; };
 		DFCF887B811BF63E107D1BBDB42BCF25 /* call.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = call.h; path = src/core/lib/surface/call.h; sourceTree = "<group>"; };
-<<<<<<< HEAD
+
 		DFE706160919A765BF3B0C975D2453B9 /* Pods-easerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-easerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-=======
->>>>>>> All the problems are gone!!..once again :?
-		DFF0CFB5CF3726751DAD2D24438CBA47 /* FIRSetAccountInfoResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRSetAccountInfoResponse.m; path = Firebase/Auth/Source/RPCs/FIRSetAccountInfoResponse.m; sourceTree = "<group>"; };
+DFF0CFB5CF3726751DAD2D24438CBA47 /* FIRSetAccountInfoResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRSetAccountInfoResponse.m; path = Firebase/Auth/Source/RPCs/FIRSetAccountInfoResponse.m; sourceTree = "<group>"; };
 		E03790F191235129361B95798AF88DBC /* slice_buffer.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = slice_buffer.cc; path = src/core/lib/slice/slice_buffer.cc; sourceTree = "<group>"; };
 		E04959347E7684BDF01E04D29006CCFC /* connectivity_monitor.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = connectivity_monitor.cc; path = Firestore/core/src/firebase/firestore/remote/connectivity_monitor.cc; sourceTree = "<group>"; };
 		E05F6815BE3023C55B5DB2FB811B55F0 /* FSTUsageValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSTUsageValidation.h; path = Firestore/Source/Util/FSTUsageValidation.h; sourceTree = "<group>"; };
@@ -9465,11 +9346,9 @@
 		E154098258D6155BE9CE4C643920B139 /* auth_context.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = auth_context.h; path = include/grpcpp/security/auth_context.h; sourceTree = "<group>"; };
 		E1634DD9EF2A6ECDBB03A73E9671B8F1 /* byte_stream.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = byte_stream.cc; path = src/core/lib/transport/byte_stream.cc; sourceTree = "<group>"; };
 		E1695AA340F8C3B736A4C9F75E6C4D6E /* FValueIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FValueIndex.h; path = Firebase/Database/FValueIndex.h; sourceTree = "<group>"; };
-<<<<<<< HEAD
-=======
-		E17D53399A08CCDD6E8F9F94BA443A4A /* Pods-easer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-easer.release.xcconfig"; sourceTree = "<group>"; };
->>>>>>> All the problems are gone!!..once again :?
-		E1804B39DEBCF6C1C8C86F6794464F5C /* db_iter.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = db_iter.cc; path = db/db_iter.cc; sourceTree = "<group>"; };
+
+E17D53399A08CCDD6E8F9F94BA443A4A /* Pods-easer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-easer.release.xcconfig"; sourceTree = "<group>"; };
+E1804B39DEBCF6C1C8C86F6794464F5C /* db_iter.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = db_iter.cc; path = db/db_iter.cc; sourceTree = "<group>"; };
 		E191D28DD9930C9DD04E3CE0F58FBD0F /* FIRListenerRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRListenerRegistration.h; path = Firestore/Source/Public/FIRListenerRegistration.h; sourceTree = "<group>"; };
 		E197A5AD16E51469749B6AD7FF0ACEBB /* ev_epollex_linux.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ev_epollex_linux.h; path = src/core/lib/iomgr/ev_epollex_linux.h; sourceTree = "<group>"; };
 		E1C98BB853187DB1B1FAEB3F8E7884AF /* filter.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = filter.cc; path = Firestore/core/src/firebase/firestore/core/filter.cc; sourceTree = "<group>"; };
@@ -9514,11 +9393,9 @@
 		E518D4E4AB5431464532B6E7FC7B9220 /* GoogleUtilities-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GoogleUtilities-Info.plist"; sourceTree = "<group>"; };
 		E52DF1671C3C65990F19EEE50519D25D /* str_cat.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = str_cat.cc; path = "Firestore/third_party/abseil-cpp/absl/strings/str_cat.cc"; sourceTree = "<group>"; };
 		E546DA99EDB1C6990B37F9C3FB722EC4 /* completion_queue_cc.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = completion_queue_cc.cc; path = src/cpp/common/completion_queue_cc.cc; sourceTree = "<group>"; };
-<<<<<<< HEAD
-=======
-		E54C6C5C2D763BEFF60E6CC296B2971C /* Pods-easer-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-easer-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
->>>>>>> All the problems are gone!!..once again :?
-		E594CE5477E0DAF1EC7BE69489C798EF /* create_channel_internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = create_channel_internal.h; path = src/cpp/client/create_channel_internal.h; sourceTree = "<group>"; };
+
+E54C6C5C2D763BEFF60E6CC296B2971C /* Pods-easer-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-easer-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+E594CE5477E0DAF1EC7BE69489C798EF /* create_channel_internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = create_channel_internal.h; path = src/cpp/client/create_channel_internal.h; sourceTree = "<group>"; };
 		E5F5678390AC69209269A889EDF3FAB9 /* FWebSocketConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FWebSocketConnection.h; path = Firebase/Database/Realtime/FWebSocketConnection.h; sourceTree = "<group>"; };
 		E608DA75194226A236174DF8F503BF75 /* security_context.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = security_context.h; path = src/core/lib/security/context/security_context.h; sourceTree = "<group>"; };
 		E6396190032FCC3BC618A865C2E02F9C /* e_tls.c */ = {isa = PBXFileReference; includeInIndex = 1; name = e_tls.c; path = crypto/cipher_extra/e_tls.c; sourceTree = "<group>"; };
@@ -9563,11 +9440,9 @@
 		E90EAA5022BE37377557DBBDC72C8605 /* aead.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aead.c; path = crypto/fipsmodule/cipher/aead.c; sourceTree = "<group>"; };
 		E924F3E3FDBD60079E29BE4E48698520 /* status_posix.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = status_posix.cc; path = Firestore/core/src/firebase/firestore/util/status_posix.cc; sourceTree = "<group>"; };
 		E927CF032CC3465F5538B422D37DFA18 /* channel_trace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = channel_trace.h; path = src/core/lib/channel/channel_trace.h; sourceTree = "<group>"; };
-<<<<<<< HEAD
-=======
-		E92FF0561F681D6A8A04D9F1B9A69263 /* Pods-easer-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-easer-tvOS.release.xcconfig"; sourceTree = "<group>"; };
->>>>>>> All the problems are gone!!..once again :?
-		E93E8A020B7A357921267DD7BD7D7773 /* status_conversion.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = status_conversion.cc; path = src/core/lib/transport/status_conversion.cc; sourceTree = "<group>"; };
+
+E92FF0561F681D6A8A04D9F1B9A69263 /* Pods-easer-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-easer-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+E93E8A020B7A357921267DD7BD7D7773 /* status_conversion.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = status_conversion.cc; path = src/core/lib/transport/status_conversion.cc; sourceTree = "<group>"; };
 		E95C814B7D1F96EA9AFD5E2BB91F2835 /* rsa_impl.c */ = {isa = PBXFileReference; includeInIndex = 1; name = rsa_impl.c; path = crypto/fipsmodule/rsa/rsa_impl.c; sourceTree = "<group>"; };
 		E981590FCC23260F31D3EDCA6017C897 /* server_credentials.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = server_credentials.h; path = include/grpcpp/security/server_credentials.h; sourceTree = "<group>"; };
 		E985D4F43D69A9B1E531A7A571E86B1F /* cpu-aarch64-linux.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "cpu-aarch64-linux.c"; path = "crypto/cpu-aarch64-linux.c"; sourceTree = "<group>"; };
@@ -9829,11 +9704,9 @@
 		FE2E819CEFF36523C0E3C7D96B24D61B /* FSTLocalViewChanges.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = FSTLocalViewChanges.mm; path = Firestore/Source/Local/FSTLocalViewChanges.mm; sourceTree = "<group>"; };
 		FE635EE98EAF28DD88969F93E2EA3E7D /* bdp_estimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bdp_estimator.h; path = src/core/lib/transport/bdp_estimator.h; sourceTree = "<group>"; };
 		FE6A548B468122F03573647F3BBC6413 /* comparison.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = comparison.cc; path = Firestore/core/src/firebase/firestore/util/comparison.cc; sourceTree = "<group>"; };
-<<<<<<< HEAD
-=======
-		FE7394A15C697431502A95484392FD81 /* Pods-easer-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-easer-tvOS.modulemap"; sourceTree = "<group>"; };
->>>>>>> All the problems are gone!!..once again :?
-		FE8931BB660D9EC9D569832D6CAD5785 /* transport.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = transport.cc; path = src/core/lib/transport/transport.cc; sourceTree = "<group>"; };
+
+FE7394A15C697431502A95484392FD81 /* Pods-easer-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-easer-tvOS.modulemap"; sourceTree = "<group>"; };
+FE8931BB660D9EC9D569832D6CAD5785 /* transport.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = transport.cc; path = src/core/lib/transport/transport.cc; sourceTree = "<group>"; };
 		FE8A7358D9A0CF7080046B8AAADD2509 /* pollset_custom.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = pollset_custom.cc; path = src/core/lib/iomgr/pollset_custom.cc; sourceTree = "<group>"; };
 		FE95FCCBBA4759EB0CBDB34015E00625 /* block_annotate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = block_annotate.h; path = src/core/lib/iomgr/block_annotate.h; sourceTree = "<group>"; };
 		FED8B1E386CB9B3D683E1A9485D0FE6D /* sockaddr_utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sockaddr_utils.h; path = src/core/lib/iomgr/sockaddr_utils.h; sourceTree = "<group>"; };
@@ -10058,9 +9931,8 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FirebaseAuth";
-<<<<<<< HEAD
-=======
-			sourceTree = "<group>";
+
+sourceTree = "<group>";
 		};
 		17E5B16244491FA6AE4C3C32A9687F74 /* Pods-easer-tvOSTests */ = {
 			isa = PBXGroup;
@@ -10076,8 +9948,7 @@
 			);
 			name = "Pods-easer-tvOSTests";
 			path = "Target Support Files/Pods-easer-tvOSTests";
->>>>>>> All the problems are gone!!..once again :?
-			sourceTree = "<group>";
+sourceTree = "<group>";
 		};
 		1A8C3D080CF73354850C0B0E5923213C /* iOS */ = {
 			isa = PBXGroup;
@@ -10090,9 +9961,8 @@
 			sourceTree = "<group>";
 		};
 		1B0CD87BA95705F203E2E54CB8A47D7F /* Interface */ = {
-<<<<<<< HEAD
-=======
-			isa = PBXGroup;
+
+isa = PBXGroup;
 			children = (
 				DC549FB9CDFC3D1DEF46E02E40E24323 /* aead.h */,
 				A73F932B75BF91329E1384C4F1F899C8 /* aes.h */,
@@ -10173,8 +10043,7 @@
 			sourceTree = "<group>";
 		};
 		1D3C81C79E82FC4B654BF319DB1303BC /* Frameworks */ = {
->>>>>>> All the problems are gone!!..once again :?
-			isa = PBXGroup;
+isa = PBXGroup;
 			children = (
 				DC549FB9CDFC3D1DEF46E02E40E24323 /* aead.h */,
 				A73F932B75BF91329E1384C4F1F899C8 /* aes.h */,
@@ -10254,7 +10123,7 @@
 			name = Interface;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
+
 		1B2F670C1F79ECBC46D1C3E58F1C532D /* Pods-easerTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -10299,8 +10168,7 @@
 			isa = PBXGroup;
 			children = (
 				D27DE6635288F3E3B656B36F4A01E39A /* GoogleAppMeasurement.xcconfig */,
-=======
-		1E2823D723C8C61A8C01A264A19092E9 /* Support Files */ = {
+1E2823D723C8C61A8C01A264A19092E9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				D27DE6635288F3E3B656B36F4A01E39A /* GoogleAppMeasurement.xcconfig */,
@@ -10329,13 +10197,12 @@
 				7DCE5AE5916FAE12C50CE68099B50969 /* leveldb-library */,
 				26015D86C1AAA9CABB34651452564649 /* nanopb */,
 				77416534C4E96AF2C8EF4ED853C27364 /* Protobuf */,
->>>>>>> All the problems are gone!!..once again :?
-			);
+);
 			name = "Support Files";
 			path = "../Target Support Files/GoogleAppMeasurement";
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
+
 		22CBDCC1466EE1B1F45108954910EDB5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -11070,8 +10937,7 @@
 				F2BF93789375CE29B8AC6CD192A679B3 /* xds_client_stats.h */,
 				4D64AEE2A98C2F6DE923C70A02A394FB /* xds_load_balancer_api.cc */,
 				65C3E302D2E2031B3BD852B4A1C1F34C /* xds_load_balancer_api.h */,
-=======
-		26015D86C1AAA9CABB34651452564649 /* nanopb */ = {
+26015D86C1AAA9CABB34651452564649 /* nanopb */ = {
 			isa = PBXGroup;
 			children = (
 				A2BCB57C750B4BEAABD56E4FFBC5B926 /* pb.h */,
@@ -12142,12 +12008,11 @@
 				D4CD40483A512C88E1941B20BC28FC4B /* x_val.c */,
 				D870044A649EA502A94E6436A6C82D05 /* x_x509.c */,
 				DED0192090CC4465B79C9CC6DBE021A5 /* x_x509a.c */,
->>>>>>> All the problems are gone!!..once again :?
-			);
+);
 			name = Implementation;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
+
 		33D13F09182BC980082AD50D5110854E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -13044,8 +12909,7 @@
 				903614DD760641050438FCFB58B71CC8 /* GoogleAppMeasurement.framework */,
 			);
 			name = Frameworks;
-=======
-		3E8243CF6279B68F34E79372856BC386 /* gRPC-C++ */ = {
+3E8243CF6279B68F34E79372856BC386 /* gRPC-C++ */ = {
 			isa = PBXGroup;
 			children = (
 				C3061FF7FB3F14C15094E4F000D253DD /* Implementation */,
@@ -13601,8 +13465,7 @@
 				C2105C94812B6214B154F54DCEDB72AC /* Protobuf.framework */,
 			);
 			name = Products;
->>>>>>> All the problems are gone!!..once again :?
-			sourceTree = "<group>";
+sourceTree = "<group>";
 		};
 		7DC3D6EE09BB62CBA947502BD0225855 /* BoringSSL-GRPC */ = {
 			isa = PBXGroup;
@@ -13753,7 +13616,7 @@
 			path = FirebaseAuthInterop;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
+
 		8B5D9D7596F2067A7436D27E9C020B0A /* Interface */ = {
 			isa = PBXGroup;
 			children = (
@@ -14323,8 +14186,7 @@
 				1B2F670C1F79ECBC46D1C3E58F1C532D /* Pods-easerTests */,
 			);
 			name = "Targets Support Files";
-=======
-		8A17EC3BDD05EDA6BDB268211854D0D1 /* Pods-easer-tvOS */ = {
+8A17EC3BDD05EDA6BDB268211854D0D1 /* Pods-easer-tvOS */ = {
 			isa = PBXGroup;
 			children = (
 				FE7394A15C697431502A95484392FD81 /* Pods-easer-tvOS.modulemap */,
@@ -14898,8 +14760,7 @@
 				7A4C08F3383E78EC53ADE61ABED8381A /* Products */,
 				76AC9E315B33E31686365C7AA1871075 /* Targets Support Files */,
 			);
->>>>>>> All the problems are gone!!..once again :?
-			sourceTree = "<group>";
+sourceTree = "<group>";
 		};
 		D12D998920F59E249A2FF9907B3CAEE0 /* Support Files */ = {
 			isa = PBXGroup;
@@ -15774,7 +15635,7 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FirebaseCore";
-<<<<<<< HEAD
+
 			sourceTree = "<group>";
 		};
 		EBE8D983EE7CCEE7DF38E1D675497CA4 /* Products */ = {
@@ -15800,9 +15661,7 @@
 				C2105C94812B6214B154F54DCEDB72AC /* Protobuf.framework */,
 			);
 			name = Products;
-=======
->>>>>>> All the problems are gone!!..once again :?
-			sourceTree = "<group>";
+sourceTree = "<group>";
 		};
 		EE5CAD18216EFF2B02DB1089CDF2EADC /* Core */ = {
 			isa = PBXGroup;
@@ -16646,7 +16505,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-<<<<<<< HEAD
+
 		67DDF5B5B8896649604893967AA14341 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -16655,9 +16514,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-=======
->>>>>>> All the problems are gone!!..once again :?
-		6E3469C2C4FE4256183A6C868CB6DCF8 /* Headers */ = {
+6E3469C2C4FE4256183A6C868CB6DCF8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -18035,12 +17892,10 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-<<<<<<< HEAD
+
 			productRefGroup = EBE8D983EE7CCEE7DF38E1D675497CA4 /* Products */;
-=======
-			productRefGroup = 7A4C08F3383E78EC53ADE61ABED8381A /* Products */;
->>>>>>> All the problems are gone!!..once again :?
-			projectDirPath = "";
+productRefGroup = 7A4C08F3383E78EC53ADE61ABED8381A /* Products */;
+projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				445FD4CB16BB7BEE2D1C404951CDE14A /* BoringSSL-GRPC */,
@@ -18883,20 +18738,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-<<<<<<< HEAD
+
 		67176B574489D6882651F110E0756B11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DBB493731CE70C4971B82D1DA21DD156 /* Pods-easerTests-dummy.m in Sources */,
-=======
-		68A41015323BC1E3272FF070942ED6BE /* Sources */ = {
+68A41015323BC1E3272FF070942ED6BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E36E05F228B8C5163E92DF8BCE2587A4 /* Pods-easer-tvOSTests-dummy.m in Sources */,
->>>>>>> All the problems are gone!!..once again :?
-			);
+);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		70EDDE43CFF8B7AE26957F2782AC390B /* Sources */ = {
@@ -20242,7 +20095,7 @@
 			};
 			name = Debug;
 		};
-<<<<<<< HEAD
+
 		3B0E09915DC88421EF1D06D878F7E1D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BEE29EA17FAEE80A0AC12FE2ED21AAB7 /* Pods-easer-tvOSTests.debug.xcconfig */;
@@ -20264,9 +20117,7 @@
 			};
 			name = Debug;
 		};
-=======
->>>>>>> All the problems are gone!!..once again :?
-		3B3FB1469EFC8219C581851F5514AF4B /* Release */ = {
+3B3FB1469EFC8219C581851F5514AF4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C061BEC757E5B5934D16C5BDE3A02841 /* GTMSessionFetcher.xcconfig */;
 			buildSettings = {
@@ -20490,7 +20341,7 @@
 			};
 			name = Release;
 		};
-<<<<<<< HEAD
+
 		5D8E7BFAC80B5E22AF9D3AAD1380EFE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3CBD20BF913DC1F192CD6673B9A2AC9C /* Pods-easer-tvOS.debug.xcconfig */;
@@ -20512,9 +20363,7 @@
 			};
 			name = Debug;
 		};
-=======
->>>>>>> All the problems are gone!!..once again :?
-		5E8677BA7E6B78492923CA01345C7CC3 /* Debug */ = {
+5E8677BA7E6B78492923CA01345C7CC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C061BEC757E5B5934D16C5BDE3A02841 /* GTMSessionFetcher.xcconfig */;
 			buildSettings = {
@@ -20546,12 +20395,10 @@
 		};
 		62882B221D80FBE2049F26853B83A44C /* Release */ = {
 			isa = XCBuildConfiguration;
-<<<<<<< HEAD
+
 			baseConfigurationReference = BDEEC0CBCC71935B847397DBC72E7CF7 /* Pods-easer-tvOS.release.xcconfig */;
-=======
-			baseConfigurationReference = E54C6C5C2D763BEFF60E6CC296B2971C /* Pods-easer-tvOSTests.release.xcconfig */;
->>>>>>> All the problems are gone!!..once again :?
-			buildSettings = {
+baseConfigurationReference = E54C6C5C2D763BEFF60E6CC296B2971C /* Pods-easer-tvOSTests.release.xcconfig */;
+buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -20846,7 +20693,7 @@
 			};
 			name = Debug;
 		};
-<<<<<<< HEAD
+
 		9A36680B30DABBACC43EFC354CEDDAA1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 41DD7942EEF8D14DAD6A4D49249E909F /* Pods-easer-tvOSTests.release.xcconfig */;
@@ -20869,9 +20716,7 @@
 			};
 			name = Release;
 		};
-=======
->>>>>>> All the problems are gone!!..once again :?
-		9C389E7B3F9F8DB1F11A88744A4A702F /* Debug */ = {
+9C389E7B3F9F8DB1F11A88744A4A702F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0864190F5FC3CDE2C1E4BC181C6AA11C /* Firebase.xcconfig */;
 			buildSettings = {
@@ -20962,12 +20807,10 @@
 		};
 		B3AE9EBCCD572087ED3A945CA2690F78 /* Release */ = {
 			isa = XCBuildConfiguration;
-<<<<<<< HEAD
+
 			baseConfigurationReference = AD22BC9E6BAB96B23B669097F1E5BED0 /* Pods-easer.release.xcconfig */;
-=======
-			baseConfigurationReference = E17D53399A08CCDD6E8F9F94BA443A4A /* Pods-easer.release.xcconfig */;
->>>>>>> All the problems are gone!!..once again :?
-			buildSettings = {
+baseConfigurationReference = E17D53399A08CCDD6E8F9F94BA443A4A /* Pods-easer.release.xcconfig */;
+buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -21073,16 +20916,14 @@
 			};
 			name = Release;
 		};
-<<<<<<< HEAD
+
 		D96B7528ADC6A7D62A991BE42B18F827 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BC4B29A6EA171B3C83286186F9E95533 /* Pods-easerTests.debug.xcconfig */;
-=======
-		C98223CDE126BD1FBB46536886D226C3 /* Debug */ = {
+C98223CDE126BD1FBB46536886D226C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 48D13237E86CC39AFB45E3141384BF8F /* Pods-easer-tvOS.debug.xcconfig */;
->>>>>>> All the problems are gone!!..once again :?
-			buildSettings = {
+buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -21093,21 +20934,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-<<<<<<< HEAD
+
 				INFOPLIST_FILE = "Target Support Files/Pods-easerTests/Pods-easerTests-Info.plist";
-=======
-				INFOPLIST_FILE = "Target Support Files/Pods-easer-tvOS/Pods-easer-tvOS-Info.plist";
->>>>>>> All the problems are gone!!..once again :?
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+INFOPLIST_FILE = "Target Support Files/Pods-easer-tvOS/Pods-easer-tvOS-Info.plist";
+INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-<<<<<<< HEAD
+
 				MODULEMAP_FILE = "Target Support Files/Pods-easerTests/Pods-easerTests.modulemap";
-=======
-				MODULEMAP_FILE = "Target Support Files/Pods-easer-tvOS/Pods-easer-tvOS.modulemap";
->>>>>>> All the problems are gone!!..once again :?
-				OTHER_LDFLAGS = "";
+MODULEMAP_FILE = "Target Support Files/Pods-easer-tvOS/Pods-easer-tvOS.modulemap";
+OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
@@ -21120,9 +20957,8 @@
 			};
 			name = Debug;
 		};
-<<<<<<< HEAD
-=======
-		D64A99AB7DEFFEA671F9F3D7876B3BC5 /* Release */ = {
+
+D64A99AB7DEFFEA671F9F3D7876B3BC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E92FF0561F681D6A8A04D9F1B9A69263 /* Pods-easer-tvOS.release.xcconfig */;
 			buildSettings = {
@@ -21156,8 +20992,7 @@
 			};
 			name = Release;
 		};
->>>>>>> All the problems are gone!!..once again :?
-		DD598EA4CCD2CA0D04974F70F363F1AC /* Debug */ = {
+DD598EA4CCD2CA0D04974F70F363F1AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2083523841F5794379779FF3A28DC092 /* FirebaseInstanceID.xcconfig */;
 			buildSettings = {
@@ -21295,12 +21130,10 @@
 		};
 		F931B62365CDE4BC665010CEAB7E1D77 /* Debug */ = {
 			isa = XCBuildConfiguration;
-<<<<<<< HEAD
+
 			baseConfigurationReference = 12DF4647158DF113F84A520BE221698A /* Pods-easer.debug.xcconfig */;
-=======
-			baseConfigurationReference = C5224BE752DBC17F23C017752817553D /* Pods-easer.debug.xcconfig */;
->>>>>>> All the problems are gone!!..once again :?
-			buildSettings = {
+baseConfigurationReference = C5224BE752DBC17F23C017752817553D /* Pods-easer.debug.xcconfig */;
+buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

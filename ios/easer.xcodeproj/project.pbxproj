@@ -45,10 +45,7 @@
 		2E52DFC3A49947F4914DE936 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 967904D78B1E4AB18AF3CE34 /* SimpleLineIcons.ttf */; };
 		4D419E140C284726A340BA5B /* weblysleekuil.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11C4044B1A0144A7A94A337F /* weblysleekuil.ttf */; };
 		4EC1D3671EE140758D87C573 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D907A8DD4D7849D38A656FE4 /* FontAwesome5_Regular.ttf */; };
-<<<<<<< HEAD
-=======
 		51318210DE7FBBAF3E393864 /* Pods_easer_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BB22783FAA8E9366481EEE /* Pods_easer_tvOSTests.framework */; };
->>>>>>> All the problems are gone!!..once again :?
 		57622AD1BCB649619E0FA1E8 /* WeblySleek UI Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 620E43F538CC42BC944EA540 /* WeblySleek UI Light.ttf */; };
 		5D5558E9B3164C7AB001F039 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26B047B39EC644938ABEB9CE /* Entypo.ttf */; };
 		691434786A514FB9940F98CB /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C8D156F4A564B329E063A77 /* Octicons.ttf */; };
