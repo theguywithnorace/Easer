@@ -23,7 +23,6 @@ class Login extends React.Component{
 
 
     async facebookLogin() {
-
         try {
             const result = await LoginManager.logInWithReadPermissions(['public_profile', 'user_events']);
 
