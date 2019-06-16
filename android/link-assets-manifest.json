@@ -1,0 +1,37 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/fonts/Orator Std Medium.ttf",
+      "sha1": "5d766d705762e860af4d9c5410a5c8f63ca30b48"
+    },
+    {
+      "path": "src/fonts/OratorStd.ttf",
+      "sha1": "5d766d705762e860af4d9c5410a5c8f63ca30b48"
+    },
+    {
+      "path": "src/fonts/WeblySleek UI Light.ttf",
+      "sha1": "84ebb1387bc93b3930b82a6826cd274a545bbc47"
+    },
+    {
+      "path": "src/fonts/WeblySleek UI Semibold.ttf",
+      "sha1": "c252accc432d23d8dbc0b138fecffc5693f9fe9c"
+    },
+    {
+      "path": "src/fonts/WeblySleek UI.ttf",
+      "sha1": "c252accc432d23d8dbc0b138fecffc5693f9fe9c"
+    },
+    {
+      "path": "src/fonts/WeblySleekUISemibold.ttf",
+      "sha1": "c252accc432d23d8dbc0b138fecffc5693f9fe9c"
+    },
+    {
+      "path": "src/fonts/weblysleekuil.ttf",
+      "sha1": "c252accc432d23d8dbc0b138fecffc5693f9fe9c"
+    },
+    {
+      "path": "src/fonts/weblysleekuisb.ttf",
+      "sha1": "c252accc432d23d8dbc0b138fecffc5693f9fe9c"
+    }
+  ]
+}

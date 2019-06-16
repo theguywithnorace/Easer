@@ -1,0 +1,27 @@
+platform :ios, '9.0'
+
+target 'easer' do
+  # Comment the next line if you don't want to use dynamic frameworks
+   use_frameworks!
+    pod 'Firebase/Core', '~> 5.20.1'
+    pod 'Firebase/Auth', '~> 5.20.1'
+    pod 'Firebase/Database', '~> 5.20.1'
+    pod 'Firebase/Firestore', '~> 5.20.1'
+
+
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+end
+
+target 'easer-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for easerCocoa-tvOS
+
+  target 'easer-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
