@@ -33,7 +33,7 @@
     "redux-persist": "^5.10.0",
     "rn-viewpager": "https://github.com/theguywithnorace/React-Native-ViewPager",
     "tinycolor2": "^1.4.1",
-    "yarn": "^1.16.0"
+    "yarn": "^1.22.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
